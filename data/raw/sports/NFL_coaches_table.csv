@@ -1,0 +1,910 @@
+year,team,head_coach
+1994,Arizona Cardinals,Buddy Ryan
+1995,Arizona Cardinals,Buddy Ryan
+1996,Arizona Cardinals,Vince Tobin
+1997,Arizona Cardinals,Vince Tobin
+1998,Arizona Cardinals,Vince Tobin
+1999,Arizona Cardinals,Vince Tobin
+2000,Arizona Cardinals,"Vince Tobin
+Dave McGinnis"
+2001,Arizona Cardinals,Dave McGinnis
+2002,Arizona Cardinals,Dave McGinnis
+2003,Arizona Cardinals,Dave McGinnis
+2004,Arizona Cardinals,Dennis Green
+2005,Arizona Cardinals,Dennis Green
+2006,Arizona Cardinals,Dennis Green
+2007,Arizona Cardinals,Ken Whisenhunt
+2008,Arizona Cardinals,Ken Whisenhunt
+2009,Arizona Cardinals,Ken Whisenhunt
+2010,Arizona Cardinals,Ken Whisenhunt
+2011,Arizona Cardinals,Ken Whisenhunt
+2012,Arizona Cardinals,Ken Whisenhunt
+2013,Arizona Cardinals,Bruce Arians
+2014,Arizona Cardinals,Bruce Arians
+2015,Arizona Cardinals,Bruce Arians
+2016,Arizona Cardinals,Bruce Arians
+2017,Arizona Cardinals,Bruce Arians
+1990,Atlanta Falcons,Jerry Glanville
+1991,Atlanta Falcons,Jerry Glanville
+1992,Atlanta Falcons,Jerry Glanville
+1993,Atlanta Falcons,Jerry Glanville
+1994,Atlanta Falcons,June Jones
+1995,Atlanta Falcons,June Jones
+1996,Atlanta Falcons,June Jones
+1997,Atlanta Falcons,Dan Reeves
+1998,Atlanta Falcons,"Dan Reeves 
+Rich Brooks (weeks 15–16)"
+1999,Atlanta Falcons,Dan Reeves
+2000,Atlanta Falcons,Dan Reeves
+2001,Atlanta Falcons,Dan Reeves
+2002,Atlanta Falcons,Dan Reeves
+2003,Atlanta Falcons,"Dan Reeves
+Wade Phillips (interim)"
+2004,Atlanta Falcons,Jim Mora
+2005,Atlanta Falcons,Jim Mora
+2006,Atlanta Falcons,Jim Mora
+2007,Atlanta Falcons,"Bobby Petrino
+Emmitt Thomas (interim)"
+2008,Atlanta Falcons,Mike Smith
+2009,Atlanta Falcons,Mike Smith
+2010,Atlanta Falcons,Mike Smith
+2011,Atlanta Falcons,Mike Smith
+2012,Atlanta Falcons,Mike Smith
+2013,Atlanta Falcons,Mike Smith
+2014,Atlanta Falcons,Mike Smith
+2015,Atlanta Falcons,Dan Quinn
+2016,Atlanta Falcons,Dan Quinn
+2017,Atlanta Falcons,Dan Quinn
+1996,Baltimore Ravens,Ted Marchibroda
+1997,Baltimore Ravens,Ted Marchibroda
+1998,Baltimore Ravens,Ted Marchibroda
+1999,Baltimore Ravens,Brian Billick
+2000,Baltimore Ravens,Brian Billick
+2001,Baltimore Ravens,Brian Billick
+2002,Baltimore Ravens,Brian Billick
+2003,Baltimore Ravens,Brian Billick
+2004,Baltimore Ravens,Brian Billick
+2005,Baltimore Ravens,Brian Billick
+2006,Baltimore Ravens,Brian Billick
+2007,Baltimore Ravens,Brian Billick
+2008,Baltimore Ravens,John Harbaugh
+2009,Baltimore Ravens,John Harbaugh
+2010,Baltimore Ravens,John Harbaugh
+2011,Baltimore Ravens,John Harbaugh
+2012,Baltimore Ravens,John Harbaugh
+2013,Baltimore Ravens,John Harbaugh
+2014,Baltimore Ravens,John Harbaugh
+2015,Baltimore Ravens,John Harbaugh
+2016,Baltimore Ravens,John Harbaugh
+2017,Baltimore Ravens,John Harbaugh
+1990,Buffalo Bills,Marv Levy
+1991,Buffalo Bills,Marv Levy
+1992,Buffalo Bills,Marv Levy
+1993,Buffalo Bills,Marv Levy
+1994,Buffalo Bills,Marv Levy
+1995,Buffalo Bills,Marv Levy; Elijah Pitts (interim until Levy recovered from prostate cancer surgery)
+1996,Buffalo Bills,Marv Levy
+1997,Buffalo Bills,Marv Levy
+1998,Buffalo Bills,Wade Phillips
+1999,Buffalo Bills,Wade Phillips
+2000,Buffalo Bills,Wade Phillips
+2001,Buffalo Bills,Gregg Williams
+2002,Buffalo Bills,Gregg Williams
+2003,Buffalo Bills,Gregg Williams
+2004,Buffalo Bills,Mike Mularkey
+2005,Buffalo Bills,Mike Mularkey
+2006,Buffalo Bills,Dick Jauron
+2007,Buffalo Bills,Dick Jauron
+2008,Buffalo Bills,Dick Jauron
+2009,Buffalo Bills,"Dick Jauron (fired)
+Perry Fewell (interim; later fired)"
+2010,Buffalo Bills,Chan Gailey
+2011,Buffalo Bills,Chan Gailey
+2012,Buffalo Bills,Chan Gailey
+2013,Buffalo Bills,Doug Marrone
+2014,Buffalo Bills,Doug Marrone
+2015,Buffalo Bills,Rex Ryan
+2016,Buffalo Bills,"Rex Ryan (weeks 1–16)
+Anthony Lynn (interim, week 17)"
+2017,Buffalo Bills,Sean McDermott
+1995,Carolina Panthers,Dom Capers
+1996,Carolina Panthers,Dom Capers
+1997,Carolina Panthers,Dom Capers
+1998,Carolina Panthers,Dom Capers
+1999,Carolina Panthers,George Seifert
+2000,Carolina Panthers,George Seifert
+2001,Carolina Panthers,George Seifert
+2002,Carolina Panthers,John Fox
+2003,Carolina Panthers,John Fox
+2004,Carolina Panthers,John Fox
+2005,Carolina Panthers,John Fox
+2006,Carolina Panthers,John Fox
+2007,Carolina Panthers,John Fox
+2008,Carolina Panthers,John Fox
+2009,Carolina Panthers,John Fox
+2010,Carolina Panthers,John Fox
+2011,Carolina Panthers,Ron Rivera
+2012,Carolina Panthers,Ron Rivera
+2013,Carolina Panthers,Ron Rivera
+2014,Carolina Panthers,Ron Rivera
+2015,Carolina Panthers,Ron Rivera
+2016,Carolina Panthers,Ron Rivera
+2017,Carolina Panthers,Ron Rivera
+1990,Chicago Bears,Mike Ditka
+1991,Chicago Bears,Mike Ditka
+1992,Chicago Bears,Mike Ditka
+1993,Chicago Bears,Dave Wannstedt
+1994,Chicago Bears,Dave Wannstedt
+1995,Chicago Bears,Dave Wannstedt
+1996,Chicago Bears,Dave Wannstedt
+1997,Chicago Bears,Dave Wannstedt
+1998,Chicago Bears,Dave Wannstedt
+1999,Chicago Bears,Dick Jauron
+2000,Chicago Bears,Dick Jauron
+2001,Chicago Bears,Dick Jauron
+2002,Chicago Bears,Dick Jauron
+2003,Chicago Bears,Dick Jauron
+2004,Chicago Bears,Lovie Smith
+2005,Chicago Bears,Lovie Smith
+2006,Chicago Bears,Lovie Smith
+2007,Chicago Bears,Lovie Smith
+2008,Chicago Bears,Lovie Smith
+2009,Chicago Bears,Lovie Smith
+2010,Chicago Bears,Lovie Smith
+2011,Chicago Bears,Lovie Smith
+2012,Chicago Bears,Lovie Smith
+2013,Chicago Bears,Marc Trestman
+2014,Chicago Bears,Marc Trestman
+2015,Chicago Bears,John Fox
+2016,Chicago Bears,John Fox
+2017,Chicago Bears,John Fox
+1990,Cincinnati Bengals,Sam Wyche
+1991,Cincinnati Bengals,Sam Wyche
+1992,Cincinnati Bengals,Dave Shula
+1993,Cincinnati Bengals,Dave Shula
+1994,Cincinnati Bengals,Dave Shula
+1995,Cincinnati Bengals,Dave Shula
+1996,Cincinnati Bengals,"Dave Shula (first 7 games)
+Bruce Coslet (last 9 games)"
+1997,Cincinnati Bengals,Bruce Coslet
+1998,Cincinnati Bengals,Bruce Coslet
+1999,Cincinnati Bengals,Bruce Coslet
+2000,Cincinnati Bengals,"Bruce Coslet
+Dick LeBeau"
+2001,Cincinnati Bengals,Dick LeBeau
+2002,Cincinnati Bengals,Dick LeBeau
+2003,Cincinnati Bengals,Marvin Lewis
+2004,Cincinnati Bengals,Marvin Lewis
+2005,Cincinnati Bengals,Marvin Lewis
+2006,Cincinnati Bengals,Marvin Lewis
+2007,Cincinnati Bengals,Marvin Lewis
+2008,Cincinnati Bengals,Marvin Lewis
+2009,Cincinnati Bengals,Marvin Lewis
+2010,Cincinnati Bengals,Marvin Lewis
+2011,Cincinnati Bengals,Marvin Lewis
+2012,Cincinnati Bengals,Marvin Lewis
+2013,Cincinnati Bengals,Marvin Lewis
+2014,Cincinnati Bengals,Marvin Lewis
+2015,Cincinnati Bengals,Marvin Lewis
+2016,Cincinnati Bengals,Marvin Lewis
+2017,Cincinnati Bengals,Marvin Lewis
+1990,Cleveland Browns,"Bud Carson
+Jim Shofner (interim)"
+1991,Cleveland Browns,Bill Belichick
+1992,Cleveland Browns,Bill Belichick
+1993,Cleveland Browns,Bill Belichick
+1994,Cleveland Browns,Bill Belichick
+1995,Cleveland Browns,Bill Belichick
+1999,Cleveland Browns,Chris Palmer
+2000,Cleveland Browns,Chris Palmer
+2001,Cleveland Browns,Butch Davis
+2002,Cleveland Browns,Butch Davis
+2003,Cleveland Browns,Butch Davis
+2004,Cleveland Browns,"Butch Davis
+Terry Robiskie (interim)"
+2005,Cleveland Browns,Romeo Crennel
+2006,Cleveland Browns,Romeo Crennel
+2007,Cleveland Browns,Romeo Crennel
+2008,Cleveland Browns,Romeo Crennel
+2009,Cleveland Browns,Eric Mangini
+2010,Cleveland Browns,Eric Mangini
+2011,Cleveland Browns,Pat Shurmur
+2012,Cleveland Browns,Pat Shurmur
+2013,Cleveland Browns,Rob Chudzinski
+2014,Cleveland Browns,Mike Pettine
+2015,Cleveland Browns,Mike Pettine
+2016,Cleveland Browns,Hue Jackson
+2017,Cleveland Browns,Hue Jackson
+1990,Dallas Cowboys,Jimmy Johnson
+1991,Dallas Cowboys,Jimmy Johnson
+1992,Dallas Cowboys,Jimmy Johnson
+1993,Dallas Cowboys,Jimmy Johnson
+1994,Dallas Cowboys,Barry Switzer
+1995,Dallas Cowboys,Barry Switzer
+1996,Dallas Cowboys,Barry Switzer
+1997,Dallas Cowboys,Barry Switzer
+1998,Dallas Cowboys,Chan Gailey
+1999,Dallas Cowboys,Chan Gailey
+2000,Dallas Cowboys,Dave Campo
+2001,Dallas Cowboys,Dave Campo
+2002,Dallas Cowboys,Dave Campo
+2003,Dallas Cowboys,Bill Parcells
+2004,Dallas Cowboys,Bill Parcells
+2005,Dallas Cowboys,Bill Parcells
+2006,Dallas Cowboys,Bill Parcells
+2007,Dallas Cowboys,Wade Phillips
+2008,Dallas Cowboys,Wade Phillips
+2009,Dallas Cowboys,Wade Phillips
+2010,Dallas Cowboys,"Wade Phillips (fired mid-season)
+Jason Garrett (interim)"
+2011,Dallas Cowboys,Jason Garrett
+2012,Dallas Cowboys,Jason Garrett
+2013,Dallas Cowboys,Jason Garrett
+2014,Dallas Cowboys,Jason Garrett
+2015,Dallas Cowboys,Jason Garrett
+2016,Dallas Cowboys,Jason Garrett
+2017,Dallas Cowboys,Jason Garrett
+1990,Denver Broncos,Dan Reeves
+1991,Denver Broncos,Dan Reeves
+1992,Denver Broncos,Dan Reeves
+1993,Denver Broncos,Wade Phillips
+1994,Denver Broncos,Wade Phillips
+1995,Denver Broncos,Mike Shanahan
+1996,Denver Broncos,Mike Shanahan
+1997,Denver Broncos,Mike Shanahan
+1998,Denver Broncos,Mike Shanahan
+1999,Denver Broncos,Mike Shanahan
+2000,Denver Broncos,Mike Shanahan
+2001,Denver Broncos,Mike Shanahan
+2002,Denver Broncos,Mike Shanahan
+2003,Denver Broncos,Mike Shanahan
+2004,Denver Broncos,Mike Shanahan
+2005,Denver Broncos,Mike Shanahan
+2006,Denver Broncos,Mike Shanahan
+2007,Denver Broncos,Mike Shanahan
+2008,Denver Broncos,Mike Shanahan
+2009,Denver Broncos,Josh McDaniels
+2010,Denver Broncos,"Josh McDaniels (fired on December 6; 3–9 record)
+Eric Studesville (interim; 1–3 record)"
+2011,Denver Broncos,John Fox
+2012,Denver Broncos,John Fox
+2013,Denver Broncos,"John Fox
+Jack Del Rio (interim, weeks 10�13)"
+2014,Denver Broncos,John Fox
+2015,Denver Broncos,Gary Kubiak
+2016,Denver Broncos,"Gary Kubiak
+Joe DeCamillis (interim, Week 6)"
+2017,Denver Broncos,Vance Joseph
+1990,Detroit Lions,Wayne Fontes
+1991,Detroit Lions,Wayne Fontes
+1992,Detroit Lions,Wayne Fontes
+1993,Detroit Lions,Wayne Fontes
+1994,Detroit Lions,Wayne Fontes
+1995,Detroit Lions,Wayne Fontes
+1996,Detroit Lions,Wayne Fontes
+1997,Detroit Lions,Bobby Ross
+1998,Detroit Lions,Bobby Ross
+1999,Detroit Lions,Bobby Ross
+2000,Detroit Lions,"Bobby Ross
+Gary Moeller"
+2001,Detroit Lions,Marty Mornhinweg
+2002,Detroit Lions,Marty Mornhinweg
+2003,Detroit Lions,Steve Mariucci
+2004,Detroit Lions,Steve Mariucci
+2005,Detroit Lions,"Steve Mariucci
+Dick Jauron (interim)"
+2006,Detroit Lions,Rod Marinelli
+2007,Detroit Lions,Rod Marinelli
+2008,Detroit Lions,Rod Marinelli
+2009,Detroit Lions,Jim Schwartz
+2010,Detroit Lions,Jim Schwartz
+2011,Detroit Lions,Jim Schwartz
+2012,Detroit Lions,Jim Schwartz
+2013,Detroit Lions,Jim Schwartz
+2014,Detroit Lions,Jim Caldwell
+2015,Detroit Lions,Jim Caldwell
+2016,Detroit Lions,Jim Caldwell
+2017,Detroit Lions,Jim Caldwell
+1990,Green Bay Packers,Lindy Infante
+1991,Green Bay Packers,Lindy Infante
+1992,Green Bay Packers,Mike Holmgren
+1993,Green Bay Packers,Mike Holmgren
+1994,Green Bay Packers,Mike Holmgren
+1995,Green Bay Packers,Mike Holmgren
+1996,Green Bay Packers,Mike Holmgren
+1997,Green Bay Packers,Mike Holmgren
+1998,Green Bay Packers,Mike Holmgren
+1999,Green Bay Packers,Ray Rhodes
+2000,Green Bay Packers,Mike Sherman
+2001,Green Bay Packers,Mike Sherman
+2002,Green Bay Packers,Mike Sherman
+2003,Green Bay Packers,Mike Sherman
+2004,Green Bay Packers,Mike Sherman
+2005,Green Bay Packers,Mike Sherman
+2006,Green Bay Packers,Mike McCarthy
+2007,Green Bay Packers,Mike McCarthy
+2008,Green Bay Packers,Mike McCarthy
+2009,Green Bay Packers,Mike McCarthy
+2010,Green Bay Packers,Mike McCarthy
+2011,Green Bay Packers,Mike McCarthy
+2012,Green Bay Packers,Mike McCarthy
+2013,Green Bay Packers,Mike McCarthy
+2014,Green Bay Packers,Mike McCarthy
+2015,Green Bay Packers,Mike McCarthy
+2016,Green Bay Packers,Mike McCarthy
+2017,Green Bay Packers,Mike McCarthy
+1990,Houston Oilers,Jack Pardee
+1991,Houston Oilers,Jack Pardee
+1993,Houston Oilers,Jack Pardee
+1994,Houston Oilers,"Jack Pardee (10 games)
+Jeff Fisher (final 6 games)"
+1995,Houston Oilers,Jeff Fisher
+1996,Houston Oilers,Jeff Fisher
+2002,Houston Texans,Dom Capers
+2003,Houston Texans,Dom Capers
+2004,Houston Texans,Dom Capers
+2005,Houston Texans,Dom Capers
+2006,Houston Texans,Gary Kubiak
+2007,Houston Texans,Gary Kubiak
+2008,Houston Texans,Gary Kubiak
+2009,Houston Texans,Gary Kubiak
+2010,Houston Texans,Gary Kubiak
+2011,Houston Texans,Gary Kubiak
+2012,Houston Texans,Gary Kubiak
+2013,Houston Texans,"Gary Kubiak (fired on December 6, 2–11 record)
+Wade Phillips (Interim during Week 10 while Kubiak recovered from a mini-stroke; Interim from Weeks 15–17, 0–3 record)"
+2014,Houston Texans,Bill O'Brien
+2015,Houston Texans,Bill O'Brien
+2016,Houston Texans,Bill O'Brien
+2017,Houston Texans,Bill O'Brien
+1990,Indianapolis Colts,Ron Meyer
+1991,Indianapolis Colts,"Ron Meyer
+Rick Venturi (interim)"
+1992,Indianapolis Colts,Ted Marchibroda
+1993,Indianapolis Colts,Ted Marchibroda
+1994,Indianapolis Colts,Ted Marchibroda
+1995,Indianapolis Colts,Ted Marchibroda
+1996,Indianapolis Colts,Lindy Infante
+1997,Indianapolis Colts,Lindy Infante
+1998,Indianapolis Colts,Jim Mora
+1999,Indianapolis Colts,Jim Mora
+2000,Indianapolis Colts,Jim Mora
+2001,Indianapolis Colts,Jim E. Mora
+2002,Indianapolis Colts,Tony Dungy
+2003,Indianapolis Colts,Tony Dungy
+2004,Indianapolis Colts,Tony Dungy
+2005,Indianapolis Colts,Tony Dungy
+2006,Indianapolis Colts,Tony Dungy
+2007,Indianapolis Colts,Tony Dungy
+2008,Indianapolis Colts,Tony Dungy
+2009,Indianapolis Colts,Jim Caldwell
+2010,Indianapolis Colts,Jim Caldwell
+2011,Indianapolis Colts,Jim Caldwell
+2012,Indianapolis Colts,"Chuck Pagano 
+Bruce Arians (Interim HC weeks 5–16)"
+2013,Indianapolis Colts,Chuck Pagano
+2014,Indianapolis Colts,Chuck Pagano
+2015,Indianapolis Colts,Chuck Pagano
+2016,Indianapolis Colts,Chuck Pagano
+2017,Indianapolis Colts,Chuck Pagano
+1995,Jacksonville Jaguars,Tom Coughlin
+1996,Jacksonville Jaguars,Tom Coughlin
+1997,Jacksonville Jaguars,Tom Coughlin
+1998,Jacksonville Jaguars,Tom Coughlin
+1999,Jacksonville Jaguars,Tom Coughlin
+2000,Jacksonville Jaguars,Tom Coughlin
+2001,Jacksonville Jaguars,Tom Coughlin
+2002,Jacksonville Jaguars,Tom Coughlin
+2003,Jacksonville Jaguars,Jack Del Rio
+2004,Jacksonville Jaguars,Jack Del Rio
+2005,Jacksonville Jaguars,Jack Del Rio
+2006,Jacksonville Jaguars,Jack Del Rio
+2007,Jacksonville Jaguars,Jack Del Rio
+2008,Jacksonville Jaguars,Jack Del Rio
+2009,Jacksonville Jaguars,Jack Del Rio
+2010,Jacksonville Jaguars,Jack Del Rio
+2011,Jacksonville Jaguars,"Jack Del Rio (fired November 29; 3�8 record)
+Mel Tucker (interim; 2�3 record)"
+2012,Jacksonville Jaguars,Mike Mularkey
+2013,Jacksonville Jaguars,Gus Bradley
+2014,Jacksonville Jaguars,Gus Bradley
+2015,Jacksonville Jaguars,Gus Bradley
+2016,Jacksonville Jaguars,"Gus Bradley (weeks 1–15)
+Doug Marrone (interim, weeks 16–17)"
+2017,Jacksonville Jaguars,Doug Marrone
+1990,Kansas City Chiefs,Marty Schottenheimer
+1991,Kansas City Chiefs,Marty Schottenheimer
+1992,Kansas City Chiefs,Marty Schottenheimer
+1993,Kansas City Chiefs,Marty Schottenheimer
+1994,Kansas City Chiefs,Marty Schottenheimer
+1995,Kansas City Chiefs,Marty Schottenheimer
+1996,Kansas City Chiefs,Marty Schottenheimer
+1997,Kansas City Chiefs,Marty Schottenheimer
+1998,Kansas City Chiefs,Marty Schottenheimer
+1999,Kansas City Chiefs,Gunther Cunningham
+2000,Kansas City Chiefs,Gunther Cunningham
+2001,Kansas City Chiefs,Dick Vermeil
+2002,Kansas City Chiefs,Dick Vermeil
+2003,Kansas City Chiefs,Dick Vermeil
+2004,Kansas City Chiefs,Dick Vermeil
+2005,Kansas City Chiefs,Dick Vermeil
+2006,Kansas City Chiefs,Herman Edwards
+2007,Kansas City Chiefs,Herman Edwards
+2008,Kansas City Chiefs,Herman Edwards
+2009,Kansas City Chiefs,Todd Haley
+2010,Kansas City Chiefs,Todd Haley
+2011,Kansas City Chiefs,"Todd Haley (fired on December 12, 5–8 record)
+Romeo Crennel (Interim; 2–1 record)"
+2012,Kansas City Chiefs,Romeo Crennel
+2013,Kansas City Chiefs,Andy Reid
+2014,Kansas City Chiefs,Andy Reid
+2015,Kansas City Chiefs,Andy Reid
+2016,Kansas City Chiefs,Andy Reid
+2017,Kansas City Chiefs,Andy Reid
+2017,Los Angeles Chargers,Anthony Lynn
+1990,Los Angeles Raiders,Art Shell
+1991,Los Angeles Raiders,Art Shell
+1992,Los Angeles Raiders,Art Shell
+1993,Los Angeles Raiders,Art Shell
+1994,Los Angeles Raiders,Art Shell
+1990,Los Angeles Rams,John Robinson
+1991,Los Angeles Rams,John Robinson
+1992,Los Angeles Rams,Chuck Knox
+1993,Los Angeles Rams,Chuck Knox
+1994,Los Angeles Rams,Chuck Knox
+2016,Los Angeles Rams,"Jeff Fisher (Fired Week 14, 4–9 Record) 
+John Fassel (interim, 0–3 Record)"
+2017,Los Angeles Rams,Sean McVay
+1990,Miami Dolphins,Don Shula
+1991,Miami Dolphins,Don Shula
+1992,Miami Dolphins,Don Shula
+1993,Miami Dolphins,Don Shula
+1994,Miami Dolphins,Don Shula
+1995,Miami Dolphins,Don Shula
+1996,Miami Dolphins,Jimmy Johnson
+1997,Miami Dolphins,Jimmy Johnson
+1998,Miami Dolphins,Jimmy Johnson
+1999,Miami Dolphins,Jimmy Johnson
+2000,Miami Dolphins,Dave Wannstedt
+2001,Miami Dolphins,Dave Wannstedt
+2002,Miami Dolphins,Dave Wannstedt
+2003,Miami Dolphins,Dave Wannstedt
+2004,Miami Dolphins,"Dave Wannstedt (resigned during bye week; 1–8 record)
+Jim Bates (Interim)"
+2005,Miami Dolphins,Nick Saban
+2006,Miami Dolphins,Nick Saban
+2007,Miami Dolphins,Cam Cameron
+2008,Miami Dolphins,Tony Sparano
+2009,Miami Dolphins,Tony Sparano
+2010,Miami Dolphins,Tony Sparano
+2011,Miami Dolphins,"Tony Sparano (fired on December 12; 4–9 record)
+Todd Bowles (interim; 2–1 record)"
+2012,Miami Dolphins,Joe Philbin
+2013,Miami Dolphins,Joe Philbin
+2014,Miami Dolphins,Joe Philbin
+2015,Miami Dolphins,"Joe Philbin (fired on October 5; 1–3 record)
+Dan Campbell (interim; 5–7 record)"
+2016,Miami Dolphins,Adam Gase
+2017,Miami Dolphins,Adam Gase
+1990,Minnesota Vikings,Jerry Burns
+1991,Minnesota Vikings,Jerry Burns
+1992,Minnesota Vikings,Dennis Green
+1993,Minnesota Vikings,Dennis Green
+1994,Minnesota Vikings,Dennis Green
+1995,Minnesota Vikings,Dennis Green
+1996,Minnesota Vikings,Dennis Green
+1997,Minnesota Vikings,Dennis Green
+1998,Minnesota Vikings,Dennis Green
+1999,Minnesota Vikings,Dennis Green
+2000,Minnesota Vikings,Dennis Green
+2001,Minnesota Vikings,"Dennis Green (Weeks 1–16)
+Mike Tice (Week 17)"
+2002,Minnesota Vikings,Mike Tice
+2003,Minnesota Vikings,Mike Tice
+2004,Minnesota Vikings,Mike Tice
+2005,Minnesota Vikings,Mike Tice
+2006,Minnesota Vikings,Brad Childress
+2007,Minnesota Vikings,Brad Childress
+2008,Minnesota Vikings,Brad Childress
+2009,Minnesota Vikings,Brad Childress
+2010,Minnesota Vikings,"Leslie Frazier (interim)
+Brad Childress (fired on November 22; 3–7 record)"
+2011,Minnesota Vikings,Leslie Frazier
+2012,Minnesota Vikings,Leslie Frazier
+2013,Minnesota Vikings,Leslie Frazier
+2014,Minnesota Vikings,Mike Zimmer
+2015,Minnesota Vikings,Mike Zimmer
+2016,Minnesota Vikings,"Mike Zimmer (games 1–12, 14–16)
+Mike Priefer (interim, game 13)"
+2017,Minnesota Vikings,Mike Zimmer
+1990,New England Patriots,Rod Rust
+1991,New England Patriots,Dick MacPherson
+1992,New England Patriots,Dick MacPherson
+1993,New England Patriots,Bill Parcells
+1994,New England Patriots,Bill Parcells
+1995,New England Patriots,Bill Parcells
+1996,New England Patriots,Bill Parcells
+1997,New England Patriots,Pete Carroll
+1998,New England Patriots,Pete Carroll
+1999,New England Patriots,Pete Carroll
+2000,New England Patriots,Bill Belichick
+2001,New England Patriots,Bill Belichick
+2002,New England Patriots,Bill Belichick
+2003,New England Patriots,Bill Belichick
+2004,New England Patriots,Bill Belichick
+2005,New England Patriots,Bill Belichick
+2006,New England Patriots,Bill Belichick
+2007,New England Patriots,Bill Belichick
+2008,New England Patriots,Bill Belichick
+2009,New England Patriots,Bill Belichick
+2010,New England Patriots,Bill Belichick
+2011,New England Patriots,Bill Belichick
+2012,New England Patriots,Bill Belichick
+2013,New England Patriots,Bill Belichick
+2014,New England Patriots,Bill Belichick
+2015,New England Patriots,Bill Belichick
+2016,New England Patriots,Bill Belichick
+2017,New England Patriots,Bill Belichick
+1990,New Orleans Saints,Jim Mora
+1991,New Orleans Saints,Jim Mora
+1992,New Orleans Saints,Jim Mora
+1993,New Orleans Saints,Jim Mora
+1994,New Orleans Saints,Jim Mora
+1995,New Orleans Saints,Jim Mora
+1996,New Orleans Saints,"Jim Mora
+Rick Venturi (interim)"
+1997,New Orleans Saints,Mike Ditka
+1998,New Orleans Saints,Mike Ditka
+1999,New Orleans Saints,Mike Ditka
+2000,New Orleans Saints,Jim Haslett
+2001,New Orleans Saints,Jim Haslett
+2002,New Orleans Saints,Jim Haslett
+2003,New Orleans Saints,Jim Haslett
+2004,New Orleans Saints,Jim Haslett
+2005,New Orleans Saints,Jim Haslett
+2006,New Orleans Saints,Sean Payton
+2007,New Orleans Saints,Sean Payton
+2008,New Orleans Saints,Sean Payton
+2009,New Orleans Saints,Sean Payton
+2010,New Orleans Saints,Sean Payton
+2011,New Orleans Saints,Sean Payton
+2012,New Orleans Saints,"Joe Vitt (Interim, games 7–16)
+Aaron Kromer (Interim, games 1–6)"
+2013,New Orleans Saints,Sean Payton
+2014,New Orleans Saints,Sean Payton
+2015,New Orleans Saints,Sean Payton
+2016,New Orleans Saints,Sean Payton
+2017,New Orleans Saints,Sean Payton
+1990,New York Giants,Bill Parcells
+1991,New York Giants,Ray Handley
+1992,New York Giants,Ray Handley
+1993,New York Giants,Dan Reeves
+1994,New York Giants,Dan Reeves
+1995,New York Giants,Dan Reeves
+1996,New York Giants,Dan Reeves
+1997,New York Giants,Jim Fassel
+1998,New York Giants,Jim Fassel
+1999,New York Giants,Jim Fassel
+2000,New York Giants,Jim Fassel
+2001,New York Giants,Jim Fassel
+2002,New York Giants,Jim Fassel
+2003,New York Giants,Jim Fassel
+2004,New York Giants,Tom Coughlin
+2005,New York Giants,Tom Coughlin
+2006,New York Giants,Tom Coughlin
+2007,New York Giants,Tom Coughlin
+2008,New York Giants,Tom Coughlin
+2009,New York Giants,Tom Coughlin
+2010,New York Giants,Tom Coughlin
+2011,New York Giants,Tom Coughlin
+2012,New York Giants,Tom Coughlin
+2013,New York Giants,Tom Coughlin
+2014,New York Giants,Tom Coughlin
+2015,New York Giants,Tom Coughlin
+2016,New York Giants,Ben McAdoo
+2017,New York Giants,"Ben McAdoo (fired week 13, 2–10 record)
+Steve Spagnuolo (interim, 1–3 record)"
+1990,New York Jets,Bruce Coslet
+1991,New York Jets,Bruce Coslet
+1992,New York Jets,Bruce Coslet
+1993,New York Jets,Bruce Coslet
+1994,New York Jets,Pete Carroll
+1995,New York Jets,Rich Kotite
+1996,New York Jets,Rich Kotite (resigned)
+1997,New York Jets,Bill Parcells
+1998,New York Jets,Bill Parcells
+1999,New York Jets,Bill Parcells
+2000,New York Jets,Al Groh
+2001,New York Jets,Herman Edwards
+2002,New York Jets,Herman Edwards
+2003,New York Jets,Herman Edwards
+2004,New York Jets,Herman Edwards
+2005,New York Jets,Herman Edwards
+2006,New York Jets,Eric Mangini
+2007,New York Jets,Eric Mangini
+2008,New York Jets,Eric Mangini
+2009,New York Jets,Rex Ryan
+2010,New York Jets,Rex Ryan
+2011,New York Jets,Rex Ryan
+2012,New York Jets,Rex Ryan
+2013,New York Jets,Rex Ryan
+2014,New York Jets,Rex Ryan
+2015,New York Jets,Todd Bowles
+2016,New York Jets,Todd Bowles
+2017,New York Jets,Todd Bowles
+1995,Oakland Raiders,Mike White
+1996,Oakland Raiders,Mike White
+1997,Oakland Raiders,Joe Bugel
+1998,Oakland Raiders,Jon Gruden
+1999,Oakland Raiders,Jon Gruden
+2000,Oakland Raiders,Jon Gruden
+2001,Oakland Raiders,Jon Gruden
+2002,Oakland Raiders,Bill Callahan
+2003,Oakland Raiders,Bill Callahan
+2004,Oakland Raiders,Norv Turner
+2005,Oakland Raiders,Norv Turner
+2006,Oakland Raiders,Art Shell
+2007,Oakland Raiders,Lane Kiffin
+2008,Oakland Raiders,"Lane Kiffin (fired)
+Tom Cable (interim)"
+2009,Oakland Raiders,Tom Cable
+2010,Oakland Raiders,Tom Cable
+2011,Oakland Raiders,Hue Jackson
+2012,Oakland Raiders,Dennis Allen
+2013,Oakland Raiders,Dennis Allen
+2014,Oakland Raiders,"Dennis Allen
+(fired on September 29; 0–4 record)
+Tony Sparano
+(interim; 3–9 record)"
+2015,Oakland Raiders,Jack Del Rio
+2016,Oakland Raiders,Jack Del Rio
+2017,Oakland Raiders,Jack Del Rio
+1990,Philadelphia Eagles,Buddy Ryan
+1991,Philadelphia Eagles,Rich Kotite
+1992,Philadelphia Eagles,Rich Kotite
+1993,Philadelphia Eagles,Rich Kotite
+1994,Philadelphia Eagles,Rich Kotite
+1995,Philadelphia Eagles,Ray Rhodes
+1996,Philadelphia Eagles,Ray Rhodes
+1997,Philadelphia Eagles,Ray Rhodes
+1998,Philadelphia Eagles,Ray Rhodes
+1999,Philadelphia Eagles,Andy Reid
+2000,Philadelphia Eagles,Andy Reid
+2001,Philadelphia Eagles,Andy Reid
+2002,Philadelphia Eagles,Andy Reid
+2003,Philadelphia Eagles,Andy Reid
+2004,Philadelphia Eagles,Andy Reid
+2005,Philadelphia Eagles,Andy Reid
+2006,Philadelphia Eagles,Andy Reid
+2007,Philadelphia Eagles,Andy Reid
+2008,Philadelphia Eagles,Andy Reid
+2009,Philadelphia Eagles,Andy Reid
+2010,Philadelphia Eagles,Andy Reid
+2011,Philadelphia Eagles,Andy Reid
+2012,Philadelphia Eagles,Andy Reid
+2013,Philadelphia Eagles,Chip Kelly
+2014,Philadelphia Eagles,Chip Kelly
+2015,Philadelphia Eagles,"Chip Kelly (fired week 16; 6–9 record)
+Pat Shurmur (interim week 17; 1–0 record)"
+2016,Philadelphia Eagles,Doug Pederson
+2017,Philadelphia Eagles,Doug Pederson
+1990,Phoenix Cardinals,Joe Bugel
+1991,Phoenix Cardinals,Joe Bugel
+1992,Phoenix Cardinals,Joe Bugel
+1993,Phoenix Cardinals,Joe Bugel
+1990,Pittsburgh Steelers,Chuck Noll
+1991,Pittsburgh Steelers,Chuck Noll
+1992,Pittsburgh Steelers,Bill Cowher
+1993,Pittsburgh Steelers,Bill Cowher
+1994,Pittsburgh Steelers,Bill Cowher
+1995,Pittsburgh Steelers,Bill Cowher
+1996,Pittsburgh Steelers,Bill Cowher
+1997,Pittsburgh Steelers,Bill Cowher
+1998,Pittsburgh Steelers,Bill Cowher
+1999,Pittsburgh Steelers,Bill Cowher
+2000,Pittsburgh Steelers,Bill Cowher
+2001,Pittsburgh Steelers,Bill Cowher
+2002,Pittsburgh Steelers,Bill Cowher
+2003,Pittsburgh Steelers,Bill Cowher
+2004,Pittsburgh Steelers,Bill Cowher
+2005,Pittsburgh Steelers,Bill Cowher
+2006,Pittsburgh Steelers,Bill Cowher
+2007,Pittsburgh Steelers,Mike Tomlin
+2008,Pittsburgh Steelers,Mike Tomlin
+2009,Pittsburgh Steelers,Mike Tomlin
+2010,Pittsburgh Steelers,Mike Tomlin
+2011,Pittsburgh Steelers,Mike Tomlin
+2012,Pittsburgh Steelers,Mike Tomlin
+2013,Pittsburgh Steelers,Mike Tomlin
+2014,Pittsburgh Steelers,Mike Tomlin
+2015,Pittsburgh Steelers,Mike Tomlin
+2016,Pittsburgh Steelers,Mike Tomlin
+2017,Pittsburgh Steelers,Mike Tomlin
+1990,San Diego Chargers,Dan Henning
+1991,San Diego Chargers,Dan Henning
+1992,San Diego Chargers,Bobby Ross
+1993,San Diego Chargers,Bobby Ross
+1994,San Diego Chargers,Bobby Ross
+1995,San Diego Chargers,Bobby Ross
+1996,San Diego Chargers,Bobby Ross
+1997,San Diego Chargers,Kevin Gilbride
+1998,San Diego Chargers,"Kevin Gilbride
+June Jones"
+1999,San Diego Chargers,Mike Riley
+2000,San Diego Chargers,Mike Riley
+2001,San Diego Chargers,Mike Riley
+2002,San Diego Chargers,Marty Schottenheimer
+2003,San Diego Chargers,Marty Schottenheimer
+2004,San Diego Chargers,Marty Schottenheimer
+2005,San Diego Chargers,Marty Schottenheimer
+2006,San Diego Chargers,Marty Schottenheimer
+2007,San Diego Chargers,Norv Turner
+2008,San Diego Chargers,Norv Turner
+2009,San Diego Chargers,Norv Turner
+2010,San Diego Chargers,Norv Turner
+2011,San Diego Chargers,Norv Turner
+2012,San Diego Chargers,Norv Turner
+2013,San Diego Chargers,Mike McCoy
+2014,San Diego Chargers,Mike McCoy
+2015,San Diego Chargers,Mike McCoy
+2016,San Diego Chargers,Mike McCoy
+1990,San Francisco 49ers,"George Seifert
+(2nd season)"
+1991,San Francisco 49ers,George Seifert
+1992,San Francisco 49ers,George Seifert
+1993,San Francisco 49ers,George Seifert
+1994,San Francisco 49ers,"George Seifert
+(6th season)"
+1995,San Francisco 49ers,George Seifert
+1996,San Francisco 49ers,George Seifert
+1997,San Francisco 49ers,Steve Mariucci
+1998,San Francisco 49ers,Steve Mariucci
+1999,San Francisco 49ers,Steve Mariucci
+2000,San Francisco 49ers,Steve Mariucci
+2001,San Francisco 49ers,Steve Mariucci
+2002,San Francisco 49ers,Steve Mariucci
+2003,San Francisco 49ers,Dennis Erickson
+2004,San Francisco 49ers,Dennis Erickson
+2005,San Francisco 49ers,Mike Nolan
+2006,San Francisco 49ers,Mike Nolan
+2007,San Francisco 49ers,Mike Nolan
+2008,San Francisco 49ers,Mike Nolan (fired October 21) Mike Singletary (interim)
+2009,San Francisco 49ers,Mike Singletary
+2010,San Francisco 49ers,"Mike Singletary (fired December 27)
+Jim Tomsula (interim)"
+2011,San Francisco 49ers,Jim Harbaugh
+2012,San Francisco 49ers,Jim Harbaugh
+2013,San Francisco 49ers,Jim Harbaugh
+2014,San Francisco 49ers,Jim Harbaugh
+2015,San Francisco 49ers,Jim Tomsula
+2016,San Francisco 49ers,Chip Kelly
+2017,San Francisco 49ers,Kyle Shanahan
+1990,Seattle Seahawks,Chuck Knox
+1991,Seattle Seahawks,Chuck Knox
+1992,Seattle Seahawks,Tom Flores
+1993,Seattle Seahawks,Tom Flores
+1994,Seattle Seahawks,Tom Flores
+1995,Seattle Seahawks,Dennis Erickson
+1996,Seattle Seahawks,Dennis Erickson
+1997,Seattle Seahawks,Dennis Erickson
+1998,Seattle Seahawks,Dennis Erickson
+1999,Seattle Seahawks,Mike Holmgren
+2000,Seattle Seahawks,Mike Holmgren
+2001,Seattle Seahawks,Mike Holmgren
+2002,Seattle Seahawks,Mike Holmgren
+2003,Seattle Seahawks,Mike Holmgren
+2004,Seattle Seahawks,Mike Holmgren
+2005,Seattle Seahawks,Mike Holmgren
+2006,Seattle Seahawks,Mike Holmgren
+2007,Seattle Seahawks,Mike Holmgren
+2008,Seattle Seahawks,Mike Holmgren
+2009,Seattle Seahawks,Jim Mora
+2010,Seattle Seahawks,Pete Carroll
+2011,Seattle Seahawks,Pete Carroll
+2012,Seattle Seahawks,Pete Carroll
+2013,Seattle Seahawks,Pete Carroll
+2014,Seattle Seahawks,Pete Carroll
+2015,Seattle Seahawks,Pete Carroll
+2016,Seattle Seahawks,Pete Carroll
+2017,Seattle Seahawks,Pete Carroll
+1995,St. Louis Rams,Rich Brooks
+1996,St. Louis Rams,Rich Brooks
+1997,St. Louis Rams,Dick Vermeil
+1998,St. Louis Rams,Dick Vermeil
+1999,St. Louis Rams,Dick Vermeil
+2000,St. Louis Rams,Mike Martz
+2001,St. Louis Rams,Mike Martz
+2002,St. Louis Rams,Mike Martz
+2003,St. Louis Rams,Mike Martz
+2004,St. Louis Rams,Mike Martz
+2006,St. Louis Rams,Scott Linehan
+2007,St. Louis Rams,Scott Linehan
+2008,St. Louis Rams,"Scott Linehan
+Jim Haslett (Interim)"
+2009,St. Louis Rams,Steve Spagnuolo
+2010,St. Louis Rams,Steve Spagnuolo
+2011,St. Louis Rams,Steve Spagnuolo
+2012,St. Louis Rams,Jeff Fisher
+2013,St. Louis Rams,Jeff Fisher
+2014,St. Louis Rams,Jeff Fisher
+2015,St. Louis Rams,Jeff Fisher
+1990,Tampa Bay Buccaneers,"Ray Perkins (fired December 2; 5-8 record)
+Richard Williamson (interm; 1-2 record)"
+1991,Tampa Bay Buccaneers,Richard Williamson
+1992,Tampa Bay Buccaneers,Sam Wyche
+1993,Tampa Bay Buccaneers,Sam Wyche
+1994,Tampa Bay Buccaneers,Sam Wyche
+1995,Tampa Bay Buccaneers,Sam Wyche
+1996,Tampa Bay Buccaneers,Tony Dungy
+1997,Tampa Bay Buccaneers,Tony Dungy
+1998,Tampa Bay Buccaneers,Tony Dungy
+1999,Tampa Bay Buccaneers,Tony Dungy
+2000,Tampa Bay Buccaneers,Tony Dungy
+2001,Tampa Bay Buccaneers,Tony Dungy
+2002,Tampa Bay Buccaneers,Jon Gruden
+2003,Tampa Bay Buccaneers,Jon Gruden
+2004,Tampa Bay Buccaneers,Jon Gruden
+2005,Tampa Bay Buccaneers,Jon Gruden
+2006,Tampa Bay Buccaneers,Jon Gruden
+2007,Tampa Bay Buccaneers,Jon Gruden
+2008,Tampa Bay Buccaneers,Jon Gruden
+2009,Tampa Bay Buccaneers,Raheem Morris
+2010,Tampa Bay Buccaneers,Raheem Morris
+2011,Tampa Bay Buccaneers,Raheem Morris
+2012,Tampa Bay Buccaneers,Greg Schiano
+2013,Tampa Bay Buccaneers,Greg Schiano
+2014,Tampa Bay Buccaneers,Lovie Smith
+2015,Tampa Bay Buccaneers,Lovie Smith
+2016,Tampa Bay Buccaneers,Dirk Koetter
+2017,Tampa Bay Buccaneers,Dirk Koetter
+1997,Tennessee Oilers,Jeff Fisher
+1998,Tennessee Oilers,Jeff Fisher
+1999,Tennessee Titans,Jeff Fisher
+2000,Tennessee Titans,Jeff Fisher
+2001,Tennessee Titans,Jeff Fisher
+2002,Tennessee Titans,Jeff Fisher
+2003,Tennessee Titans,Jeff Fisher
+2004,Tennessee Titans,Jeff Fisher
+2005,Tennessee Titans,Jeff Fisher
+2006,Tennessee Titans,Jeff Fisher
+2007,Tennessee Titans,Jeff Fisher
+2008,Tennessee Titans,Jeff Fisher
+2009,Tennessee Titans,Jeff Fisher
+2010,Tennessee Titans,Jeff Fisher
+2011,Tennessee Titans,Mike Munchak
+2012,Tennessee Titans,Mike Munchak
+2013,Tennessee Titans,Mike Munchak
+2014,Tennessee Titans,Ken Whisenhunt
+2015,Tennessee Titans,"Ken Whisenhunt (fired on November 3; 1–6 record)
+Mike Mularkey (interim; 2–7 record)"
+2016,Tennessee Titans,Mike Mularkey
+2017,Tennessee Titans,Mike Mularkey
+1990,Washington Redskins,Joe Gibbs
+1991,Washington Redskins,Joe Gibbs
+1992,Washington Redskins,Joe Gibbs
+1993,Washington Redskins,Richie Petitbon
+1994,Washington Redskins,Norv Turner
+1995,Washington Redskins,Norv Turner
+1996,Washington Redskins,Norv Turner
+1997,Washington Redskins,Norv Turner
+1998,Washington Redskins,Norv Turner
+1999,Washington Redskins,Norv Turner
+2000,Washington Redskins,"Norv Turner
+Terry Robiskie"
+2001,Washington Redskins,Marty Schottenheimer
+2002,Washington Redskins,Steve Spurrier
+2003,Washington Redskins,Steve Spurrier
+2004,Washington Redskins,Joe Gibbs
+2005,Washington Redskins,Joe Gibbs
+2006,Washington Redskins,Joe Gibbs
+2007,Washington Redskins,Joe Gibbs
+2008,Washington Redskins,Jim Zorn
+2009,Washington Redskins,Jim Zorn
+2010,Washington Redskins,Mike Shanahan
+2011,Washington Redskins,Mike Shanahan
+2012,Washington Redskins,Mike Shanahan
+2013,Washington Redskins,Mike Shanahan
+2014,Washington Redskins,Jay Gruden
+2015,Washington Redskins,Jay Gruden
+2016,Washington Redskins,Jay Gruden
+2017,Washington Redskins,Jay Gruden
