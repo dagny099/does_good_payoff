@@ -1,0 +1,1737 @@
+,year,unitid,inst_name,state_name,years_after_entry,count_not_working,count_working,earnings_mean
+108,2014,110529,California State Polytechnic University-Pomona,California,10,437,4021,58000
+109,2014,110529,California State Polytechnic University-Pomona,California,6,432,4960,42900
+110,2014,110529,California State Polytechnic University-Pomona,California,8,473,4943,49400
+117,2014,110556,California State University-Fresno,California,10,600,5095,48500
+118,2014,110556,California State University-Fresno,California,6,434,5211,37200
+119,2014,110556,California State University-Fresno,California,8,500,5285,43400
+120,2014,110565,California State University-Fullerton,California,10,880,7085,51800
+121,2014,110565,California State University-Fullerton,California,6,733,8295,38500
+122,2014,110565,California State University-Fullerton,California,8,885,7519,44800
+126,2014,110583,California State University-Long Beach,California,10,797,6750,53000
+127,2014,110583,California State University-Long Beach,California,6,690,7536,40000
+128,2014,110583,California State University-Long Beach,California,8,744,7157,46200
+129,2014,110592,California State University-Los Angeles,California,10,627,4933,49900
+130,2014,110592,California State University-Los Angeles,California,6,602,5661,37200
+131,2014,110592,California State University-Los Angeles,California,8,648,5379,44200
+132,2014,110608,California State University-Northridge,California,10,1020,7698,49700
+133,2014,110608,California State University-Northridge,California,6,908,8339,37400
+134,2014,110608,California State University-Northridge,California,8,1004,7978,43500
+135,2014,110617,California State University-Sacramento,California,10,757,6386,54200
+136,2014,110617,California State University-Sacramento,California,6,665,7233,41800
+137,2014,110617,California State University-Sacramento,California,8,731,6561,48100
+138,2014,110635,University of California-Berkeley,California,10,751,5064,79000
+139,2014,110635,University of California-Berkeley,California,6,702,5251,57600
+140,2014,110635,University of California-Berkeley,California,8,723,5187,68100
+141,2014,110644,University of California-Davis,California,10,680,5945,68100
+142,2014,110644,University of California-Davis,California,6,646,6226,45300
+143,2014,110644,University of California-Davis,California,8,680,6604,56600
+144,2014,110653,University of California-Irvine,California,10,502,4403,65800
+145,2014,110653,University of California-Irvine,California,6,547,4936,44300
+146,2014,110653,University of California-Irvine,California,8,515,4756,54300
+147,2014,110662,University of California-Los Angeles,California,10,790,6148,73200
+148,2014,110662,University of California-Los Angeles,California,6,653,5482,52000
+149,2014,110662,University of California-Los Angeles,California,8,776,5965,63900
+153,2014,110680,University of California-San Diego,California,10,617,5027,69600
+154,2014,110680,University of California-San Diego,California,6,634,5155,48200
+155,2014,110680,University of California-San Diego,California,8,616,4546,58900
+159,2014,110705,University of California-Santa Barbara,California,10,449,4592,62400
+160,2014,110705,University of California-Santa Barbara,California,6,441,4575,42800
+161,2014,110705,University of California-Santa Barbara,California,8,412,4160,52100
+825,2014,122409,San Diego State University,California,10,867,7236,55900
+826,2014,122409,San Diego State University,California,6,707,7638,41600
+827,2014,122409,San Diego State University,California,8,841,8145,48500
+837,2014,122597,San Francisco State University,California,10,944,6752,54700
+838,2014,122597,San Francisco State University,California,6,758,6657,42100
+839,2014,122597,San Francisco State University,California,8,838,6918,49000
+855,2014,122755,San Jose State University,California,10,546,4600,63800
+856,2014,122755,San Jose State University,California,6,521,5999,47200
+857,2014,122755,San Jose State University,California,8,512,5295,54300
+957,2014,123961,University of Southern California,California,10,499,5153,88800
+958,2014,123961,University of Southern California,California,6,291,3564,61400
+959,2014,123961,University of Southern California,California,8,346,3936,76900
+1893,2013,110529,California State Polytechnic University-Pomona,California,10,465,4282,55400
+1894,2013,110529,California State Polytechnic University-Pomona,California,6,419,4824,39800
+1895,2013,110529,California State Polytechnic University-Pomona,California,8,434,4238,47400
+1902,2013,110556,California State University-Fresno,California,10,628,5105,46500
+1903,2013,110556,California State University-Fresno,California,6,442,4934,34700
+1904,2013,110556,California State University-Fresno,California,8,524,4899,41400
+1905,2013,110565,California State University-Fullerton,California,10,874,6841,49000
+1906,2013,110565,California State University-Fullerton,California,6,752,7485,36300
+1907,2013,110565,California State University-Fullerton,California,8,891,7357,43300
+1911,2013,110583,California State University-Long Beach,California,10,807,6497,51100
+1912,2013,110583,California State University-Long Beach,California,6,701,6989,37500
+1913,2013,110583,California State University-Long Beach,California,8,712,6816,44300
+1914,2013,110592,California State University-Los Angeles,California,10,636,4848,46900
+1915,2013,110592,California State University-Los Angeles,California,6,579,5070,35500
+1916,2013,110592,California State University-Los Angeles,California,8,644,4997,41900
+1917,2013,110608,California State University-Northridge,California,10,1132,7963,47500
+1918,2013,110608,California State University-Northridge,California,6,913,7461,35400
+1919,2013,110608,California State University-Northridge,California,8,943,7653,41300
+1920,2013,110617,California State University-Sacramento,California,10,814,6455,51000
+1921,2013,110617,California State University-Sacramento,California,6,615,6456,39200
+1922,2013,110617,California State University-Sacramento,California,8,724,6065,46600
+1923,2013,110635,University of California-Berkeley,California,10,744,5166,74700
+1924,2013,110635,University of California-Berkeley,California,6,775,5076,53300
+1925,2013,110635,University of California-Berkeley,California,8,722,4802,64600
+1926,2013,110644,University of California-Davis,California,10,702,5989,65200
+1927,2013,110644,University of California-Davis,California,6,736,6303,42600
+1928,2013,110644,University of California-Davis,California,8,642,5878,54300
+1929,2013,110653,University of California-Irvine,California,10,525,4701,61800
+1930,2013,110653,University of California-Irvine,California,6,527,4584,41800
+1931,2013,110653,University of California-Irvine,California,8,563,4273,51500
+1932,2013,110662,University of California-Los Angeles,California,10,818,6327,70700
+1933,2013,110662,University of California-Los Angeles,California,6,734,5281,49600
+1934,2013,110662,University of California-Los Angeles,California,8,749,5536,60200
+1938,2013,110680,University of California-San Diego,California,10,610,4968,67900
+1939,2013,110680,University of California-San Diego,California,6,632,4624,43500
+1940,2013,110680,University of California-San Diego,California,8,554,4341,55500
+1944,2013,110705,University of California-Santa Barbara,California,10,503,4592,59000
+1945,2013,110705,University of California-Santa Barbara,California,6,442,4054,39500
+1946,2013,110705,University of California-Santa Barbara,California,8,399,4137,48900
+2622,2013,122409,San Diego State University,California,10,837,7078,53400
+2623,2013,122409,San Diego State University,California,6,752,7860,39400
+2624,2013,122409,San Diego State University,California,8,833,7522,46400
+2634,2013,122597,San Francisco State University,California,10,1007,6643,52600
+2635,2013,122597,San Francisco State University,California,6,776,6312,39300
+2636,2013,122597,San Francisco State University,California,8,819,6676,45300
+2655,2013,122755,San Jose State University,California,10,637,4673,59900
+2656,2013,122755,San Jose State University,California,6,492,5171,44100
+2657,2013,122755,San Jose State University,California,8,479,4865,52500
+2757,2013,123961,University of Southern California,California,10,521,4879,85500
+2758,2013,123961,University of Southern California,California,6,267,3530,60000
+2759,2013,123961,University of Southern California,California,8,410,4411,75500
+3684,2012,110529,California State Polytechnic University-Pomona,California,10,500,4269,54400
+3685,2012,110529,California State Polytechnic University-Pomona,California,6,434,4338,38200
+3686,2012,110529,California State Polytechnic University-Pomona,California,8,389,3732,47800
+3693,2012,110556,California State University-Fresno,California,10,606,4852,46600
+3694,2012,110556,California State University-Fresno,California,6,453,4691,34300
+3695,2012,110556,California State University-Fresno,California,8,559,4721,39800
+3696,2012,110565,California State University-Fullerton,California,10,903,6560,49000
+3697,2012,110565,California State University-Fullerton,California,6,742,6866,36100
+3698,2012,110565,California State University-Fullerton,California,8,825,6634,43400
+3702,2012,110583,California State University-Long Beach,California,10,880,6880,50400
+3703,2012,110583,California State University-Long Beach,California,6,655,6434,36500
+3704,2012,110583,California State University-Long Beach,California,8,678,6282,44100
+3705,2012,110592,California State University-Los Angeles,California,10,619,4521,46100
+3706,2012,110592,California State University-Los Angeles,California,6,613,4812,35700
+3707,2012,110592,California State University-Los Angeles,California,8,608,4664,41700
+3708,2012,110608,California State University-Northridge,California,10,1094,7791,47100
+3709,2012,110608,California State University-Northridge,California,6,884,7091,34300
+3710,2012,110608,California State University-Northridge,California,8,895,7072,41600
+3711,2012,110617,California State University-Sacramento,California,10,911,6229,49900
+3712,2012,110617,California State University-Sacramento,California,6,675,5747,38100
+3713,2012,110617,California State University-Sacramento,California,8,761,5775,45600
+3714,2012,110635,University of California-Berkeley,California,10,730,5323,74000
+3715,2012,110635,University of California-Berkeley,California,6,745,4751,51200
+3716,2012,110635,University of California-Berkeley,California,8,724,4364,62500
+3717,2012,110644,University of California-Davis,California,10,679,5939,66000
+3718,2012,110644,University of California-Davis,California,6,681,5756,41700
+3719,2012,110644,University of California-Davis,California,8,645,5133,53700
+3720,2012,110653,University of California-Irvine,California,10,610,4930,60600
+3721,2012,110653,University of California-Irvine,California,6,536,4111,39600
+3722,2012,110653,University of California-Irvine,California,8,485,3721,51500
+3723,2012,110662,University of California-Los Angeles,California,10,842,6477,72600
+3724,2012,110662,University of California-Los Angeles,California,6,747,5057,47000
+3725,2012,110662,University of California-Los Angeles,California,8,720,5122,58800
+3729,2012,110680,University of California-San Diego,California,10,596,4699,69400
+3730,2012,110680,University of California-San Diego,California,6,568,4039,41700
+3731,2012,110680,University of California-San Diego,California,8,514,4259,55200
+3735,2012,110705,University of California-Santa Barbara,California,10,511,4424,58200
+3736,2012,110705,University of California-Santa Barbara,California,6,397,3703,38100
+3737,2012,110705,University of California-Santa Barbara,California,8,396,4055,49600
+4416,2012,122409,San Diego State University,California,10,841,7182,52000
+4417,2012,122409,San Diego State University,California,6,737,7337,38300
+4418,2012,122409,San Diego State University,California,8,743,6776,46400
+4428,2012,122597,San Francisco State University,California,10,964,6047,51900
+4429,2012,122597,San Francisco State University,California,6,790,6099,38200
+4430,2012,122597,San Francisco State University,California,8,861,6316,44900
+4449,2012,122755,San Jose State University,California,10,687,4819,60200
+4450,2012,122755,San Jose State University,California,6,444,4576,43400
+4451,2012,122755,San Jose State University,California,8,484,4307,51800
+4551,2012,123961,University of Southern California,California,10,504,4451,81300
+4552,2012,123961,University of Southern California,California,6,289,3528,62900
+4553,2012,123961,University of Southern California,California,8,467,4679,74300
+5455,2011,110529,California State Polytechnic University-Pomona,California,10,471,4208,55000
+5456,2011,110529,California State Polytechnic University-Pomona,California,6,429,3749,39200
+5457,2011,110529,California State Polytechnic University-Pomona,California,8,433,3946,48100
+5464,2011,110556,California State University-Fresno,California,10,598,4435,47200
+5465,2011,110556,California State University-Fresno,California,6,440,4329,34500
+5466,2011,110556,California State University-Fresno,California,8,537,4757,40700
+5467,2011,110565,California State University-Fullerton,California,10,856,6106,49700
+5468,2011,110565,California State University-Fullerton,California,6,722,6694,36400
+5469,2011,110565,California State University-Fullerton,California,8,795,6364,43800
+5473,2011,110583,California State University-Long Beach,California,10,871,6750,50200
+5474,2011,110583,California State University-Long Beach,California,6,654,6033,37300
+5475,2011,110583,California State University-Long Beach,California,8,680,5955,45300
+5476,2011,110592,California State University-Los Angeles,California,10,567,4078,46800
+5477,2011,110592,California State University-Los Angeles,California,6,598,4449,36800
+5478,2011,110592,California State University-Los Angeles,California,8,591,4511,42200
+5479,2011,110608,California State University-Northridge,California,10,1056,7191,47500
+5480,2011,110608,California State University-Northridge,California,6,822,6718,35000
+5481,2011,110608,California State University-Northridge,California,8,968,7257,41900
+5482,2011,110617,California State University-Sacramento,California,10,847,5967,50300
+5483,2011,110617,California State University-Sacramento,California,6,657,5245,38700
+5484,2011,110617,California State University-Sacramento,California,8,772,5864,45200
+5485,2011,110635,University of California-Berkeley,California,10,740,5325,78600
+5486,2011,110635,University of California-Berkeley,California,6,676,4291,51600
+5487,2011,110635,University of California-Berkeley,California,8,692,4340,62500
+5488,2011,110644,University of California-Davis,California,10,665,5672,66200
+5489,2011,110644,University of California-Davis,California,6,609,5015,42400
+5490,2011,110644,University of California-Davis,California,8,635,5144,54800
+5491,2011,110653,University of California-Irvine,California,10,582,4486,61800
+5492,2011,110653,University of California-Irvine,California,6,529,3612,39700
+5493,2011,110653,University of California-Irvine,California,8,471,3936,52000
+5494,2011,110662,University of California-Los Angeles,California,10,833,6299,70200
+5495,2011,110662,University of California-Los Angeles,California,6,692,4623,46800
+5496,2011,110662,University of California-Los Angeles,California,8,693,5287,60000
+5500,2011,110680,University of California-San Diego,California,10,523,4104,69700
+5501,2011,110680,University of California-San Diego,California,6,531,3704,42000
+5502,2011,110680,University of California-San Diego,California,8,517,4204,56800
+5506,2011,110705,University of California-Santa Barbara,California,10,470,4125,58900
+5507,2011,110705,University of California-Santa Barbara,California,6,366,3619,38100
+5508,2011,110705,University of California-Santa Barbara,California,8,428,3995,50300
+6221,2011,122409,San Diego State University,California,10,841,7110,52600
+6222,2011,122409,San Diego State University,California,6,716,6568,38900
+6223,2011,122409,San Diego State University,California,8,711,6425,47300
+6233,2011,122597,San Francisco State University,California,10,884,5537,51500
+6234,2011,122597,San Francisco State University,California,6,761,5759,37800
+6235,2011,122597,San Francisco State University,California,8,896,6041,45800
+6258,2011,122755,San Jose State University,California,10,656,4577,60300
+6259,2011,122755,San Jose State University,California,6,421,4157,43700
+6260,2011,122755,San Jose State University,California,8,575,4353,52000
+6361,2011,123961,University of Southern California,California,10,512,4565,77100
+6362,2011,123961,University of Southern California,California,6,349,3897,64700
+6363,2011,123961,University of Southern California,California,8,462,4462,74400
+7175,2010,110529,California State Polytechnic University-Pomona,California,7,446,3784,45200
+7176,2010,110529,California State Polytechnic University-Pomona,California,9,470,4078,52500
+7181,2010,110556,California State University-Fresno,California,7,507,4598,38700
+7182,2010,110556,California State University-Fresno,California,9,593,4313,45600
+7183,2010,110565,California State University-Fullerton,California,7,721,6149,41200
+7184,2010,110565,California State University-Fullerton,California,9,784,5971,47700
+7187,2010,110583,California State University-Long Beach,California,7,611,5673,42600
+7188,2010,110583,California State University-Long Beach,California,9,801,6482,48300
+7189,2010,110592,California State University-Los Angeles,California,7,548,4369,40300
+7190,2010,110592,California State University-Los Angeles,California,9,525,4015,45900
+7191,2010,110608,California State University-Northridge,California,7,905,6941,39700
+7192,2010,110608,California State University-Northridge,California,9,972,7038,45500
+7193,2010,110617,California State University-Sacramento,California,7,616,5720,43000
+7194,2010,110617,California State University-Sacramento,California,9,699,5877,48100
+7195,2010,110635,University of California-Berkeley,California,7,659,4104,57600
+7196,2010,110635,University of California-Berkeley,California,9,698,5060,72600
+7197,2010,110644,University of California-Davis,California,7,583,4879,49900
+7198,2010,110644,University of California-Davis,California,9,663,5338,62900
+7199,2010,110653,University of California-Irvine,California,7,475,3605,47700
+7200,2010,110653,University of California-Irvine,California,9,535,4194,57700
+7201,2010,110662,University of California-Los Angeles,California,7,661,4790,54900
+7202,2010,110662,University of California-Los Angeles,California,9,807,5897,65900
+7205,2010,110680,University of California-San Diego,California,7,484,3917,51400
+7206,2010,110680,University of California-San Diego,California,9,506,3878,63800
+7209,2010,110705,University of California-Santa Barbara,California,7,389,3725,46000
+7210,2010,110705,University of California-Santa Barbara,California,9,446,3904,54900
+7693,2010,122409,San Diego State University,California,7,643,6174,44400
+7694,2010,122409,San Diego State University,California,9,799,6875,50100
+7701,2010,122597,San Francisco State University,California,7,828,5800,43300
+7702,2010,122597,San Francisco State University,California,9,818,5396,48700
+7717,2010,122755,San Jose State University,California,7,535,4125,49200
+7718,2010,122755,San Jose State University,California,9,582,4482,57300
+7785,2010,123961,University of Southern California,California,7,440,4272,68800
+7786,2010,123961,University of Southern California,California,9,493,4434,72800
+8361,2009,110529,California State Polytechnic University-Pomona,California,10,491,3840,57700
+8362,2009,110529,California State Polytechnic University-Pomona,California,6,394,3598,42300
+8363,2009,110529,California State Polytechnic University-Pomona,California,8,452,3955,50800
+8370,2009,110556,California State University-Fresno,California,10,490,3945,48700
+8371,2009,110556,California State University-Fresno,California,6,494,4388,37700
+8372,2009,110556,California State University-Fresno,California,8,525,4242,44500
+8373,2009,110565,California State University-Fullerton,California,10,779,5316,51600
+8374,2009,110565,California State University-Fullerton,California,6,703,5810,39400
+8375,2009,110565,California State University-Fullerton,California,8,714,5883,46100
+8379,2009,110583,California State University-Long Beach,California,10,711,5587,53100
+8380,2009,110583,California State University-Long Beach,California,6,552,5338,39900
+8381,2009,110583,California State University-Long Beach,California,8,733,6180,46600
+8382,2009,110592,California State University-Los Angeles,California,10,454,3584,50100
+8383,2009,110592,California State University-Los Angeles,California,6,476,4261,39000
+8384,2009,110592,California State University-Los Angeles,California,8,480,3964,44700
+8385,2009,110608,California State University-Northridge,California,10,854,5790,50100
+8386,2009,110608,California State University-Northridge,California,6,796,6680,38000
+8387,2009,110608,California State University-Northridge,California,8,859,6839,44300
+8388,2009,110617,California State University-Sacramento,California,10,720,5138,52900
+8389,2009,110617,California State University-Sacramento,California,6,523,5496,41400
+8390,2009,110617,California State University-Sacramento,California,8,596,5820,46600
+8391,2009,110635,University of California-Berkeley,California,10,647,4445,74600
+8392,2009,110635,University of California-Berkeley,California,6,608,4098,53000
+8393,2009,110635,University of California-Berkeley,California,8,628,4780,67900
+8394,2009,110644,University of California-Davis,California,10,493,4628,67000
+8395,2009,110644,University of California-Davis,California,6,533,4732,45900
+8396,2009,110644,University of California-Davis,California,8,580,5209,58700
+8397,2009,110653,University of California-Irvine,California,10,484,4051,62500
+8398,2009,110653,University of California-Irvine,California,6,472,3471,43200
+8399,2009,110653,University of California-Irvine,California,8,495,4011,53700
+8400,2009,110662,University of California-Los Angeles,California,10,800,6094,70500
+8401,2009,110662,University of California-Los Angeles,California,6,610,4588,50500
+8402,2009,110662,University of California-Los Angeles,California,8,721,5539,61800
+8406,2009,110680,University of California-San Diego,California,10,365,3224,67500
+8407,2009,110680,University of California-San Diego,California,6,452,3844,45800
+8408,2009,110680,University of California-San Diego,California,8,441,3672,59200
+8412,2009,110705,University of California-Santa Barbara,California,10,441,4166,61500
+8413,2009,110705,University of California-Santa Barbara,California,6,335,3662,41600
+8414,2009,110705,University of California-Santa Barbara,California,8,374,3818,50900
+9141,2009,122409,San Diego State University,California,10,771,6938,53200
+9142,2009,122409,San Diego State University,California,6,572,5981,41600
+9143,2009,122409,San Diego State University,California,8,737,6661,48300
+9153,2009,122597,San Francisco State University,California,10,778,5185,53300
+9154,2009,122597,San Francisco State University,California,6,756,5602,41000
+9155,2009,122597,San Francisco State University,California,8,763,5303,47300
+9177,2009,122755,San Jose State University,California,10,519,3955,58900
+9178,2009,122755,San Jose State University,California,6,479,3907,46200
+9179,2009,122755,San Jose State University,California,8,564,4322,55500
+9280,2009,123961,University of Southern California,California,10,546,4459,74400
+9281,2009,123961,University of Southern California,California,6,400,4169,64200
+9282,2009,123961,University of Southern California,California,8,456,4330,69800
+9996,2008,110529,California State Polytechnic University-Pomona,California,7,353,3791,49400
+9997,2008,110529,California State Polytechnic University-Pomona,California,9,439,3786,56000
+10002,2008,110556,California State University-Fresno,California,7,441,4120,43400
+10003,2008,110556,California State University-Fresno,California,9,438,3877,48100
+10004,2008,110565,California State University-Fullerton,California,7,636,5744,45100
+10005,2008,110565,California State University-Fullerton,California,9,650,5291,50100
+10008,2008,110583,California State University-Long Beach,California,7,591,5992,45300
+10009,2008,110583,California State University-Long Beach,California,9,593,5480,51400
+10010,2008,110592,California State University-Los Angeles,California,7,393,3936,42900
+10011,2008,110592,California State University-Los Angeles,California,9,372,3558,48500
+10012,2008,110608,California State University-Northridge,California,7,751,6655,43300
+10013,2008,110608,California State University-Northridge,California,9,732,5732,48900
+10014,2008,110617,California State University-Sacramento,California,7,518,5671,45500
+10015,2008,110617,California State University-Sacramento,California,9,612,5038,51900
+10016,2008,110635,University of California-Berkeley,California,7,532,4669,65000
+10017,2008,110635,University of California-Berkeley,California,9,568,4297,71600
+10018,2008,110644,University of California-Davis,California,7,457,5083,54900
+10019,2008,110644,University of California-Davis,California,9,411,4496,63200
+10020,2008,110653,University of California-Irvine,California,7,453,3903,50700
+10021,2008,110653,University of California-Irvine,California,9,447,3859,59900
+10022,2008,110662,University of California-Los Angeles,California,7,604,5298,58200
+10023,2008,110662,University of California-Los Angeles,California,9,681,5905,68800
+10026,2008,110680,University of California-San Diego,California,7,374,3533,54200
+10027,2008,110680,University of California-San Diego,California,9,324,3111,63300
+10030,2008,110705,University of California-Santa Barbara,California,7,358,3615,48600
+10031,2008,110705,University of California-Santa Barbara,California,9,408,4039,58900
+10513,2008,122409,San Diego State University,California,7,613,6534,45800
+10514,2008,122409,San Diego State University,California,9,661,6852,51900
+10521,2008,122597,San Francisco State University,California,7,635,5268,45200
+10522,2008,122597,San Francisco State University,California,9,698,5078,51500
+10537,2008,122755,San Jose State University,California,7,485,4219,53100
+10538,2008,122755,San Jose State University,California,9,423,3899,57500
+10606,2008,123961,University of Southern California,California,7,400,4261,67100
+10607,2008,123961,University of Southern California,California,9,452,4430,72100
+11120,2007,110529,California State Polytechnic University-Pomona,California,10,343,3501,59300
+11121,2007,110529,California State Polytechnic University-Pomona,California,6,299,3599,46600
+11122,2007,110529,California State Polytechnic University-Pomona,California,8,343,3716,53800
+11129,2007,110556,California State University-Fresno,California,10,419,4090,51400
+11130,2007,110556,California State University-Fresno,California,6,361,3974,41100
+11131,2007,110556,California State University-Fresno,California,8,373,3845,46500
+11132,2007,110565,California State University-Fullerton,California,10,552,4801,54000
+11133,2007,110565,California State University-Fullerton,California,6,522,5587,43000
+11134,2007,110565,California State University-Fullerton,California,8,546,5175,48800
+11138,2007,110583,California State University-Long Beach,California,10,504,4878,55600
+11139,2007,110583,California State University-Long Beach,California,6,475,5785,43000
+11140,2007,110583,California State University-Long Beach,California,8,524,5385,49700
+11141,2007,110592,California State University-Los Angeles,California,10,337,3463,50900
+11142,2007,110592,California State University-Los Angeles,California,6,361,3802,41100
+11143,2007,110592,California State University-Los Angeles,California,8,323,3487,46600
+11144,2007,110608,California State University-Northridge,California,10,720,5817,52200
+11145,2007,110608,California State University-Northridge,California,6,636,6498,41500
+11146,2007,110608,California State University-Northridge,California,8,591,5589,47500
+11147,2007,110617,California State University-Sacramento,California,10,520,4667,55000
+11148,2007,110617,California State University-Sacramento,California,6,412,5434,43000
+11149,2007,110617,California State University-Sacramento,California,8,515,4965,50500
+11150,2007,110635,University of California-Berkeley,California,10,491,4302,78200
+11151,2007,110635,University of California-Berkeley,California,6,452,4616,60500
+11152,2007,110635,University of California-Berkeley,California,8,479,4170,68600
+11153,2007,110644,University of California-Davis,California,10,338,4124,68600
+11154,2007,110644,University of California-Davis,California,6,366,4940,50800
+11155,2007,110644,University of California-Davis,California,8,345,4331,59900
+11156,2007,110653,University of California-Irvine,California,10,353,3699,66300
+11157,2007,110653,University of California-Irvine,California,6,377,3831,47300
+11158,2007,110653,University of California-Irvine,California,8,337,3710,56400
+11159,2007,110662,University of California-Los Angeles,California,10,652,5559,72500
+11160,2007,110662,University of California-Los Angeles,California,6,507,5195,53600
+11161,2007,110662,University of California-Los Angeles,California,8,597,5534,65200
+11165,2007,110680,University of California-San Diego,California,10,334,3710,68900
+11166,2007,110680,University of California-San Diego,California,6,335,3415,50400
+11167,2007,110680,University of California-San Diego,California,8,263,2987,59200
+11171,2007,110705,University of California-Santa Barbara,California,10,371,3925,62800
+11172,2007,110705,University of California-Santa Barbara,California,6,273,3605,45600
+11173,2007,110705,University of California-Santa Barbara,California,8,301,3921,56000
+11899,2007,122409,San Diego State University,California,10,656,6666,55300
+11900,2007,122409,San Diego State University,California,6,482,6358,43400
+11901,2007,122409,San Diego State University,California,8,553,6686,50100
+11911,2007,122597,San Francisco State University,California,10,643,4982,54800
+11912,2007,122597,San Francisco State University,California,6,529,5077,43500
+11913,2007,122597,San Francisco State University,California,8,606,5048,49400
+11936,2007,122755,San Jose State University,California,10,478,4091,61600
+11937,2007,122755,San Jose State University,California,6,371,4149,49700
+11938,2007,122755,San Jose State University,California,8,356,3835,56100
+12036,2007,123961,University of Southern California,California,10,409,4029,75200
+12037,2007,123961,University of Southern California,California,6,358,4200,63400
+12038,2007,123961,University of Southern California,California,8,368,4419,70100
+12693,2006,110529,California State Polytechnic University-Pomona,California,7,297,3573,50800
+12694,2006,110529,California State Polytechnic University-Pomona,California,9,313,3368,57500
+12699,2006,110556,California State University-Fresno,California,7,310,3716,43700
+12700,2006,110556,California State University-Fresno,California,9,368,4069,49100
+12701,2006,110565,California State University-Fullerton,California,7,489,4986,46600
+12702,2006,110565,California State University-Fullerton,California,9,505,4663,51900
+12705,2006,110583,California State University-Long Beach,California,7,460,5217,47000
+12706,2006,110583,California State University-Long Beach,California,9,452,4752,53800
+12707,2006,110592,California State University-Los Angeles,California,7,291,3350,44000
+12708,2006,110592,California State University-Los Angeles,California,9,293,3377,48300
+12709,2006,110608,California State University-Northridge,California,7,538,5372,45000
+12710,2006,110608,California State University-Northridge,California,9,639,5642,50100
+12711,2006,110617,California State University-Sacramento,California,7,479,4817,48400
+12712,2006,110617,California State University-Sacramento,California,9,458,4556,52900
+12713,2006,110635,University of California-Berkeley,California,7,450,4001,62300
+12714,2006,110635,University of California-Berkeley,California,9,434,4072,72600
+12715,2006,110644,University of California-Davis,California,7,304,4140,54100
+12716,2006,110644,University of California-Davis,California,9,311,3917,64400
+12717,2006,110653,University of California-Irvine,California,7,287,3458,51700
+12718,2006,110653,University of California-Irvine,California,9,326,3475,62900
+12719,2006,110662,University of California-Los Angeles,California,7,531,5081,59200
+12720,2006,110662,University of California-Los Angeles,California,9,587,5269,68200
+12723,2006,110680,University of California-San Diego,California,7,220,2815,53200
+12724,2006,110680,University of California-San Diego,California,9,268,3534,64800
+12727,2006,110705,University of California-Santa Barbara,California,7,297,3753,51600
+12728,2006,110705,University of California-Santa Barbara,California,9,352,3738,59800
+13215,2006,122409,San Diego State University,California,7,485,6353,47800
+13216,2006,122409,San Diego State University,California,9,599,6481,53200
+13223,2006,122597,San Francisco State University,California,7,562,4854,46800
+13224,2006,122597,San Francisco State University,California,9,563,4902,51800
+13240,2006,122755,San Jose State University,California,7,353,3729,53300
+13241,2006,122755,San Jose State University,California,9,430,4037,58700
+13307,2006,123961,University of Southern California,California,7,301,4327,64900
+13308,2006,123961,University of Southern California,California,9,345,3904,69700
+13758,2005,110529,California State Polytechnic University-Pomona,California,6,274,3379,45900
+13759,2005,110529,California State Polytechnic University-Pomona,California,8,296,3228,53700
+13764,2005,110556,California State University-Fresno,California,6,286,3436,40800
+13765,2005,110556,California State University-Fresno,California,8,330,3852,46200
+13766,2005,110565,California State University-Fullerton,California,6,424,4756,43200
+13767,2005,110565,California State University-Fullerton,California,8,494,4475,49800
+13770,2005,110583,California State University-Long Beach,California,6,421,4863,43200
+13771,2005,110583,California State University-Long Beach,California,8,423,4563,50700
+13772,2005,110592,California State University-Los Angeles,California,6,298,3206,39900
+13773,2005,110592,California State University-Los Angeles,California,8,275,3240,45500
+13774,2005,110608,California State University-Northridge,California,6,439,5078,41100
+13775,2005,110608,California State University-Northridge,California,8,594,5311,47000
+13776,2005,110617,California State University-Sacramento,California,6,400,4558,44700
+13777,2005,110617,California State University-Sacramento,California,8,407,4367,50500
+13778,2005,110635,University of California-Berkeley,California,6,418,3823,55000
+13779,2005,110635,University of California-Berkeley,California,8,416,3786,64700
+13780,2005,110644,University of California-Davis,California,6,283,3887,48200
+13781,2005,110644,University of California-Davis,California,8,270,3663,59000
+13782,2005,110653,University of California-Irvine,California,6,283,3305,46100
+13783,2005,110653,University of California-Irvine,California,8,292,3180,57100
+13784,2005,110662,University of California-Los Angeles,California,6,518,4800,52200
+13785,2005,110662,University of California-Los Angeles,California,8,522,4840,62000
+13788,2005,110680,University of California-San Diego,California,6,228,2614,47300
+13789,2005,110680,University of California-San Diego,California,8,255,3192,58600
+13792,2005,110705,University of California-Santa Barbara,California,6,270,3528,45700
+13793,2005,110705,University of California-Santa Barbara,California,8,288,3491,54700
+14282,2005,122409,San Diego State University,California,6,415,5991,43700
+14283,2005,122409,San Diego State University,California,8,533,6178,50000
+14290,2005,122597,San Francisco State University,California,6,514,4510,43100
+14291,2005,122597,San Francisco State University,California,8,527,4708,48600
+14307,2005,122755,San Jose State University,California,6,311,3570,48600
+14308,2005,122755,San Jose State University,California,8,404,3966,54900
+14376,2005,123961,University of Southern California,California,6,272,4163,58300
+14377,2005,123961,University of Southern California,California,8,317,3768,64700
+14807,2004,110529,CALIFORNIA STATE POLYTECHNIC UNIVERSITY-POMONA,California,7,278,3070,48300
+14810,2004,110556,CALIFORNIA STATE UNIVERSITY-FRESNO,California,7,319,3553,43400
+14811,2004,110565,CALIFORNIA STATE UNIVERSITY-FULLERTON,California,7,435,4286,46500
+14813,2004,110583,CALIFORNIA STATE UNIVERSITY-LONG BEACH,California,7,423,4330,47000
+14814,2004,110592,CALIFORNIA STATE UNIVERSITY-LOS ANGELES,California,7,276,3047,41400
+14815,2004,110608,CALIFORNIA STATE UNIVERSITY-NORTHRIDGE,California,7,529,4978,43500
+14816,2004,110617,CALIFORNIA STATE UNIVERSITY-SACRAMENTO,California,7,351,4180,47400
+14817,2004,110635,UNIVERSITY OF CALIFORNIA-BERKELEY,California,7,390,3560,57000
+14818,2004,110644,UNIVERSITY OF CALIFORNIA-DAVIS,California,7,255,3433,53600
+14819,2004,110653,UNIVERSITY OF CALIFORNIA-IRVINE,California,7,286,2870,51400
+14820,2004,110662,UNIVERSITY OF CALIFORNIA-LOS ANGELES,California,7,506,4482,55800
+14822,2004,110680,UNIVERSITY OF CALIFORNIA-SAN DIEGO,California,7,251,2933,51900
+14824,2004,110705,UNIVERSITY OF CALIFORNIA-SANTA BARBARA,California,7,255,3307,49000
+15070,2004,122409,SAN DIEGO STATE UNIVERSITY,California,7,482,5698,46800
+15074,2004,122597,SAN FRANCISCO STATE UNIVERSITY,California,7,478,4461,45100
+15084,2004,122755,SAN JOSE STATE UNIVERSITY,California,7,389,3843,51400
+15117,2004,123961,UNIVERSITY OF SOUTHERN CALIFORNIA,California,7,306,3596,59200
+15346,2003,110529,CALIFORNIA STATE POLYTECHNIC UNIVERSITY-POMONA,California,6,259,2845,43800
+15349,2003,110556,CALIFORNIA STATE UNIVERSITY-FRESNO,California,6,295,3319,39900
+15350,2003,110565,CALIFORNIA STATE UNIVERSITY-FULLERTON,California,6,387,3984,43200
+15352,2003,110583,CALIFORNIA STATE UNIVERSITY-LONG BEACH,California,6,398,4026,42300
+15353,2003,110592,CALIFORNIA STATE UNIVERSITY-LOS ANGELES,California,6,296,2894,38500
+15354,2003,110608,CALIFORNIA STATE UNIVERSITY-NORTHRIDGE,California,6,496,4621,40100
+15355,2003,110617,CALIFORNIA STATE UNIVERSITY-SACRAMENTO,California,6,336,3837,45100
+15356,2003,110635,UNIVERSITY OF CALIFORNIA-BERKELEY,California,6,374,3509,49700
+15357,2003,110644,UNIVERSITY OF CALIFORNIA-DAVIS,California,6,220,3337,47700
+15358,2003,110653,UNIVERSITY OF CALIFORNIA-IRVINE,California,6,282,2694,45100
+15359,2003,110662,UNIVERSITY OF CALIFORNIA-LOS ANGELES,California,6,492,4342,48100
+15361,2003,110680,UNIVERSITY OF CALIFORNIA-SAN DIEGO,California,6,230,2804,45600
+15363,2003,110705,UNIVERSITY OF CALIFORNIA-SANTA BARBARA,California,6,217,3148,43500
+15613,2003,122409,SAN DIEGO STATE UNIVERSITY,California,6,404,5243,43100
+15617,2003,122597,SAN FRANCISCO STATE UNIVERSITY,California,6,424,4206,41300
+15627,2003,122755,SAN JOSE STATE UNIVERSITY,California,6,371,3683,47100
+15661,2003,123961,UNIVERSITY OF SOUTHERN CALIFORNIA,California,6,306,3509,52400
+16006,2014,139940,Georgia State University,Georgia,10,685,5377,48200
+16007,2014,139940,Georgia State University,Georgia,6,642,6459,38100
+16008,2014,139940,Georgia State University,Georgia,8,666,5576,43300
+16009,2014,139959,University of Georgia,Georgia,10,526,5102,59100
+16010,2014,139959,University of Georgia,Georgia,6,414,4978,45200
+16011,2014,139959,University of Georgia,Georgia,8,435,5097,53000
+16258,2014,174066,University of Minnesota-Twin Cities,Minnesota,10,715,8779,61200
+16259,2014,174066,University of Minnesota-Twin Cities,Minnesota,6,543,8089,46000
+16260,2014,174066,University of Minnesota-Twin Cities,Minnesota,8,548,8440,54400
+16564,2014,190150,Columbia University in the City of New York,New York,10,408,2847,115600
+16565,2014,190150,Columbia University in the City of New York,New York,6,244,2065,77900
+16566,2014,190150,Columbia University in the City of New York,New York,8,346,2735,95500
+16588,2014,190415,Cornell University,New York,10,257,2990,101200
+16589,2014,190415,Cornell University,New York,6,188,2542,76300
+16590,2014,190415,Cornell University,New York,8,202,2631,86300
+16627,2014,190594,CUNY Hunter College,New York,10,631,3775,51800
+16628,2014,190594,CUNY Hunter College,New York,6,429,3355,39300
+16629,2014,190594,CUNY Hunter College,New York,8,525,3550,45600
+16927,2014,193900,New York University,New York,10,640,5497,78600
+16928,2014,193900,New York University,New York,6,487,5001,55900
+16929,2014,193900,New York University,New York,8,532,5074,68700
+17086,2014,195809,St John's University-New York,New York,10,474,4312,62400
+17087,2014,195809,St John's University-New York,New York,6,371,3845,48100
+17088,2014,195809,St John's University-New York,New York,8,393,4145,54300
+17122,2014,196088,University at Buffalo,New York,10,597,6530,62100
+17123,2014,196088,University at Buffalo,New York,6,369,5332,46100
+17124,2014,196088,University at Buffalo,New York,8,463,5958,54400
+17125,2014,196097,Stony Brook University,New York,10,491,4064,62600
+17126,2014,196097,Stony Brook University,New York,6,388,3859,44000
+17127,2014,196097,Stony Brook University,New York,8,477,4301,52800
+18094,2013,139940,Georgia State University,Georgia,10,731,5565,46200
+18095,2013,139940,Georgia State University,Georgia,6,631,5494,36200
+18096,2013,139940,Georgia State University,Georgia,8,634,5160,41100
+18097,2013,139959,University of Georgia,Georgia,10,539,5040,56400
+18098,2013,139959,University of Georgia,Georgia,6,375,4744,42800
+18099,2013,139959,University of Georgia,Georgia,8,430,4809,50200
+18346,2013,174066,University of Minnesota-Twin Cities,Minnesota,10,737,8513,58200
+18347,2013,174066,University of Minnesota-Twin Cities,Minnesota,6,514,7654,44700
+18348,2013,174066,University of Minnesota-Twin Cities,Minnesota,8,610,8703,51000
+18655,2013,190150,Columbia University in the City of New York,New York,10,371,2627,107600
+18656,2013,190150,Columbia University in the City of New York,New York,6,339,2558,79000
+18657,2013,190150,Columbia University in the City of New York,New York,8,371,2700,92300
+18679,2013,190415,Cornell University,New York,10,285,3142,98400
+18680,2013,190415,Cornell University,New York,6,181,2394,68400
+18681,2013,190415,Cornell University,New York,8,212,2620,81700
+18718,2013,190594,CUNY Hunter College,New York,10,596,3574,48800
+18719,2013,190594,CUNY Hunter College,New York,6,436,3362,37400
+18720,2013,190594,CUNY Hunter College,New York,8,561,3630,43200
+19018,2013,193900,New York University,New York,10,657,5369,76000
+19019,2013,193900,New York University,New York,6,504,4882,53900
+19020,2013,193900,New York University,New York,8,560,5064,63500
+19189,2013,195809,St John's University-New York,New York,10,493,4378,61400
+19190,2013,195809,St John's University-New York,New York,6,381,3682,44900
+19191,2013,195809,St John's University-New York,New York,8,438,4028,52300
+19225,2013,196088,University at Buffalo,New York,10,543,6238,58400
+19226,2013,196088,University at Buffalo,New York,6,357,5373,44900
+19227,2013,196088,University at Buffalo,New York,8,512,5929,51400
+19228,2013,196097,Stony Brook University,New York,10,527,4158,59300
+19229,2013,196097,Stony Brook University,New York,6,410,3824,41800
+19230,2013,196097,Stony Brook University,New York,8,474,3956,50900
+20209,2012,139940,Georgia State University,Georgia,10,776,5371,45900
+20210,2012,139940,Georgia State University,Georgia,6,560,4813,35400
+20211,2012,139940,Georgia State University,Georgia,8,645,4782,40400
+20212,2012,139959,University of Georgia,Georgia,10,504,4755,55200
+20213,2012,139959,University of Georgia,Georgia,6,338,4476,41000
+20214,2012,139959,University of Georgia,Georgia,8,441,4711,48500
+20485,2012,174066,University of Minnesota-Twin Cities,Minnesota,10,710,8149,55100
+20486,2012,174066,University of Minnesota-Twin Cities,Minnesota,6,453,7600,43700
+20487,2012,174066,University of Minnesota-Twin Cities,Minnesota,8,622,8005,49900
+20797,2012,190150,Columbia University in the City of New York,New York,10,326,2329,101400
+20798,2012,190150,Columbia University in the City of New York,New York,6,328,2579,77000
+20799,2012,190150,Columbia University in the City of New York,New York,8,359,2543,92100
+20821,2012,190415,Cornell University,New York,10,291,3071,95700
+20822,2012,190415,Cornell University,New York,6,188,2317,66300
+20823,2012,190415,Cornell University,New York,8,211,2566,81200
+20860,2012,190594,CUNY Hunter College,New York,10,614,3657,48400
+20861,2012,190594,CUNY Hunter College,New York,6,469,3203,36000
+20862,2012,190594,CUNY Hunter College,New York,8,571,3506,43100
+21172,2012,193900,New York University,New York,10,691,5204,76500
+21173,2012,193900,New York University,New York,6,461,4655,52000
+21174,2012,193900,New York University,New York,8,601,4931,62800
+21349,2012,195809,St. John's University-New York,New York,10,520,4298,60200
+21350,2012,195809,St. John's University-New York,New York,6,390,3601,43300
+21351,2012,195809,St. John's University-New York,New York,8,432,3864,53300
+21388,2012,196088,University at Buffalo,New York,10,530,5732,56700
+21389,2012,196088,University at Buffalo,New York,6,365,5149,43100
+21390,2012,196088,University at Buffalo,New York,8,507,6024,51500
+21391,2012,196097,Stony Brook University,New York,10,563,4306,58900
+21392,2012,196097,Stony Brook University,New York,6,454,3711,41100
+21393,2012,196097,Stony Brook University,New York,8,461,3688,51300
+22364,2011,139940,Georgia State University,Georgia,10,690,4778,45900
+22365,2011,139940,Georgia State University,Georgia,6,527,4359,35200
+22366,2011,139940,Georgia State University,Georgia,8,645,4915,40500
+22367,2011,139959,University of Georgia,Georgia,10,506,4703,54000
+22368,2011,139959,University of Georgia,Georgia,6,352,4071,41000
+22369,2011,139959,University of Georgia,Georgia,8,430,4620,48800
+22640,2011,174066,University of Minnesota-Twin Cities,Minnesota,10,711,7797,54000
+22641,2011,174066,University of Minnesota-Twin Cities,Minnesota,6,470,7757,42700
+22642,2011,174066,University of Minnesota-Twin Cities,Minnesota,8,600,7705,49500
+22954,2011,190150,Columbia University in the City of New York,New York,10,293,1786,99600
+22955,2011,190150,Columbia University in the City of New York,New York,6,277,2594,79300
+22956,2011,190150,Columbia University in the City of New York,New York,8,320,2328,92500
+22978,2011,190415,Cornell University,New York,10,279,2867,93800
+22979,2011,190415,Cornell University,New York,6,188,2247,68900
+22980,2011,190415,Cornell University,New York,8,233,2662,84500
+23017,2011,190594,CUNY Hunter College,New York,10,618,3693,48300
+23018,2011,190594,CUNY Hunter College,New York,6,520,3268,36200
+23019,2011,190594,CUNY Hunter College,New York,8,571,3245,43500
+23345,2011,193900,New York University,New York,10,680,4914,76800
+23346,2011,193900,New York University,New York,6,478,4641,51000
+23347,2011,193900,New York University,New York,8,579,4758,64600
+23527,2011,195809,St John's University-New York,New York,10,480,4021,60100
+23528,2011,195809,St John's University-New York,New York,6,409,3512,43700
+23529,2011,195809,St John's University-New York,New York,8,429,3984,54700
+23566,2011,196088,University at Buffalo,New York,10,509,5679,57300
+23567,2011,196088,University at Buffalo,New York,6,381,5016,43600
+23568,2011,196088,University at Buffalo,New York,8,449,5720,50600
+23569,2011,196097,Stony Brook University,New York,10,538,4276,59500
+23570,2011,196097,Stony Brook University,New York,6,431,3392,42500
+23571,2011,196097,Stony Brook University,New York,8,473,3811,51600
+24468,2010,139940,Georgia State University,Georgia,7,597,4650,38400
+24469,2010,139940,Georgia State University,Georgia,9,631,4641,43900
+24470,2010,139959,University of Georgia,Georgia,7,388,4359,45800
+24471,2010,139959,University of Georgia,Georgia,9,445,4558,50800
+24653,2010,174066,University of Minnesota-Twin Cities,Minnesota,7,578,7369,46500
+24654,2010,174066,University of Minnesota-Twin Cities,Minnesota,9,644,7556,51300
+24862,2010,190150,Columbia University in the City of New York,New York,7,296,2221,89100
+24863,2010,190150,Columbia University in the City of New York,New York,9,268,1710,95500
+24878,2010,190415,Cornell University,New York,7,219,2446,78500
+24879,2010,190415,Cornell University,New York,9,260,2676,88900
+24904,2010,190594,CUNY Hunter College,New York,7,561,3107,40700
+24905,2010,190594,CUNY Hunter College,New York,9,573,3585,46200
+25126,2010,193900,New York University,New York,7,556,4548,59300
+25127,2010,193900,New York University,New York,9,629,4767,70400
+25248,2010,195809,St John's University-New York,New York,7,417,3812,51900
+25249,2010,195809,St John's University-New York,New York,9,443,3908,58400
+25274,2010,196088,University at Buffalo,New York,7,416,5389,47000
+25275,2010,196088,University at Buffalo,New York,9,486,5491,54500
+25276,2010,196097,Stony Brook University,New York,7,477,3593,49100
+25277,2010,196097,Stony Brook University,New York,9,503,4111,57000
+25928,2009,139940,Georgia State University,Georgia,10,538,3617,47600
+25929,2009,139940,Georgia State University,Georgia,6,526,4463,36800
+25930,2009,139940,Georgia State University,Georgia,8,588,4528,41800
+25931,2009,139959,University of Georgia,Georgia,10,553,5072,55300
+25932,2009,139959,University of Georgia,Georgia,6,344,4203,42100
+25933,2009,139959,University of Georgia,Georgia,8,415,4427,48900
+26209,2009,174066,University of Minnesota-Twin Cities,Minnesota,10,666,7215,55400
+26210,2009,174066,University of Minnesota-Twin Cities,Minnesota,6,505,7179,43600
+26211,2009,174066,University of Minnesota-Twin Cities,Minnesota,8,569,7359,48500
+26535,2009,190150,Columbia University in the City of New York,New York,10,219,1427,92000
+26536,2009,190150,Columbia University in the City of New York,New York,6,244,2151,82600
+26537,2009,190150,Columbia University in the City of New York,New York,8,260,1595,88800
+26559,2009,190415,Cornell University,New York,10,294,2747,89200
+26560,2009,190415,Cornell University,New York,6,203,2368,68800
+26561,2009,190415,Cornell University,New York,8,229,2545,80300
+26598,2009,190594,CUNY Hunter College,New York,10,535,3257,49300
+26599,2009,190594,CUNY Hunter College,New York,6,516,3031,38400
+26600,2009,190594,CUNY Hunter College,New York,8,522,3530,45200
+26930,2009,193900,New York University,New York,10,673,4772,71800
+26931,2009,193900,New York University,New York,6,524,4467,52300
+26932,2009,193900,New York University,New York,8,554,4624,64000
+27123,2009,195809,St. John's University-New York,New York,10,462,3856,63800
+27124,2009,195809,St. John's University-New York,New York,6,351,3631,48300
+27125,2009,195809,St. John's University-New York,New York,8,410,3757,56300
+27162,2009,196088,University at Buffalo,New York,10,447,4890,56400
+27163,2009,196088,University at Buffalo,New York,6,355,5039,43500
+27164,2009,196088,University at Buffalo,New York,8,428,5328,51800
+27165,2009,196097,Stony Brook University,New York,10,477,4005,61300
+27166,2009,196097,Stony Brook University,New York,6,429,3452,45600
+27167,2009,196097,Stony Brook University,New York,8,446,4023,53800
+27996,2008,139940,Georgia State University,Georgia,7,502,4451,40100
+27997,2008,139940,Georgia State University,Georgia,9,484,3603,46300
+27998,2008,139959,University of Georgia,Georgia,7,357,4279,46600
+27999,2008,139959,University of Georgia,Georgia,9,483,5011,53400
+28193,2008,174066,University of Minnesota-Twin Cities,Minnesota,7,481,7239,46200
+28194,2008,174066,University of Minnesota-Twin Cities,Minnesota,9,572,7123,53500
+28410,2008,190150,Columbia University in the City of New York,New York,7,230,1581,86000
+28411,2008,190150,Columbia University in the City of New York,New York,9,192,1400,88000
+28426,2008,190415,Cornell University,New York,7,216,2411,76800
+28427,2008,190415,Cornell University,New York,9,236,2628,86500
+28450,2008,190594,CUNY Hunter College,New York,7,497,3509,43100
+28451,2008,190594,CUNY Hunter College,New York,9,473,3247,47500
+28673,2008,193900,New York University,New York,7,491,4598,60000
+28674,2008,193900,New York University,New York,9,553,4815,68100
+28805,2008,195809,St. John's University-New York,New York,7,359,3678,54300
+28806,2008,195809,St. John's University-New York,New York,9,383,3853,61000
+28831,2008,196088,University at Buffalo,New York,7,336,5196,48600
+28832,2008,196088,University at Buffalo,New York,9,378,4810,53700
+28833,2008,196097,Stony Brook University,New York,7,395,3899,51100
+28834,2008,196097,Stony Brook University,New York,9,398,3982,58400
+29477,2007,139940,Georgia State University,Georgia,10,544,3957,47300
+29478,2007,139940,Georgia State University,Georgia,6,401,4341,38800
+29479,2007,139940,Georgia State University,Georgia,8,395,3576,44400
+29480,2007,139959,University of Georgia,Georgia,10,431,4553,57500
+29481,2007,139959,University of Georgia,Georgia,6,286,4202,43500
+29482,2007,139959,University of Georgia,Georgia,8,413,4974,51500
+29773,2007,174066,University of Minnesota-Twin Cities,Minnesota,10,526,6162,54600
+29774,2007,174066,University of Minnesota-Twin Cities,Minnesota,6,380,6980,44000
+29775,2007,174066,University of Minnesota-Twin Cities,Minnesota,8,466,6967,51500
+30105,2007,190150,Columbia University in the City of New York,New York,10,269,2056,104300
+30106,2007,190150,Columbia University in the City of New York,New York,6,176,1594,82700
+30107,2007,190150,Columbia University in the City of New York,New York,8,169,1369,89700
+30129,2007,190415,Cornell University,New York,10,231,2733,93200
+30130,2007,190415,Cornell University,New York,6,169,2351,71100
+30131,2007,190415,Cornell University,New York,8,195,2505,82300
+30166,2007,190594,CUNY Hunter College,New York,10,478,3363,51500
+30167,2007,190594,CUNY Hunter College,New York,6,408,3437,39700
+30168,2007,190594,CUNY Hunter College,New York,8,406,3203,45500
+30504,2007,193900,New York University,New York,10,608,4868,75300
+30505,2007,193900,New York University,New York,6,409,4609,56800
+30506,2007,193900,New York University,New York,8,498,4691,65800
+30700,2007,195809,St. John's University-New York,New York,10,414,3890,66300
+30701,2007,195809,St. John's University-New York,New York,6,304,3548,49800
+30702,2007,195809,St. John's University-New York,New York,8,319,3756,57600
+30739,2007,196088,SUNY at Buffalo,New York,10,295,4142,58600
+30740,2007,196088,SUNY at Buffalo,New York,6,267,4959,45200
+30741,2007,196088,SUNY at Buffalo,New York,8,313,4614,51000
+30742,2007,196097,Stony Brook University,New York,10,341,3527,65000
+30743,2007,196097,Stony Brook University,New York,6,362,3750,47000
+30744,2007,196097,Stony Brook University,New York,8,345,3855,55400
+31556,2006,139940,Georgia State University,Georgia,7,377,3480,42700
+31557,2006,139940,Georgia State University,Georgia,9,473,3889,45700
+31558,2006,139959,University of Georgia,Georgia,7,347,4795,48200
+31559,2006,139959,University of Georgia,Georgia,9,387,4449,54800
+31754,2006,174066,University of Minnesota-Twin Cities,Minnesota,7,406,6711,47400
+31755,2006,174066,University of Minnesota-Twin Cities,Minnesota,9,471,5975,52200
+31980,2006,190150,Columbia University in the City of New York,New York,7,145,1340,78800
+31981,2006,190150,Columbia University in the City of New York,New York,9,229,1984,94700
+31996,2006,190415,Cornell University,New York,7,178,2378,73000
+31997,2006,190415,Cornell University,New York,9,200,2546,85400
+32021,2006,190594,CUNY Hunter College,New York,7,408,3061,42200
+32022,2006,190594,CUNY Hunter College,New York,9,449,3265,49100
+32250,2006,193900,New York University,New York,7,433,4591,59400
+32251,2006,193900,New York University,New York,9,562,4720,67900
+32380,2006,195809,St. John's University-New York,New York,7,294,3619,53200
+32381,2006,195809,St. John's University-New York,New York,9,351,3875,62200
+32406,2006,196088,SUNY at Buffalo,New York,7,284,4377,47500
+32407,2006,196088,SUNY at Buffalo,New York,9,286,3984,55400
+32408,2006,196097,Stony Brook University,New York,7,320,3616,51100
+32409,2006,196097,Stony Brook University,New York,9,289,3407,60400
+32972,2005,139940,Georgia State University,Georgia,6,324,3343,39000
+32973,2005,139940,Georgia State University,Georgia,8,467,3792,43200
+32974,2005,139959,University of Georgia,Georgia,6,301,4600,43300
+32975,2005,139959,University of Georgia,Georgia,8,331,4327,51100
+33170,2005,174066,University of Minnesota-Twin Cities,Minnesota,6,380,6396,43400
+33171,2005,174066,University of Minnesota-Twin Cities,Minnesota,8,414,5843,48900
+33396,2005,190150,Columbia University in the City of New York,New York,6,139,1272,70000
+33397,2005,190150,Columbia University in the City of New York,New York,8,210,1903,84000
+33412,2005,190415,Cornell University,New York,6,160,2286,62100
+33413,2005,190415,Cornell University,New York,8,190,2369,76200
+33437,2005,190594,CUNY Hunter College,New York,6,376,2938,38000
+33438,2005,190594,CUNY Hunter College,New York,8,422,3168,45500
+33663,2005,193900,New York University,New York,6,430,4451,52300
+33664,2005,193900,New York University,New York,8,521,4539,61600
+33793,2005,195809,St. John's University-New York,New York,6,297,3319,48000
+33794,2005,195809,St. John's University-New York,New York,8,357,3697,58200
+33819,2005,196088,SUNY at Buffalo,New York,6,261,4038,42400
+33820,2005,196088,SUNY at Buffalo,New York,8,252,3793,51400
+33821,2005,196097,Stony Brook University,New York,6,308,3353,46400
+33822,2005,196097,Stony Brook University,New York,8,286,3169,55900
+34326,2004,139940,GEORGIA STATE UNIVERSITY,Georgia,7,409,3579,40400
+34327,2004,139959,UNIVERSITY OF GEORGIA,Georgia,7,282,4145,47100
+34425,2004,174066,UNIVERSITY OF MINNESOTA-TWIN CITIES,Minnesota,7,334,5574,45700
+34541,2004,190150,COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK,New York,7,220,1829,74200
+34550,2004,190415,CORNELL UNIVERSITY-ENDOWED COLLEGES,New York,7,174,2225,67000
+34563,2004,190594,CUNY HUNTER COLLEGE,New York,7,403,3073,41700
+34677,2004,193900,NEW YORK UNIVERSITY,New York,7,487,4346,54900
+34741,2004,195809,ST JOHN'S UNIVERSITY-NEW YORK,New York,7,353,3492,54100
+34754,2004,196088,SUNY AT BUFFALO,New York,7,216,3573,46900
+34755,2004,196097,SUNY AT STONY BROOK,New York,7,264,2993,51200
+35021,2003,139940,GEORGIA STATE UNIVERSITY,Georgia,6,362,3396,38300
+35022,2003,139959,UNIVERSITY OF GEORGIA,Georgia,6,239,3964,43000
+35126,2003,174066,UNIVERSITY OF MINNESOTA-TWIN CITIES,Minnesota,6,310,5259,42500
+35246,2003,190150,COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK,New York,6,195,1823,65300
+35255,2003,190415,CORNELL UNIVERSITY-ENDOWED COLLEGES,New York,6,184,2172,57700
+35268,2003,190594,CUNY HUNTER COLLEGE,New York,6,411,2951,38200
+35385,2003,193900,NEW YORK UNIVERSITY,New York,6,444,4270,47600
+35449,2003,195809,ST JOHN'S UNIVERSITY-NEW YORK,New York,6,332,3326,48800
+35462,2003,196088,SUNY AT BUFFALO,New York,6,226,3210,42100
+35463,2003,196097,SUNY AT STONY BROOK,New York,6,266,2805,47300
+35714,2014,104151,Arizona State University-Tempe,Arizona,10,1679,12854,55500
+35715,2014,104151,Arizona State University-Tempe,Arizona,6,1505,15223,42200
+35716,2014,104151,Arizona State University-Tempe,Arizona,8,1462,12730,48800
+35720,2014,104179,University of Arizona,Arizona,10,774,6172,56000
+35721,2014,104179,University of Arizona,Arizona,6,598,6520,41800
+35722,2014,104179,University of Arizona,Arizona,8,686,5971,48100
+35786,2014,105330,Northern Arizona University,Arizona,10,610,4439,44600
+35787,2014,105330,Northern Arizona University,Arizona,6,537,5822,36900
+35788,2014,105330,Northern Arizona University,Arizona,8,562,4728,40900
+35897,2014,169248,Central Michigan University,Michigan,10,521,6039,46200
+35898,2014,169248,Central Michigan University,Michigan,6,325,6269,37600
+35899,2014,169248,Central Michigan University,Michigan,8,456,6091,42400
+35936,2014,169798,Eastern Michigan University,Michigan,10,661,4895,43900
+35937,2014,169798,Eastern Michigan University,Michigan,6,475,5108,35300
+35938,2014,169798,Eastern Michigan University,Michigan,8,506,4797,40100
+35966,2014,170082,Grand Valley State University,Michigan,10,553,6283,47200
+35967,2014,170082,Grand Valley State University,Michigan,6,355,6145,37700
+35968,2014,170082,Grand Valley State University,Michigan,8,418,6056,42800
+36281,2014,201885,University of Cincinnati-Main Campus,Ohio,10,1061,8794,49700
+36282,2014,201885,University of Cincinnati-Main Campus,Ohio,6,734,8863,39600
+36283,2014,201885,University of Cincinnati-Main Campus,Ohio,8,803,8468,44400
+36434,2014,203517,Kent State University at Kent,Ohio,10,1214,9943,42400
+36435,2014,203517,Kent State University at Kent,Ohio,6,882,9486,33500
+36436,2014,203517,Kent State University at Kent,Ohio,8,983,8902,38500
+36596,2014,204796,Ohio State University-Main Campus,Ohio,10,1277,13467,53600
+36597,2014,204796,Ohio State University-Main Campus,Ohio,6,889,13129,41500
+36598,2014,204796,Ohio State University-Main Campus,Ohio,8,1085,13404,47400
+36611,2014,204857,Ohio University-Main Campus,Ohio,10,995,8039,45800
+36612,2014,204857,Ohio University-Main Campus,Ohio,6,861,8799,35900
+36613,2014,204857,Ohio University-Main Campus,Ohio,8,911,7865,41200
+37832,2013,104151,Arizona State University-Tempe,Arizona,10,1704,12680,52600
+37833,2013,104151,Arizona State University-Tempe,Arizona,6,1304,12941,40300
+37834,2013,104151,Arizona State University-Tempe,Arizona,8,1452,12148,47000
+37838,2013,104179,University of Arizona,Arizona,10,810,6307,54000
+37839,2013,104179,University of Arizona,Arizona,6,597,5860,39500
+37840,2013,104179,University of Arizona,Arizona,8,691,5837,46700
+37913,2013,105330,Northern Arizona University,Arizona,10,612,4288,43900
+37914,2013,105330,Northern Arizona University,Arizona,6,498,4931,35600
+37915,2013,105330,Northern Arizona University,Arizona,8,544,4423,38700
+38027,2013,169248,Central Michigan University,Michigan,10,512,5863,44500
+38028,2013,169248,Central Michigan University,Michigan,6,310,5603,35300
+38029,2013,169248,Central Michigan University,Michigan,8,437,6049,40100
+38069,2013,169798,Eastern Michigan University,Michigan,10,668,4801,41600
+38070,2013,169798,Eastern Michigan University,Michigan,6,419,4500,33700
+38071,2013,169798,Eastern Michigan University,Michigan,8,508,4669,37700
+38099,2013,170082,Grand Valley State University,Michigan,10,555,5904,44600
+38100,2013,170082,Grand Valley State University,Michigan,6,311,5597,35600
+38101,2013,170082,Grand Valley State University,Michigan,8,442,6027,41000
+38414,2013,201885,University of Cincinnati-Main Campus,Ohio,10,1108,8142,45600
+38415,2013,201885,University of Cincinnati-Main Campus,Ohio,6,662,7901,38200
+38416,2013,201885,University of Cincinnati-Main Campus,Ohio,8,829,8405,43100
+38567,2013,203517,Kent State University at Kent,Ohio,10,1197,9717,40300
+38568,2013,203517,Kent State University at Kent,Ohio,6,852,8426,31900
+38569,2013,203517,Kent State University at Kent,Ohio,8,1016,8972,36900
+38729,2013,204796,Ohio State University-Main Campus,Ohio,10,1300,13034,50600
+38730,2013,204796,Ohio State University-Main Campus,Ohio,6,870,12303,39300
+38731,2013,204796,Ohio State University-Main Campus,Ohio,8,1111,13191,45100
+38744,2013,204857,Ohio University-Main Campus,Ohio,10,1016,7649,44500
+38745,2013,204857,Ohio University-Main Campus,Ohio,6,754,7670,34200
+38746,2013,204857,Ohio University-Main Campus,Ohio,8,906,7874,39000
+39992,2012,104151,Arizona State University,Arizona,10,1674,11808,52100
+39993,2012,104151,Arizona State University,Arizona,6,1179,11442,39400
+39994,2012,104151,Arizona State University,Arizona,8,1428,11907,46600
+39998,2012,104179,University of Arizona,Arizona,10,845,6304,53200
+39999,2012,104179,University of Arizona,Arizona,6,609,5426,38100
+40000,2012,104179,University of Arizona,Arizona,8,677,5819,46200
+40076,2012,105330,Northern Arizona University,Arizona,10,587,4269,43400
+40077,2012,105330,Northern Arizona University,Arizona,6,466,4247,34700
+40078,2012,105330,Northern Arizona University,Arizona,8,530,4102,37900
+40187,2012,169248,Central Michigan University,Michigan,10,502,5672,44000
+40188,2012,169248,Central Michigan University,Michigan,6,351,5234,33500
+40189,2012,169248,Central Michigan University,Michigan,8,397,5478,38800
+40232,2012,169798,Eastern Michigan University,Michigan,10,639,4600,40300
+40233,2012,169798,Eastern Michigan University,Michigan,6,395,4026,33000
+40234,2012,169798,Eastern Michigan University,Michigan,8,536,4410,37200
+40262,2012,170082,Grand Valley State University,Michigan,10,583,5434,43000
+40263,2012,170082,Grand Valley State University,Michigan,6,322,5294,34500
+40264,2012,170082,Grand Valley State University,Michigan,8,444,5749,40300
+40577,2012,201885,University of Cincinnati-Main Campus,Ohio,10,996,7489,45300
+40578,2012,201885,University of Cincinnati-Main Campus,Ohio,6,623,7432,36500
+40579,2012,201885,University of Cincinnati-Main Campus,Ohio,8,920,7921,42100
+40739,2012,203517,Kent State University at Kent,Ohio,10,1179,9274,39700
+40740,2012,203517,Kent State University at Kent,Ohio,6,795,7825,31400
+40741,2012,203517,Kent State University at Kent,Ohio,8,993,8726,36400
+40904,2012,204796,Ohio State University-Main Campus,Ohio,10,1271,12245,48900
+40905,2012,204796,Ohio State University-Main Campus,Ohio,6,874,11814,37800
+40906,2012,204796,Ohio State University-Main Campus,Ohio,8,1062,12421,44200
+40919,2012,204857,Ohio University-Main Campus,Ohio,10,913,7372,43700
+40920,2012,204857,Ohio University-Main Campus,Ohio,6,747,7071,32900
+40921,2012,204857,Ohio University-Main Campus,Ohio,8,857,7421,38300
+42155,2011,104151,Arizona State University,Arizona,10,1533,10943,52400
+42156,2011,104151,Arizona State University,Arizona,6,1169,10793,39500
+42157,2011,104151,Arizona State University,Arizona,8,1444,11691,46000
+42161,2011,104179,University of Arizona,Arizona,10,808,6013,53100
+42162,2011,104179,University of Arizona,Arizona,6,587,5341,38300
+42163,2011,104179,University of Arizona,Arizona,8,703,5942,46400
+42245,2011,105330,Northern Arizona University,Arizona,10,582,4270,43200
+42246,2011,105330,Northern Arizona University,Arizona,6,448,3910,34300
+42247,2011,105330,Northern Arizona University,Arizona,8,490,3954,38900
+42356,2011,169248,Central Michigan University,Michigan,10,490,5415,44100
+42357,2011,169248,Central Michigan University,Michigan,6,314,5066,32900
+42358,2011,169248,Central Michigan University,Michigan,8,401,5239,39200
+42403,2011,169798,Eastern Michigan University,Michigan,10,578,4213,40300
+42404,2011,169798,Eastern Michigan University,Michigan,6,409,3906,32600
+42405,2011,169798,Eastern Michigan University,Michigan,8,562,4223,36800
+42433,2011,170082,Grand Valley State University,Michigan,10,510,5090,42500
+42434,2011,170082,Grand Valley State University,Michigan,6,343,5123,34400
+42435,2011,170082,Grand Valley State University,Michigan,8,426,5381,39600
+42753,2011,201885,University of Cincinnati-Main Campus,Ohio,10,932,7036,46000
+42754,2011,201885,University of Cincinnati-Main Campus,Ohio,6,664,7359,36900
+42755,2011,201885,University of Cincinnati-Main Campus,Ohio,8,909,7427,40300
+42914,2011,203517,Kent State University at Kent,Ohio,10,1137,8541,40000
+42915,2011,203517,Kent State University at Kent,Ohio,6,780,7812,31200
+42916,2011,203517,Kent State University at Kent,Ohio,8,965,8473,36100
+43082,2011,204796,Ohio State University-Main Campus,Ohio,10,1207,11547,48600
+43083,2011,204796,Ohio State University-Main Campus,Ohio,6,869,11332,37500
+43084,2011,204796,Ohio State University-Main Campus,Ohio,8,1032,11887,43800
+43097,2011,204857,Ohio University-Main Campus,Ohio,10,815,6975,43900
+43098,2011,204857,Ohio University-Main Campus,Ohio,6,758,6904,32600
+43099,2011,204857,Ohio University-Main Campus,Ohio,8,836,7067,38900
+44283,2010,104151,Arizona State University,Arizona,7,1300,11181,43300
+44284,2010,104151,Arizona State University,Arizona,9,1420,10635,50400
+44287,2010,104179,University of Arizona,Arizona,7,642,5756,43500
+44288,2010,104179,University of Arizona,Arizona,9,742,5902,49200
+44343,2010,105330,Northern Arizona University,Arizona,7,447,3855,37000
+44344,2010,105330,Northern Arizona University,Arizona,9,510,4208,41900
+44419,2010,169248,Central Michigan University,Michigan,7,360,4958,36600
+44420,2010,169248,Central Michigan University,Michigan,9,442,5166,42100
+44453,2010,169798,Eastern Michigan University,Michigan,7,492,3979,34700
+44454,2010,169798,Eastern Michigan University,Michigan,9,536,3984,38900
+44473,2010,170082,Grand Valley State University,Michigan,7,386,5192,37500
+44474,2010,170082,Grand Valley State University,Michigan,9,460,4924,40400
+44692,2010,201885,University of Cincinnati-Main Campus,Ohio,7,819,7118,38500
+44693,2010,201885,University of Cincinnati-Main Campus,Ohio,9,851,6866,44000
+44800,2010,203517,Kent State University at Kent,Ohio,7,904,8199,34100
+44801,2010,203517,Kent State University at Kent,Ohio,9,991,8213,38100
+44914,2010,204796,Ohio State University-Main Campus,Ohio,7,904,11256,40800
+44915,2010,204796,Ohio State University-Main Campus,Ohio,9,1103,11180,46400
+44924,2010,204857,Ohio University-Main Campus,Ohio,7,753,6751,36400
+44925,2010,204857,Ohio University-Main Campus,Ohio,9,774,6831,41800
+45678,2009,104151,Arizona State University,Arizona,10,1236,8944,54000
+45679,2009,104151,Arizona State University,Arizona,6,1169,10879,41100
+45680,2009,104151,Arizona State University,Arizona,8,1268,10469,48000
+45684,2009,104179,University of Arizona,Arizona,10,759,5724,54300
+45685,2009,104179,University of Arizona,Arizona,6,536,5697,40100
+45686,2009,104179,University of Arizona,Arizona,8,670,5782,47400
+45768,2009,105330,Northern Arizona University,Arizona,10,550,4061,45700
+45769,2009,105330,Northern Arizona University,Arizona,6,398,3726,36200
+45770,2009,105330,Northern Arizona University,Arizona,8,450,4112,40900
+45882,2009,169248,Central Michigan University,Michigan,10,424,4757,44700
+45883,2009,169248,Central Michigan University,Michigan,6,299,4761,33400
+45884,2009,169248,Central Michigan University,Michigan,8,401,5021,39900
+45933,2009,169798,Eastern Michigan University,Michigan,10,530,3697,41500
+45934,2009,169798,Eastern Michigan University,Michigan,6,392,3769,32800
+45935,2009,169798,Eastern Michigan University,Michigan,8,486,3837,37600
+45963,2009,170082,Grand Valley State University,Michigan,10,461,4390,43600
+45964,2009,170082,Grand Valley State University,Michigan,6,332,5029,34900
+45965,2009,170082,Grand Valley State University,Michigan,8,400,4903,38600
+46287,2009,201885,University of Cincinnati-Main Campus,Ohio,10,785,6137,45800
+46288,2009,201885,University of Cincinnati-Main Campus,Ohio,6,740,6913,36600
+46289,2009,201885,University of Cincinnati-Main Campus,Ohio,8,759,6712,42200
+46452,2009,203517,Kent State University Kent Campus,Ohio,10,975,7405,38800
+46453,2009,203517,Kent State University Kent Campus,Ohio,6,840,8050,31800
+46454,2009,203517,Kent State University Kent Campus,Ohio,8,863,7915,36300
+46619,2009,204796,Ohio State University-Main Campus,Ohio,10,1181,11591,49000
+46620,2009,204796,Ohio State University-Main Campus,Ohio,6,778,10872,37900
+46621,2009,204796,Ohio State University-Main Campus,Ohio,8,975,10993,43700
+46634,2009,204857,Ohio University-Main Campus,Ohio,10,739,6375,45000
+46635,2009,204857,Ohio University-Main Campus,Ohio,6,662,6607,33900
+46636,2009,204857,Ohio University-Main Campus,Ohio,8,703,6749,39100
+47667,2008,104151,Arizona State University,Arizona,7,1087,10343,46400
+47668,2008,104151,Arizona State University,Arizona,9,1079,8906,52600
+47671,2008,104179,University of Arizona,Arizona,7,577,5730,45200
+47672,2008,104179,University of Arizona,Arizona,9,664,5695,53100
+47727,2008,105330,Northern Arizona University,Arizona,7,413,4030,40200
+47728,2008,105330,Northern Arizona University,Arizona,9,480,4057,45500
+47805,2008,169248,Central Michigan University,Michigan,7,311,4938,38400
+47806,2008,169248,Central Michigan University,Michigan,9,363,4674,43000
+47839,2008,169798,Eastern Michigan University,Michigan,7,368,3766,36100
+47840,2008,169798,Eastern Michigan University,Michigan,9,440,3613,40400
+47859,2008,170082,Grand Valley State University,Michigan,7,305,4782,36900
+47860,2008,170082,Grand Valley State University,Michigan,9,404,4335,41800
+48075,2008,201885,University of Cincinnati-Main Campus,Ohio,7,648,6614,40100
+48076,2008,201885,University of Cincinnati-Main Campus,Ohio,9,677,6095,44400
+48184,2008,203517,Kent State University Kent Campus,Ohio,7,725,7922,34700
+48185,2008,203517,Kent State University Kent Campus,Ohio,9,868,7355,37500
+48297,2008,204796,Ohio State University-Main Campus,Ohio,7,834,10803,41600
+48298,2008,204796,Ohio State University-Main Campus,Ohio,9,1042,11497,46800
+48307,2008,204857,Ohio University-Main Campus,Ohio,7,624,6654,37200
+48308,2008,204857,Ohio University-Main Campus,Ohio,9,657,6294,42900
+48980,2007,104151,Arizona State University at the Tempe Campus,Arizona,10,1063,8410,56700
+48981,2007,104151,Arizona State University at the Tempe Campus,Arizona,6,929,10108,44900
+48982,2007,104151,Arizona State University at the Tempe Campus,Arizona,8,933,8847,51600
+48986,2007,104179,University of Arizona,Arizona,10,613,5348,55100
+48987,2007,104179,University of Arizona,Arizona,6,461,5603,43200
+48988,2007,104179,University of Arizona,Arizona,8,534,5649,51000
+49070,2007,105330,Northern Arizona University,Arizona,10,512,3991,46600
+49071,2007,105330,Northern Arizona University,Arizona,6,322,3980,39100
+49072,2007,105330,Northern Arizona University,Arizona,8,410,3975,43900
+49187,2007,169248,Central Michigan University,Michigan,10,346,4064,45800
+49188,2007,169248,Central Michigan University,Michigan,6,242,4827,36100
+49189,2007,169248,Central Michigan University,Michigan,8,322,4538,41800
+49237,2007,169798,Eastern Michigan University,Michigan,10,430,3502,43700
+49238,2007,169798,Eastern Michigan University,Michigan,6,305,3547,35100
+49239,2007,169798,Eastern Michigan University,Michigan,8,390,3515,39000
+49267,2007,170082,Grand Valley State University,Michigan,10,362,3680,44500
+49268,2007,170082,Grand Valley State University,Michigan,6,247,4491,35100
+49269,2007,170082,Grand Valley State University,Michigan,8,320,4292,40000
+49597,2007,201885,University of Cincinnati-Main Campus,Ohio,10,684,6445,46500
+49598,2007,201885,University of Cincinnati-Main Campus,Ohio,6,493,6353,38000
+49599,2007,201885,University of Cincinnati-Main Campus,Ohio,8,539,6055,43100
+49760,2007,203517,Kent State University-Kent Campus,Ohio,10,840,6882,40300
+49761,2007,203517,Kent State University-Kent Campus,Ohio,6,571,7836,32700
+49762,2007,203517,Kent State University-Kent Campus,Ohio,8,726,7217,36500
+49936,2007,204796,Ohio State University-Main Campus,Ohio,10,948,10638,49200
+49937,2007,204796,Ohio State University-Main Campus,Ohio,6,681,10336,39000
+49938,2007,204796,Ohio State University-Main Campus,Ohio,8,858,11302,44500
+49951,2007,204857,Ohio University-Main Campus,Ohio,10,621,6156,45300
+49952,2007,204857,Ohio University-Main Campus,Ohio,6,529,6543,34800
+49953,2007,204857,Ohio University-Main Campus,Ohio,8,566,6237,41000
+50882,2006,104151,Arizona State University at the Tempe Campus,Arizona,7,843,8554,49200
+50883,2006,104151,Arizona State University at the Tempe Campus,Arizona,9,932,8205,55000
+50886,2006,104179,University of Arizona,Arizona,7,454,5476,48300
+50887,2006,104179,University of Arizona,Arizona,9,564,5175,52400
+50944,2006,105330,Northern Arizona University,Arizona,7,359,3821,42100
+50945,2006,105330,Northern Arizona University,Arizona,9,466,3889,45800
+51024,2006,169248,Central Michigan University,Michigan,7,269,4396,39200
+51025,2006,169248,Central Michigan University,Michigan,9,308,3959,44200
+51057,2006,169798,Eastern Michigan University,Michigan,7,338,3373,37000
+51058,2006,169798,Eastern Michigan University,Michigan,9,378,3384,42200
+51079,2006,170082,Grand Valley State University,Michigan,7,276,4087,38600
+51080,2006,170082,Grand Valley State University,Michigan,9,309,3578,42900
+51305,2006,201885,University of Cincinnati-Main Campus,Ohio,7,489,5807,41000
+51306,2006,201885,University of Cincinnati-Main Campus,Ohio,9,624,6277,44800
+51416,2006,203517,Kent State University-Kent Campus,Ohio,7,661,7004,34700
+51417,2006,203517,Kent State University-Kent Campus,Ohio,9,786,6725,39000
+51533,2006,204796,Ohio State University-Main Campus,Ohio,7,760,10784,42000
+51534,2006,204796,Ohio State University-Main Campus,Ohio,9,832,10342,46500
+51543,2006,204857,Ohio University-Main Campus,Ohio,7,501,6101,38600
+51544,2006,204857,Ohio University-Main Campus,Ohio,9,567,6037,43100
+52153,2005,104151,Arizona State University at the Tempe Campus,Arizona,6,709,8080,46300
+52154,2005,104151,Arizona State University at the Tempe Campus,Arizona,8,833,7850,51600
+52157,2005,104179,University of Arizona,Arizona,6,403,5177,44200
+52158,2005,104179,University of Arizona,Arizona,8,502,5031,49400
+52217,2005,105330,Northern Arizona University,Arizona,6,309,3680,40200
+52218,2005,105330,Northern Arizona University,Arizona,8,383,3737,43100
+52297,2005,169248,Central Michigan University,Michigan,6,245,4233,36300
+52298,2005,169248,Central Michigan University,Michigan,8,246,3803,41800
+52330,2005,169798,Eastern Michigan University,Michigan,6,282,3242,34500
+52331,2005,169798,Eastern Michigan University,Michigan,8,343,3291,40300
+52352,2005,170082,Grand Valley State University,Michigan,6,220,3823,36000
+52353,2005,170082,Grand Valley State University,Michigan,8,280,3471,41200
+52582,2005,201885,University of Cincinnati-Main Campus,Ohio,6,441,5447,38400
+52583,2005,201885,University of Cincinnati-Main Campus,Ohio,8,574,6084,42600
+52693,2005,203517,Kent State University-Kent Campus,Ohio,6,569,6714,32300
+52694,2005,203517,Kent State University-Kent Campus,Ohio,8,682,6560,36400
+52810,2005,204796,Ohio State University-Main Campus,Ohio,6,634,10166,38600
+52811,2005,204796,Ohio State University-Main Campus,Ohio,8,749,9935,43800
+52820,2005,204857,Ohio University-Main Campus,Ohio,6,462,5876,34900
+52821,2005,204857,Ohio University-Main Campus,Ohio,8,530,5842,40800
+53420,2004,104151,ARIZONA STATE UNIVERSITY AT THE TEMPE CAMPUS,Arizona,7,736,7449,48300
+53422,2004,104179,UNIVERSITY OF ARIZONA,Arizona,7,418,4860,45000
+53452,2004,105330,NORTHERN ARIZONA UNIVERSITY,Arizona,7,341,3657,40200
+53493,2004,169248,CENTRAL MICHIGAN UNIVERSITY,Michigan,7,225,3681,39700
+53509,2004,169798,EASTERN MICHIGAN UNIVERSITY,Michigan,7,306,3131,38500
+53520,2004,170082,GRAND VALLEY STATE UNIVERSITY,Michigan,7,217,3395,39200
+53634,2004,201885,UNIVERSITY OF CINCINNATI-MAIN CAMPUS,Ohio,7,520,5801,40100
+53689,2004,203517,KENT STATE UNIVERSITY-MAIN CAMPUS,Ohio,7,612,6371,34600
+53748,2004,204796,OHIO STATE UNIVERSITY-MAIN CAMPUS,Ohio,7,691,9457,40800
+53753,2004,204857,OHIO UNIVERSITY-MAIN CAMPUS,Ohio,7,474,5673,37900
+54048,2003,104151,ARIZONA STATE UNIVERSITY-MAIN CAMPUS,Arizona,6,642,7102,43900
+54050,2003,104179,UNIVERSITY OF ARIZONA,Arizona,6,387,4597,41300
+54080,2003,105330,NORTHERN ARIZONA UNIVERSITY,Arizona,6,284,3607,38000
+54121,2003,169248,CENTRAL MICHIGAN UNIVERSITY,Michigan,6,203,3520,37700
+54141,2003,169798,EASTERN MICHIGAN UNIVERSITY,Michigan,6,239,2969,36500
+54152,2003,170082,GRAND VALLEY STATE UNIVERSITY,Michigan,6,186,3211,37000
+54267,2003,201885,UNIVERSITY OF CINCINNATI-MAIN CAMPUS,Ohio,6,456,5505,37900
+54322,2003,203517,KENT STATE UNIVERSITY-MAIN CAMPUS,Ohio,6,601,6093,32500
+54381,2003,204796,OHIO STATE UNIVERSITY-MAIN CAMPUS,Ohio,6,576,8874,37900
+54386,2003,204857,OHIO UNIVERSITY-MAIN CAMPUS,Ohio,6,422,5532,35100
+54716,2014,132903,University of Central Florida,Florida,10,957,9034,51200
+54717,2014,132903,University of Central Florida,Florida,6,891,11383,39900
+54718,2014,132903,University of Central Florida,Florida,8,924,9884,45400
+54752,2014,133669,Florida Atlantic University,Florida,10,761,5646,48300
+54753,2014,133669,Florida Atlantic University,Florida,6,623,5497,38800
+54754,2014,133669,Florida Atlantic University,Florida,8,626,5143,44200
+54782,2014,133951,Florida International University,Florida,10,931,7200,52000
+54783,2014,133951,Florida International University,Florida,6,791,7426,41500
+54784,2014,133951,Florida International University,Florida,8,921,8086,46000
+54800,2014,134097,Florida State University,Florida,10,757,7464,53900
+54801,2014,134097,Florida State University,Florida,6,502,6879,39700
+54802,2014,134097,Florida State University,Florida,8,608,7137,48200
+54809,2014,134130,University of Florida,Florida,10,700,7279,65700
+54810,2014,134130,University of Florida,Florida,6,491,5859,47700
+54811,2014,134130,University of Florida,Florida,8,565,6953,57800
+55289,2014,225511,University of Houston,Texas,10,914,7840,60600
+55290,2014,225511,University of Houston,Texas,6,745,7730,47100
+55291,2014,225511,University of Houston,Texas,8,821,7451,55000
+55415,2014,227216,University of North Texas,Texas,10,926,7968,49300
+55416,2014,227216,University of North Texas,Texas,6,686,8887,39300
+55417,2014,227216,University of North Texas,Texas,8,890,8536,43900
+55526,2014,228459,Texas State University,Texas,10,761,7135,51100
+55527,2014,228459,Texas State University,Texas,6,596,8151,40600
+55528,2014,228459,Texas State University,Texas,8,666,7606,46200
+55565,2014,228723,Texas A & M University-College Station,Texas,10,852,8401,67800
+55566,2014,228723,Texas A & M University-College Station,Texas,6,444,8548,53600
+55567,2014,228723,Texas A & M University-College Station,Texas,8,651,8303,61600
+55568,2014,228769,The University of Texas at Arlington,Texas,10,737,6576,54000
+55569,2014,228769,The University of Texas at Arlington,Texas,6,583,6664,43700
+55570,2014,228769,The University of Texas at Arlington,Texas,8,622,6319,47800
+55571,2014,228778,The University of Texas at Austin,Texas,10,733,8198,73900
+55572,2014,228778,The University of Texas at Austin,Texas,6,535,7360,52200
+55573,2014,228778,The University of Texas at Austin,Texas,8,641,7861,60200
+55577,2014,228796,The University of Texas at El Paso,Texas,10,554,4613,43300
+55578,2014,228796,The University of Texas at El Paso,Texas,6,463,4409,35300
+55579,2014,228796,The University of Texas at El Paso,Texas,8,557,4641,39300
+55601,2014,229027,The University of Texas at San Antonio,Texas,10,1017,8199,49600
+55602,2014,229027,The University of Texas at San Antonio,Texas,6,600,7185,38800
+55603,2014,229027,The University of Texas at San Antonio,Texas,8,737,7383,44800
+55610,2014,229115,Texas Tech University,Texas,10,647,6481,61600
+55611,2014,229115,Texas Tech University,Texas,6,444,6162,46800
+55612,2014,229115,Texas Tech University,Texas,8,457,5713,54500
+56939,2013,132903,University of Central Florida,Florida,10,960,8748,48900
+56940,2013,132903,University of Central Florida,Florida,6,841,9940,37600
+56941,2013,132903,University of Central Florida,Florida,8,865,8982,43400
+56975,2013,133669,Florida Atlantic University,Florida,10,741,5284,46200
+56976,2013,133669,Florida Atlantic University,Florida,6,591,4916,36700
+56977,2013,133669,Florida Atlantic University,Florida,8,627,5114,42200
+57005,2013,133951,Florida International University,Florida,10,889,6680,49900
+57006,2013,133951,Florida International University,Florida,6,828,6962,38500
+57007,2013,133951,Florida International University,Florida,8,904,7351,43700
+57023,2013,134097,Florida State University,Florida,10,796,7601,51400
+57024,2013,134097,Florida State University,Florida,6,488,6844,37800
+57025,2013,134097,Florida State University,Florida,8,629,6785,45300
+57032,2013,134130,University of Florida,Florida,10,817,7447,62600
+57033,2013,134130,University of Florida,Florida,6,515,6024,47000
+57034,2013,134130,University of Florida,Florida,8,603,6724,55200
+57533,2013,225511,University of Houston,Texas,10,900,7522,59000
+57534,2013,225511,University of Houston,Texas,6,671,6751,45500
+57535,2013,225511,University of Houston,Texas,8,865,7419,52900
+57659,2013,227216,University of North Texas,Texas,10,863,7442,47000
+57660,2013,227216,University of North Texas,Texas,6,641,8116,36900
+57661,2013,227216,University of North Texas,Texas,8,846,8195,42800
+57773,2013,228459,Texas State University,Texas,10,737,6839,49200
+57774,2013,228459,Texas State University,Texas,6,566,7578,38300
+57775,2013,228459,Texas State University,Texas,8,653,7042,44100
+57812,2013,228723,Texas A & M University-College Station,Texas,10,864,8482,65600
+57813,2013,228723,Texas A & M University-College Station,Texas,6,464,8088,51300
+57814,2013,228723,Texas A & M University-College Station,Texas,8,696,8234,57900
+57815,2013,228769,The University of Texas at Arlington,Texas,10,731,6440,51700
+57816,2013,228769,The University of Texas at Arlington,Texas,6,523,5779,41200
+57817,2013,228769,The University of Texas at Arlington,Texas,8,665,6438,46000
+57818,2013,228778,The University of Texas at Austin,Texas,10,808,8377,68600
+57819,2013,228778,The University of Texas at Austin,Texas,6,547,7280,49200
+57820,2013,228778,The University of Texas at Austin,Texas,8,605,7541,59300
+57824,2013,228796,The University of Texas at El Paso,Texas,10,576,4574,42200
+57825,2013,228796,The University of Texas at El Paso,Texas,6,433,4079,33400
+57826,2013,228796,The University of Texas at El Paso,Texas,8,502,4466,37700
+57848,2013,229027,The University of Texas at San Antonio,Texas,10,878,7650,47900
+57849,2013,229027,The University of Texas at San Antonio,Texas,6,567,6674,37500
+57850,2013,229027,The University of Texas at San Antonio,Texas,8,783,7445,42300
+57857,2013,229115,Texas Tech University,Texas,10,671,6650,58500
+57858,2013,229115,Texas Tech University,Texas,6,404,5536,45500
+57859,2013,229115,Texas Tech University,Texas,8,468,5893,52000
+59186,2012,132903,University of Central Florida,Florida,10,953,8185,48800
+59187,2012,132903,University of Central Florida,Florida,6,760,8832,36600
+59188,2012,132903,University of Central Florida,Florida,8,828,8357,42800
+59222,2012,133669,Florida Atlantic University,Florida,10,734,4918,46000
+59223,2012,133669,Florida Atlantic University,Florida,6,547,4447,35700
+59224,2012,133669,Florida Atlantic University,Florida,8,653,5160,41200
+59252,2012,133951,Florida International University,Florida,10,846,6111,49200
+59253,2012,133951,Florida International University,Florida,6,827,6870,37300
+59254,2012,133951,Florida International University,Florida,8,869,6430,43400
+59267,2012,134097,Florida State University,Florida,10,798,7421,50200
+59268,2012,134097,Florida State University,Florida,6,490,6291,37400
+59269,2012,134097,Florida State University,Florida,8,618,6742,44700
+59276,2012,134130,University of Florida,Florida,10,815,7279,60300
+59277,2012,134130,University of Florida,Florida,6,513,5799,46300
+59278,2012,134130,University of Florida,Florida,8,577,6472,54300
+59789,2012,225511,University of Houston,Texas,10,861,7097,57200
+59790,2012,225511,University of Houston,Texas,6,665,6615,44000
+59791,2012,225511,University of Houston,Texas,8,835,7133,51200
+59915,2012,227216,University of North Texas,Texas,10,826,6888,46600
+59916,2012,227216,University of North Texas,Texas,6,663,7593,36100
+59917,2012,227216,University of North Texas,Texas,8,780,7490,41800
+60029,2012,228459,Texas State University-San Marcos,Texas,10,685,6330,48000
+60030,2012,228459,Texas State University-San Marcos,Texas,6,529,6919,36900
+60031,2012,228459,Texas State University-San Marcos,Texas,8,635,6731,43200
+60071,2012,228723,Texas A & M University-College Station,Texas,10,822,8430,64000
+60072,2012,228723,Texas A & M University-College Station,Texas,6,496,7577,48900
+60073,2012,228723,Texas A & M University-College Station,Texas,8,650,8041,56400
+60074,2012,228769,The University of Texas at Arlington,Texas,10,691,5662,50700
+60075,2012,228769,The University of Texas at Arlington,Texas,6,542,5605,39800
+60076,2012,228769,The University of Texas at Arlington,Texas,8,656,6218,45700
+60077,2012,228778,The University of Texas at Austin,Texas,10,936,8227,64700
+60078,2012,228778,The University of Texas at Austin,Texas,6,549,6819,48500
+60079,2012,228778,The University of Texas at Austin,Texas,8,562,7444,60400
+60083,2012,228796,The University of Texas at El Paso,Texas,10,543,4292,42300
+60084,2012,228796,The University of Texas at El Paso,Texas,6,478,4165,32100
+60085,2012,228796,The University of Texas at El Paso,Texas,8,506,4310,36800
+60107,2012,229027,The University of Texas at San Antonio,Texas,10,756,6594,46600
+60108,2012,229027,The University of Texas at San Antonio,Texas,6,578,6396,36400
+60109,2012,229027,The University of Texas at San Antonio,Texas,8,798,7336,42000
+60116,2012,229115,Texas Tech University,Texas,10,650,6285,56700
+60117,2012,229115,Texas Tech University,Texas,6,355,5105,43600
+60118,2012,229115,Texas Tech University,Texas,8,498,6088,50600
+61406,2011,132903,University of Central Florida,Florida,10,881,7897,48900
+61407,2011,132903,University of Central Florida,Florida,6,699,8022,36800
+61408,2011,132903,University of Central Florida,Florida,8,781,8049,42900
+61442,2011,133669,Florida Atlantic University,Florida,10,722,4682,46900
+61443,2011,133669,Florida Atlantic University,Florida,6,551,4361,36000
+61444,2011,133669,Florida Atlantic University,Florida,8,669,4749,41400
+61472,2011,133951,Florida International University,Florida,10,780,5580,49800
+61473,2011,133951,Florida International University,Florida,6,761,6283,37100
+61474,2011,133951,Florida International University,Florida,8,795,6004,44200
+61487,2011,134097,Florida State University,Florida,10,736,7222,50200
+61488,2011,134097,Florida State University,Florida,6,519,5982,37000
+61489,2011,134097,Florida State University,Florida,8,654,6951,44700
+61496,2011,134130,University of Florida,Florida,10,699,6988,59900
+61497,2011,134130,University of Florida,Florida,6,480,5463,45100
+61498,2011,134130,University of Florida,Florida,8,627,6609,54600
+62038,2011,225511,University of Houston,Texas,10,747,6321,55900
+62039,2011,225511,University of Houston,Texas,6,709,6552,43400
+62040,2011,225511,University of Houston,Texas,8,801,6876,51000
+62167,2011,227216,University of North Texas,Texas,10,776,6442,45900
+62168,2011,227216,University of North Texas,Texas,6,679,7244,36600
+62169,2011,227216,University of North Texas,Texas,8,695,6921,41200
+62283,2011,228459,Texas State University-San Marcos,Texas,10,683,6118,47800
+62284,2011,228459,Texas State University-San Marcos,Texas,6,478,6260,36800
+62285,2011,228459,Texas State University-San Marcos,Texas,8,560,6451,43300
+62325,2011,228723,Texas A & M University-College Station,Texas,10,781,8142,62800
+62326,2011,228723,Texas A & M University-College Station,Texas,6,516,7509,47000
+62327,2011,228723,Texas A & M University-College Station,Texas,8,628,8165,56300
+62328,2011,228769,The University of Texas at Arlington,Texas,10,571,4783,50900
+62329,2011,228769,The University of Texas at Arlington,Texas,6,561,5654,39400
+62330,2011,228769,The University of Texas at Arlington,Texas,8,631,5991,46100
+62331,2011,228778,The University of Texas at Austin,Texas,10,904,8312,65400
+62332,2011,228778,The University of Texas at Austin,Texas,6,513,6539,49700
+62333,2011,228778,The University of Texas at Austin,Texas,8,643,7763,58900
+62337,2011,228796,The University of Texas at El Paso,Texas,10,482,3882,42700
+62338,2011,228796,The University of Texas at El Paso,Texas,6,459,3930,32000
+62339,2011,228796,The University of Texas at El Paso,Texas,8,525,4251,37300
+62361,2011,229027,The University of Texas at San Antonio,Texas,10,677,5716,47800
+62362,2011,229027,The University of Texas at San Antonio,Texas,6,640,6453,35500
+62363,2011,229027,The University of Texas at San Antonio,Texas,8,717,6912,42200
+62370,2011,229115,Texas Tech University,Texas,10,614,5791,54500
+62371,2011,229115,Texas Tech University,Texas,6,357,5252,43300
+62372,2011,229115,Texas Tech University,Texas,8,530,6207,49800
+63552,2010,132903,University of Central Florida,Florida,7,727,7708,40700
+63553,2010,132903,University of Central Florida,Florida,9,828,7702,46700
+63576,2010,133669,Florida Atlantic University,Florida,7,625,4462,39200
+63577,2010,133669,Florida Atlantic University,Florida,9,663,4535,45200
+63596,2010,133951,Florida International University,Florida,7,746,5695,41700
+63597,2010,133951,Florida International University,Florida,9,718,5357,48000
+63606,2010,134097,Florida State University,Florida,7,588,6649,41900
+63607,2010,134097,Florida State University,Florida,9,667,6961,48000
+63612,2010,134130,University of Florida,Florida,7,588,6132,50700
+63613,2010,134130,University of Florida,Florida,9,654,6711,56600
+63974,2010,225511,University of Houston,Texas,7,744,6560,47700
+63975,2010,225511,University of Houston,Texas,9,698,6171,52800
+64060,2010,227216,University of North Texas,Texas,7,604,6587,39100
+64061,2010,227216,University of North Texas,Texas,9,711,6260,43800
+64137,2010,228459,Texas State University-San Marcos,Texas,7,519,6219,40900
+64138,2010,228459,Texas State University-San Marcos,Texas,9,593,6066,45500
+64165,2010,228723,Texas A & M University-College Station,Texas,7,537,7887,52400
+64166,2010,228723,Texas A & M University-College Station,Texas,9,665,8006,59100
+64167,2010,228769,The University of Texas at Arlington,Texas,7,560,5725,43400
+64168,2010,228769,The University of Texas at Arlington,Texas,9,514,4700,48500
+64169,2010,228778,The University of Texas at Austin,Texas,7,593,7445,55400
+64170,2010,228778,The University of Texas at Austin,Texas,9,786,8122,61400
+64173,2010,228796,The University of Texas at El Paso,Texas,7,484,4053,35400
+64174,2010,228796,The University of Texas at El Paso,Texas,9,447,3722,41300
+64189,2010,229027,The University of Texas at San Antonio,Texas,7,653,6541,39600
+64190,2010,229027,The University of Texas at San Antonio,Texas,9,609,5556,45500
+64195,2010,229115,Texas Tech University,Texas,7,476,5925,46000
+64196,2010,229115,Texas Tech University,Texas,9,573,5669,51100
+64948,2009,132903,University of Central Florida,Florida,10,770,6948,49700
+64949,2009,132903,University of Central Florida,Florida,6,632,7523,38500
+64950,2009,132903,University of Central Florida,Florida,8,741,7515,44500
+64984,2009,133669,Florida Atlantic University,Florida,10,577,3609,48600
+64985,2009,133669,Florida Atlantic University,Florida,6,549,4169,37900
+64986,2009,133669,Florida Atlantic University,Florida,8,608,4406,43500
+65014,2009,133951,Florida International University,Florida,10,653,4913,51600
+65015,2009,133951,Florida International University,Florida,6,701,5443,39500
+65016,2009,133951,Florida International University,Florida,8,664,5188,46700
+65029,2009,134097,Florida State University,Florida,10,720,6771,51600
+65030,2009,134097,Florida State University,Florida,6,497,6457,39100
+65031,2009,134097,Florida State University,Florida,8,566,6811,46000
+65038,2009,134130,University of Florida,Florida,10,696,6566,61300
+65039,2009,134130,University of Florida,Florida,6,504,5899,46700
+65040,2009,134130,University of Florida,Florida,8,602,6459,53800
+65584,2009,225511,University of Houston,Texas,10,642,5465,54500
+65585,2009,225511,University of Houston,Texas,6,631,6303,45100
+65586,2009,225511,University of Houston,Texas,8,664,5972,49900
+65713,2009,227216,University of North Texas,Texas,10,669,5359,45900
+65714,2009,227216,University of North Texas,Texas,6,561,6368,37000
+65715,2009,227216,University of North Texas,Texas,8,619,6122,42200
+65828,2009,228459,Texas State University-San Marcos,Texas,10,527,5132,48200
+65829,2009,228459,Texas State University-San Marcos,Texas,6,438,6018,38700
+65830,2009,228459,Texas State University-San Marcos,Texas,8,529,5964,43500
+65870,2009,228723,Texas A & M University,Texas,10,768,7665,64000
+65871,2009,228723,Texas A & M University,Texas,6,454,7699,48900
+65872,2009,228723,Texas A & M University,Texas,8,607,7858,55400
+65873,2009,228769,The University of Texas at Arlington,Texas,10,416,3759,53100
+65874,2009,228769,The University of Texas at Arlington,Texas,6,513,5477,41500
+65875,2009,228769,The University of Texas at Arlington,Texas,8,481,4592,46900
+65876,2009,228778,The University of Texas at Austin,Texas,10,784,7403,62000
+65877,2009,228778,The University of Texas at Austin,Texas,6,544,7227,51100
+65878,2009,228778,The University of Texas at Austin,Texas,8,703,7873,57000
+65882,2009,228796,The University of Texas at El Paso,Texas,10,351,3112,44500
+65883,2009,228796,The University of Texas at El Paso,Texas,6,450,3881,33100
+65884,2009,228796,The University of Texas at El Paso,Texas,8,442,3627,39800
+65906,2009,229027,The University of Texas at San Antonio,Texas,10,548,4679,47500
+65907,2009,229027,The University of Texas at San Antonio,Texas,6,566,6167,37400
+65908,2009,229027,The University of Texas at San Antonio,Texas,8,535,5395,43600
+65915,2009,229115,Texas Tech University,Texas,10,586,4891,52600
+65916,2009,229115,Texas Tech University,Texas,6,394,5682,42800
+65917,2009,229115,Texas Tech University,Texas,8,483,5552,47800
+66911,2008,132903,University of Central Florida,Florida,7,643,7454,42500
+66912,2008,132903,University of Central Florida,Florida,9,700,6907,48700
+66935,2008,133669,Florida Atlantic University,Florida,7,482,4238,42300
+66936,2008,133669,Florida Atlantic University,Florida,9,552,3537,47700
+66955,2008,133951,Florida International University,Florida,7,607,5135,44800
+66956,2008,133951,Florida International University,Florida,9,576,4933,50400
+66965,2008,134097,Florida State University,Florida,7,519,6710,44200
+66966,2008,134097,Florida State University,Florida,9,594,6809,49500
+66971,2008,134130,University of Florida,Florida,7,541,6250,51000
+66972,2008,134130,University of Florida,Florida,9,559,6451,59600
+67326,2008,225511,University of Houston,Texas,7,529,5864,48100
+67327,2008,225511,University of Houston,Texas,9,587,5384,52700
+67412,2008,227216,University of North Texas,Texas,7,524,6073,40800
+67413,2008,227216,University of North Texas,Texas,9,578,5348,44700
+67488,2008,228459,Texas State University-San Marcos,Texas,7,454,5874,41900
+67489,2008,228459,Texas State University-San Marcos,Texas,9,439,5134,46700
+67516,2008,228723,Texas A & M University,Texas,7,473,7684,52700
+67517,2008,228723,Texas A & M University,Texas,9,652,7627,61600
+67518,2008,228769,The University of Texas at Arlington,Texas,7,401,4564,44900
+67519,2008,228769,The University of Texas at Arlington,Texas,9,381,3695,52000
+67520,2008,228778,The University of Texas at Austin,Texas,7,574,7656,54100
+67521,2008,228778,The University of Texas at Austin,Texas,9,637,7295,59000
+67524,2008,228796,The University of Texas at El Paso,Texas,7,387,3581,37600
+67525,2008,228796,The University of Texas at El Paso,Texas,9,323,3084,43000
+67540,2008,229027,The University of Texas at San Antonio,Texas,7,463,5168,41500
+67541,2008,229027,The University of Texas at San Antonio,Texas,9,491,4545,45400
+67546,2008,229115,Texas Tech University,Texas,7,396,5401,45700
+67547,2008,229115,Texas Tech University,Texas,9,501,4847,50800
+68176,2007,132903,University of Central Florida,Florida,10,613,5542,50700
+68177,2007,132903,University of Central Florida,Florida,6,492,7268,40800
+68178,2007,132903,University of Central Florida,Florida,8,586,6839,46900
+68212,2007,133669,Florida Atlantic University,Florida,10,430,3007,51900
+68213,2007,133669,Florida Atlantic University,Florida,6,401,4143,40600
+68214,2007,133669,Florida Atlantic University,Florida,8,471,3508,46600
+68242,2007,133951,Florida International University,Florida,10,481,4045,53400
+68243,2007,133951,Florida International University,Florida,6,497,4908,42900
+68244,2007,133951,Florida International University,Florida,8,507,4797,48700
+68257,2007,134097,Florida State University,Florida,10,528,5778,53200
+68258,2007,134097,Florida State University,Florida,6,393,6499,42200
+68259,2007,134097,Florida State University,Florida,8,496,6668,47700
+68266,2007,134130,University of Florida,Florida,10,550,6240,62700
+68267,2007,134130,University of Florida,Florida,6,444,6017,47700
+68268,2007,134130,University of Florida,Florida,8,466,6249,57400
+68802,2007,225511,University of Houston,Texas,10,557,4936,55900
+68803,2007,225511,University of Houston,Texas,6,454,5600,45400
+68804,2007,225511,University of Houston,Texas,8,504,5238,50700
+68929,2007,227216,University of North Texas,Texas,10,474,4194,48600
+68930,2007,227216,University of North Texas,Texas,6,428,5885,39200
+68931,2007,227216,University of North Texas,Texas,8,502,5325,43300
+69046,2007,228459,Texas State University-San Marcos,Texas,10,458,4384,48800
+69047,2007,228459,Texas State University-San Marcos,Texas,6,369,5667,39900
+69048,2007,228459,Texas State University-San Marcos,Texas,8,343,5067,45200
+69088,2007,228723,Texas A & M University,Texas,10,584,6384,67400
+69089,2007,228723,Texas A & M University,Texas,6,350,7423,49700
+69090,2007,228723,Texas A & M University,Texas,8,486,7547,58500
+69091,2007,228769,The University of Texas at Arlington,Texas,10,339,3341,53600
+69092,2007,228769,The University of Texas at Arlington,Texas,6,345,4424,43200
+69093,2007,228769,The University of Texas at Arlington,Texas,8,320,3635,49500
+69094,2007,228778,The University of Texas at Austin,Texas,10,634,6495,64400
+69095,2007,228778,The University of Texas at Austin,Texas,6,480,7372,50800
+69096,2007,228778,The University of Texas at Austin,Texas,8,560,7104,56600
+69100,2007,228796,The University of Texas at El Paso,Texas,10,290,2779,45900
+69101,2007,228796,The University of Texas at El Paso,Texas,6,343,3463,35000
+69102,2007,228796,The University of Texas at El Paso,Texas,8,314,3027,41200
+69124,2007,229027,The University of Texas at San Antonio,Texas,10,400,3947,48500
+69125,2007,229027,The University of Texas at San Antonio,Texas,6,409,4777,39200
+69126,2007,229027,The University of Texas at San Antonio,Texas,8,406,4360,43300
+69133,2007,229115,Texas Tech University,Texas,10,480,4928,54500
+69134,2007,229115,Texas Tech University,Texas,6,318,5129,43500
+69135,2007,229115,Texas Tech University,Texas,8,387,4829,48700
+69981,2006,132903,University of Central Florida,Florida,7,527,6566,44700
+69982,2006,132903,University of Central Florida,Florida,9,529,5470,48700
+70005,2006,133669,Florida Atlantic University,Florida,7,395,3393,44600
+70006,2006,133669,Florida Atlantic University,Florida,9,389,2913,50200
+70025,2006,133951,Florida International University,Florida,7,468,4548,45600
+70026,2006,133951,Florida International University,Florida,9,425,3888,51300
+70035,2006,134097,Florida State University,Florida,7,414,6457,45300
+70036,2006,134097,Florida State University,Florida,9,467,5681,51100
+70041,2006,134130,University of Florida,Florida,7,368,5971,53100
+70042,2006,134130,University of Florida,Florida,9,468,6001,61200
+70403,2006,225511,University of Houston,Texas,7,447,4907,47200
+70404,2006,225511,University of Houston,Texas,9,541,4755,52700
+70491,2006,227216,University of North Texas,Texas,7,431,5075,41400
+70492,2006,227216,University of North Texas,Texas,9,428,4076,46500
+70569,2006,228459,Texas State University-San Marcos,Texas,7,313,4880,43000
+70570,2006,228459,Texas State University-San Marcos,Texas,9,403,4282,46700
+70597,2006,228723,Texas A & M University,Texas,7,399,7292,54000
+70598,2006,228723,Texas A & M University,Texas,9,498,6237,63400
+70599,2006,228769,The University of Texas at Arlington,Texas,7,281,3531,46200
+70600,2006,228769,The University of Texas at Arlington,Texas,9,314,3247,51300
+70601,2006,228778,The University of Texas at Austin,Texas,7,461,6748,51800
+70602,2006,228778,The University of Texas at Austin,Texas,9,587,6262,59700
+70605,2006,228796,The University of Texas at El Paso,Texas,7,306,2956,38000
+70606,2006,228796,The University of Texas at El Paso,Texas,9,273,2752,42600
+70621,2006,229027,The University of Texas at San Antonio,Texas,7,375,4100,41200
+70622,2006,229027,The University of Texas at San Antonio,Texas,9,367,3756,46400
+70627,2006,229115,Texas Tech University,Texas,7,347,4620,45000
+70628,2006,229115,Texas Tech University,Texas,9,422,4803,51600
+71167,2005,132903,University of Central Florida,Florida,6,436,6335,41800
+71168,2005,132903,University of Central Florida,Florida,8,470,5313,46400
+71191,2005,133669,Florida Atlantic University,Florida,6,343,3274,42300
+71192,2005,133669,Florida Atlantic University,Florida,8,347,2848,47400
+71211,2005,133951,Florida International University,Florida,6,399,4342,41900
+71212,2005,133951,Florida International University,Florida,8,391,3708,48400
+71221,2005,134097,Florida State University,Florida,6,345,6235,41700
+71222,2005,134097,Florida State University,Florida,8,405,5478,47800
+71227,2005,134130,University of Florida,Florida,6,323,5581,48100
+71228,2005,134130,University of Florida,Florida,8,399,5747,56700
+71591,2005,225511,University of Houston,Texas,6,416,4461,42700
+71592,2005,225511,University of Houston,Texas,8,499,4501,48200
+71681,2005,227216,University of North Texas,Texas,6,378,4788,38300
+71682,2005,227216,University of North Texas,Texas,8,362,3958,43600
+71759,2005,228459,Texas State University-San Marcos,Texas,6,236,4599,39400
+71760,2005,228459,Texas State University-San Marcos,Texas,8,333,4167,43600
+71787,2005,228723,Texas A & M University,Texas,6,329,6921,48500
+71788,2005,228723,Texas A & M University,Texas,8,428,6042,57900
+71789,2005,228769,The University of Texas at Arlington,Texas,6,246,3354,42900
+71790,2005,228769,The University of Texas at Arlington,Texas,8,302,3106,48900
+71791,2005,228778,The University of Texas at Austin,Texas,6,421,6376,46300
+71792,2005,228778,The University of Texas at Austin,Texas,8,470,5987,55100
+71795,2005,228796,The University of Texas at El Paso,Texas,6,265,2758,34700
+71796,2005,228796,The University of Texas at El Paso,Texas,8,268,2562,39800
+71811,2005,229027,The University of Texas at San Antonio,Texas,6,322,3806,38000
+71812,2005,229027,The University of Texas at San Antonio,Texas,8,330,3505,43900
+71817,2005,229115,Texas Tech University,Texas,6,294,4323,41000
+71818,2005,229115,Texas Tech University,Texas,8,345,4665,47500
+72353,2004,132903,UNIVERSITY OF CENTRAL FLORIDA,Florida,7,423,5151,43100
+72365,2004,133669,FLORIDA ATLANTIC UNIVERSITY-BOCA RATON,Florida,7,304,2778,44700
+72375,2004,133951,FLORIDA INTERNATIONAL UNIVERSITY,Florida,7,374,3516,44900
+72380,2004,134097,FLORIDA STATE UNIVERSITY,Florida,7,333,5343,44200
+72383,2004,134130,UNIVERSITY OF FLORIDA,Florida,7,328,5422,51400
+72566,2004,225511,UNIVERSITY OF HOUSTON-UNIVERSITY PARK,Texas,7,469,4200,45000
+72610,2004,227216,UNIVERSITY OF NORTH TEXAS,Texas,7,310,3751,40700
+72649,2004,228459,TEXAS STATE UNIVERSITY-SAN MARCOS,Texas,7,294,3982,40800
+72663,2004,228723,TEXAS A & M UNIVERSITY,Texas,7,353,5837,52800
+72664,2004,228769,THE UNIVERSITY OF TEXAS AT ARLINGTON,Texas,7,278,3019,45600
+72665,2004,228778,THE UNIVERSITY OF TEXAS AT AUSTIN,Texas,7,403,5762,50000
+72667,2004,228796,THE UNIVERSITY OF TEXAS AT EL PASO,Texas,7,263,2350,37000
+72677,2004,229027,THE UNIVERSITY OF TEXAS AT SAN ANTONIO,Texas,7,285,3317,41100
+72680,2004,229115,TEXAS TECH UNIVERSITY,Texas,7,305,4382,43800
+72937,2003,132903,UNIVERSITY OF CENTRAL FLORIDA,Florida,6,369,4924,39900
+72950,2003,133669,FLORIDA ATLANTIC UNIVERSITY-BOCA RATON,Florida,6,260,2610,41900
+72961,2003,133951,FLORIDA INTERNATIONAL UNIVERSITY,Florida,6,344,3256,40800
+72966,2003,134097,FLORIDA STATE UNIVERSITY,Florida,6,317,5024,40200
+72969,2003,134130,UNIVERSITY OF FLORIDA,Florida,6,312,5179,46400
+73154,2003,225511,UNIVERSITY OF HOUSTON-UNIVERSITY PARK,Texas,6,423,3866,41100
+73198,2003,227216,UNIVERSITY OF NORTH TEXAS,Texas,6,268,3541,37300
+73239,2003,228459,TEXAS STATE UNIVERSITY-SAN MARCOS,Texas,6,235,3769,38300
+73253,2003,228723,TEXAS A & M UNIVERSITY,Texas,6,288,5627,48300
+73254,2003,228769,THE UNIVERSITY OF TEXAS AT ARLINGTON,Texas,6,246,2909,42800
+73255,2003,228778,THE UNIVERSITY OF TEXAS AT AUSTIN,Texas,6,402,5511,45100
+73257,2003,228796,THE UNIVERSITY OF TEXAS AT EL PASO,Texas,6,250,2282,33600
+73267,2003,229027,THE UNIVERSITY OF TEXAS AT SAN ANTONIO,Texas,6,274,3159,37800
+73270,2003,229115,TEXAS TECH UNIVERSITY,Texas,6,293,4023,40300
+73531,2014,150136,Ball State University,Indiana,10,463,5423,44600
+73532,2014,150136,Ball State University,Indiana,6,296,5479,35300
+73533,2014,150136,Ball State University,Indiana,8,351,5225,39600
+73600,2014,151111,Indiana University-Purdue University-Indianapolis,Indiana,10,896,6986,50700
+73601,2014,151111,Indiana University-Purdue University-Indianapolis,Indiana,6,571,7281,39900
+73602,2014,151111,Indiana University-Purdue University-Indianapolis,Indiana,8,699,7250,49300
+73624,2014,151351,Indiana University-Bloomington,Indiana,10,671,7735,57800
+73625,2014,151351,Indiana University-Bloomington,Indiana,6,413,7496,44200
+73626,2014,151351,Indiana University-Bloomington,Indiana,8,525,7365,50300
+74584,2014,232186,George Mason University,Virginia,10,487,4078,63900
+74585,2014,232186,George Mason University,Virginia,6,423,4749,47000
+74586,2014,232186,George Mason University,Virginia,8,423,4101,56300
+74659,2014,232982,Old Dominion University,Virginia,10,483,4370,48700
+74660,2014,232982,Old Dominion University,Virginia,6,462,5333,38300
+74661,2014,232982,Old Dominion University,Virginia,8,434,4499,44000
+74746,2014,233921,Virginia Polytechnic Institute and State University,Virginia,10,319,4853,67100
+74747,2014,233921,Virginia Polytechnic Institute and State University,Virginia,6,229,5611,50400
+74748,2014,233921,Virginia Polytechnic Institute and State University,Virginia,8,266,4833,59000
+74752,2014,234030,Virginia Commonwealth University,Virginia,10,550,5478,49700
+74753,2014,234030,Virginia Commonwealth University,Virginia,6,416,5587,37500
+74754,2014,234030,Virginia Commonwealth University,Virginia,8,465,5219,44200
+74755,2014,234076,University of Virginia-Main Campus,Virginia,10,184,2156,79400
+74756,2014,234076,University of Virginia-Main Campus,Virginia,6,142,2063,56800
+74757,2014,234076,University of Virginia-Main Campus,Virginia,8,171,1916,65300
+74968,2014,240444,University of Wisconsin-Madison,Wisconsin,10,411,5795,68000
+74969,2014,240444,University of Wisconsin-Madison,Wisconsin,6,269,5404,49600
+74970,2014,240444,University of Wisconsin-Madison,Wisconsin,8,348,5357,58800
+74971,2014,240453,University of Wisconsin-Milwaukee,Wisconsin,10,635,6950,48200
+74972,2014,240453,University of Wisconsin-Milwaukee,Wisconsin,6,393,7283,38500
+74973,2014,240453,University of Wisconsin-Milwaukee,Wisconsin,8,508,7076,43000
+74983,2014,243780,Purdue University-Main Campus,Indiana,10,681,7696,62200
+74984,2014,243780,Purdue University-Main Campus,Indiana,6,444,7716,49000
+74985,2014,243780,Purdue University-Main Campus,Indiana,8,530,7713,55700
+75691,2013,150136,Ball State University,Indiana,10,515,5541,42500
+75692,2013,150136,Ball State University,Indiana,6,266,4864,33300
+75693,2013,150136,Ball State University,Indiana,8,372,5274,37900
+75760,2013,151111,Indiana University-Purdue University-Indianapolis,Indiana,10,930,6792,48600
+75761,2013,151111,Indiana University-Purdue University-Indianapolis,Indiana,6,545,6919,41000
+75762,2013,151111,Indiana University-Purdue University-Indianapolis,Indiana,8,708,6805,44900
+75784,2013,151351,Indiana University-Bloomington,Indiana,10,668,7784,56200
+75785,2013,151351,Indiana University-Bloomington,Indiana,6,416,6574,41900
+75786,2013,151351,Indiana University-Bloomington,Indiana,8,542,7508,47100
+76759,2013,232186,George Mason University,Virginia,10,501,4079,61900
+76760,2013,232186,George Mason University,Virginia,6,375,4008,45200
+76761,2013,232186,George Mason University,Virginia,8,455,4038,55400
+76834,2013,232982,Old Dominion University,Virginia,10,486,4227,47600
+76835,2013,232982,Old Dominion University,Virginia,6,417,4624,36600
+76836,2013,232982,Old Dominion University,Virginia,8,429,4270,42200
+76924,2013,233921,Virginia Polytechnic Institute and State University,Virginia,10,323,4739,65000
+76925,2013,233921,Virginia Polytechnic Institute and State University,Virginia,6,218,4670,49200
+76926,2013,233921,Virginia Polytechnic Institute and State University,Virginia,8,276,4960,56700
+76930,2013,234030,Virginia Commonwealth University,Virginia,10,514,5109,47500
+76931,2013,234030,Virginia Commonwealth University,Virginia,6,395,5092,36100
+76932,2013,234030,Virginia Commonwealth University,Virginia,8,525,5206,42700
+76933,2013,234076,University of Virginia-Main Campus,Virginia,10,184,2102,77200
+76934,2013,234076,University of Virginia-Main Campus,Virginia,6,138,1856,52800
+76935,2013,234076,University of Virginia-Main Campus,Virginia,8,175,1938,63800
+77149,2013,240444,University of Wisconsin-Madison,Wisconsin,10,426,5883,64800
+77150,2013,240444,University of Wisconsin-Madison,Wisconsin,6,281,5042,47100
+77151,2013,240444,University of Wisconsin-Madison,Wisconsin,8,368,5438,56300
+77152,2013,240453,University of Wisconsin-Milwaukee,Wisconsin,10,628,6657,46100
+77153,2013,240453,University of Wisconsin-Milwaukee,Wisconsin,6,388,6594,36600
+77154,2013,240453,University of Wisconsin-Milwaukee,Wisconsin,8,508,7042,41300
+77164,2013,243780,Purdue University-Main Campus,Indiana,10,633,7389,61200
+77165,2013,243780,Purdue University-Main Campus,Indiana,6,427,6892,47200
+77166,2013,243780,Purdue University-Main Campus,Indiana,8,561,7835,52700
+77884,2012,150136,Ball State University,Indiana,10,477,5264,41700
+77885,2012,150136,Ball State University,Indiana,6,266,4740,32400
+77886,2012,150136,Ball State University,Indiana,8,359,5069,37700
+77953,2012,151111,Indiana University-Purdue University-Indianapolis,Indiana,10,867,6506,47300
+77954,2012,151111,Indiana University-Purdue University-Indianapolis,Indiana,6,560,6520,40700
+77955,2012,151111,Indiana University-Purdue University-Indianapolis,Indiana,8,745,6470,43000
+77977,2012,151351,Indiana University-Bloomington,Indiana,10,605,7323,53500
+77978,2012,151351,Indiana University-Bloomington,Indiana,6,430,6745,39100
+77979,2012,151351,Indiana University-Bloomington,Indiana,8,526,7067,48300
+78961,2012,232186,George Mason University,Virginia,10,562,3954,61700
+78962,2012,232186,George Mason University,Virginia,6,351,3689,45500
+78963,2012,232186,George Mason University,Virginia,8,450,3823,55400
+79039,2012,232982,Old Dominion University,Virginia,10,443,3819,47100
+79040,2012,232982,Old Dominion University,Virginia,6,343,3992,36800
+79041,2012,232982,Old Dominion University,Virginia,8,429,4082,42000
+79132,2012,233921,Virginia Polytechnic Institute and State University,Virginia,10,334,4786,64200
+79133,2012,233921,Virginia Polytechnic Institute and State University,Virginia,6,198,4429,47600
+79134,2012,233921,Virginia Polytechnic Institute and State University,Virginia,8,273,4585,55900
+79138,2012,234030,Virginia Commonwealth University,Virginia,10,493,4698,46800
+79139,2012,234030,Virginia Commonwealth University,Virginia,6,372,4571,36600
+79140,2012,234030,Virginia Commonwealth University,Virginia,8,450,5002,42300
+79141,2012,234076,University of Virginia-Main Campus,Virginia,10,168,1832,75400
+79142,2012,234076,University of Virginia-Main Campus,Virginia,6,142,1658,50800
+79143,2012,234076,University of Virginia-Main Campus,Virginia,8,160,1915,65600
+79360,2012,240444,University of Wisconsin-Madison,Wisconsin,10,432,5717,60700
+79361,2012,240444,University of Wisconsin-Madison,Wisconsin,6,285,4766,45900
+79362,2012,240444,University of Wisconsin-Madison,Wisconsin,8,367,5249,57600
+79363,2012,240453,University of Wisconsin-Milwaukee,Wisconsin,10,590,6172,45400
+79364,2012,240453,University of Wisconsin-Milwaukee,Wisconsin,6,397,6213,35200
+79365,2012,240453,University of Wisconsin-Milwaukee,Wisconsin,8,545,6496,41000
+79375,2012,243780,Purdue University-Main Campus,Indiana,10,623,7429,60500
+79376,2012,243780,Purdue University-Main Campus,Indiana,6,450,7008,45700
+79377,2012,243780,Purdue University-Main Campus,Indiana,8,541,7195,52900
+80110,2011,150136,Ball State University,Indiana,10,430,4799,41700
+80111,2011,150136,Ball State University,Indiana,6,260,4666,32200
+80112,2011,150136,Ball State University,Indiana,8,388,5112,37800
+80220,2011,151111,Indiana University-Purdue University-Indianapolis,Indiana,10,855,6125,44700
+80221,2011,151111,Indiana University-Purdue University-Indianapolis,Indiana,6,545,6113,38600
+80222,2011,151111,Indiana University-Purdue University-Indianapolis,Indiana,8,762,6317,43200
+80259,2011,151351,Indiana University-Bloomington,Indiana,10,626,6575,53400
+80260,2011,151351,Indiana University-Bloomington,Indiana,6,421,6828,38000
+80261,2011,151351,Indiana University-Bloomington,Indiana,8,531,7104,49000
+81260,2011,232186,George Mason University,Virginia,10,471,3594,61700
+81261,2011,232186,George Mason University,Virginia,6,340,3705,46900
+81262,2011,232186,George Mason University,Virginia,8,440,3804,55500
+81338,2011,232982,Old Dominion University,Virginia,10,418,3506,47700
+81339,2011,232982,Old Dominion University,Virginia,6,327,3762,36800
+81340,2011,232982,Old Dominion University,Virginia,8,390,3899,42800
+81432,2011,233921,Virginia Polytechnic Institute and State University,Virginia,10,340,4806,63700
+81433,2011,233921,Virginia Polytechnic Institute and State University,Virginia,6,204,4450,46800
+81434,2011,233921,Virginia Polytechnic Institute and State University,Virginia,8,270,4439,55900
+81438,2011,234030,Virginia Commonwealth University,Virginia,10,499,4435,47200
+81439,2011,234030,Virginia Commonwealth University,Virginia,6,371,4472,36800
+81440,2011,234030,Virginia Commonwealth University,Virginia,8,381,4656,42700
+81441,2011,234076,University of Virginia-Main Campus,Virginia,10,168,1818,74400
+81442,2011,234076,University of Virginia-Main Campus,Virginia,6,160,1725,52700
+81443,2011,234076,University of Virginia-Main Campus,Virginia,8,151,1870,66300
+81659,2011,240444,University of Wisconsin-Madison,Wisconsin,10,415,5183,59900
+81660,2011,240444,University of Wisconsin-Madison,Wisconsin,6,302,4697,46100
+81661,2011,240444,University of Wisconsin-Madison,Wisconsin,8,364,5177,57000
+81662,2011,240453,University of Wisconsin-Milwaukee,Wisconsin,10,558,5685,44700
+81663,2011,240453,University of Wisconsin-Milwaukee,Wisconsin,6,399,6062,35100
+81664,2011,240453,University of Wisconsin-Milwaukee,Wisconsin,8,549,6040,40900
+81674,2011,243780,Purdue University-Main Campus,Indiana,10,642,7371,59600
+81675,2011,243780,Purdue University-Main Campus,Indiana,6,436,7170,44600
+81676,2011,243780,Purdue University-Main Campus,Indiana,8,474,6955,53800
+82379,2010,150136,Ball State University,Indiana,7,320,4973,35600
+82380,2010,150136,Ball State University,Indiana,9,382,4685,39800
+82453,2010,151111,Indiana University-Purdue University-Indianapolis,Indiana,7,666,6068,41100
+82454,2010,151111,Indiana University-Purdue University-Indianapolis,Indiana,9,807,5937,43500
+82479,2010,151351,Indiana University-Bloomington,Indiana,7,472,6824,45000
+82480,2010,151351,Indiana University-Bloomington,Indiana,9,551,6361,49900
+83146,2010,232186,George Mason University,Virginia,7,398,3737,52300
+83147,2010,232186,George Mason University,Virginia,9,437,3499,59300
+83198,2010,232982,Old Dominion University,Virginia,7,336,3768,41000
+83199,2010,232982,Old Dominion University,Virginia,9,362,3473,46200
+83261,2010,233921,Virginia Polytechnic Institute and State University,Virginia,7,228,4285,51900
+83262,2010,233921,Virginia Polytechnic Institute and State University,Virginia,9,302,4724,60700
+83265,2010,234030,Virginia Commonwealth University,Virginia,7,352,4319,40900
+83266,2010,234030,Virginia Commonwealth University,Virginia,9,468,4285,45400
+83267,2010,234076,University of Virginia-Main Campus,Virginia,7,136,1802,60500
+83268,2010,234076,University of Virginia-Main Campus,Virginia,9,150,1732,69900
+83416,2010,240444,University of Wisconsin-Madison,Wisconsin,7,328,4933,52700
+83417,2010,240444,University of Wisconsin-Madison,Wisconsin,9,383,4925,56900
+83418,2010,240453,University of Wisconsin-Milwaukee,Wisconsin,7,464,5757,38700
+83419,2010,240453,University of Wisconsin-Milwaukee,Wisconsin,9,522,5469,43000
+83426,2010,243780,Purdue University-Main Campus,Indiana,7,440,6732,50600
+83427,2010,243780,Purdue University-Main Campus,Indiana,9,536,7228,56200
+83870,2009,150136,Ball State University,Indiana,10,412,4312,42100
+83871,2009,150136,Ball State University,Indiana,6,290,4875,33700
+83872,2009,150136,Ball State University,Indiana,8,334,4580,38300
+83980,2009,151111,Indiana University-Purdue University-Indianapolis,Indiana,10,765,5242,45300
+83981,2009,151111,Indiana University-Purdue University-Indianapolis,Indiana,6,573,5806,38900
+83982,2009,151111,Indiana University-Purdue University-Indianapolis,Indiana,8,701,5815,41800
+84022,2009,151351,Indiana University-Bloomington,Indiana,10,682,7200,52400
+84023,2009,151351,Indiana University-Bloomington,Indiana,6,387,6676,41100
+84024,2009,151351,Indiana University-Bloomington,Indiana,8,483,6295,46800
+85023,2009,232186,George Mason University,Virginia,10,391,3278,63000
+85024,2009,232186,George Mason University,Virginia,6,331,3689,48800
+85025,2009,232186,George Mason University,Virginia,8,393,3436,56500
+85101,2009,232982,Old Dominion University,Virginia,10,398,3393,49500
+85102,2009,232982,Old Dominion University,Virginia,6,313,3678,39300
+85103,2009,232982,Old Dominion University,Virginia,8,328,3399,44900
+85192,2009,233921,Virginia Polytechnic Institute and State University,Virginia,10,337,4874,63400
+85193,2009,233921,Virginia Polytechnic Institute and State University,Virginia,6,206,4189,48700
+85194,2009,233921,Virginia Polytechnic Institute and State University,Virginia,8,260,4637,57200
+85198,2009,234030,Virginia Commonwealth University,Virginia,10,425,3617,47600
+85199,2009,234030,Virginia Commonwealth University,Virginia,6,297,4182,38600
+85200,2009,234030,Virginia Commonwealth University,Virginia,8,393,4181,44100
+85201,2009,234076,University of Virginia-Main Campus,Virginia,10,158,1827,74600
+85202,2009,234076,University of Virginia-Main Campus,Virginia,6,125,1759,56100
+85203,2009,234076,University of Virginia-Main Campus,Virginia,8,128,1674,64400
+85429,2009,240444,University of Wisconsin-Madison,Wisconsin,10,397,5084,59200
+85430,2009,240444,University of Wisconsin-Madison,Wisconsin,6,299,4799,48200
+85431,2009,240444,University of Wisconsin-Madison,Wisconsin,8,318,4784,53500
+85432,2009,240453,University of Wisconsin-Milwaukee,Wisconsin,10,490,4918,45800
+85433,2009,240453,University of Wisconsin-Milwaukee,Wisconsin,6,422,5429,37000
+85434,2009,240453,University of Wisconsin-Milwaukee,Wisconsin,8,439,5327,41100
+85444,2009,243780,Purdue University-Main Campus,Indiana,10,630,7264,56700
+85445,2009,243780,Purdue University-Main Campus,Indiana,6,369,6586,46900
+85446,2009,243780,Purdue University-Main Campus,Indiana,8,482,7083,53100
+86021,2008,150136,Ball State University,Indiana,7,283,4539,36900
+86022,2008,150136,Ball State University,Indiana,9,346,4313,41000
+86096,2008,151111,Indiana University-Purdue University-Indianapolis,Indiana,7,612,5782,40300
+86097,2008,151111,Indiana University-Purdue University-Indianapolis,Indiana,9,694,5290,43600
+86124,2008,151351,Indiana University-Bloomington,Indiana,7,425,6272,44900
+86125,2008,151351,Indiana University-Bloomington,Indiana,9,568,7131,50500
+86795,2008,232186,George Mason University,Virginia,7,326,3398,53100
+86796,2008,232186,George Mason University,Virginia,9,350,3272,60600
+86847,2008,232982,Old Dominion University,Virginia,7,287,3370,41900
+86848,2008,232982,Old Dominion University,Virginia,9,338,3354,47600
+86907,2008,233921,Virginia Polytechnic Institute and State University,Virginia,7,220,4559,54300
+86908,2008,233921,Virginia Polytechnic Institute and State University,Virginia,9,278,4843,61200
+86911,2008,234030,Virginia Commonwealth University,Virginia,7,314,4006,42600
+86912,2008,234030,Virginia Commonwealth University,Virginia,9,348,3607,45200
+86913,2008,234076,University of Virginia-Main Campus,Virginia,7,98,1615,62700
+86914,2008,234076,University of Virginia-Main Campus,Virginia,9,135,1735,72400
+87062,2008,240444,University of Wisconsin-Madison,Wisconsin,7,271,4616,50000
+87063,2008,240444,University of Wisconsin-Madison,Wisconsin,9,357,4917,56600
+87064,2008,240453,University of Wisconsin-Milwaukee,Wisconsin,7,359,5103,40100
+87065,2008,240453,University of Wisconsin-Milwaukee,Wisconsin,9,412,4854,44300
+87072,2008,243780,Purdue University-Main Campus,Indiana,7,400,7019,51000
+87073,2008,243780,Purdue University-Main Campus,Indiana,9,540,7230,54800
+87458,2007,150136,Ball State University,Indiana,10,423,4775,42600
+87459,2007,150136,Ball State University,Indiana,6,238,4495,35300
+87460,2007,150136,Ball State University,Indiana,8,282,4340,39600
+87572,2007,151111,Indiana University-Purdue University-Indianapolis,Indiana,10,691,5109,44800
+87573,2007,151111,Indiana University-Purdue University-Indianapolis,Indiana,6,505,5697,38400
+87574,2007,151111,Indiana University-Purdue University-Indianapolis,Indiana,8,576,5309,42000
+87614,2007,151351,Indiana University-Bloomington,Indiana,10,529,5915,54300
+87615,2007,151351,Indiana University-Bloomington,Indiana,6,329,6132,42300
+87616,2007,151351,Indiana University-Bloomington,Indiana,8,460,7042,47700
+88629,2007,232186,George Mason University,Virginia,10,314,3185,62900
+88630,2007,232186,George Mason University,Virginia,6,258,3339,50000
+88631,2007,232186,George Mason University,Virginia,8,293,3243,57300
+88707,2007,232982,Old Dominion University,Virginia,10,332,3333,49400
+88708,2007,232982,Old Dominion University,Virginia,6,225,3282,39600
+88709,2007,232982,Old Dominion University,Virginia,8,278,3323,45100
+88796,2007,233921,Virginia Polytechnic Institute and State University,Virginia,10,318,4892,66300
+88797,2007,233921,Virginia Polytechnic Institute and State University,Virginia,6,176,4447,51000
+88798,2007,233921,Virginia Polytechnic Institute and State University,Virginia,8,204,4758,58200
+88802,2007,234030,Virginia Commonwealth University,Virginia,10,362,3651,48800
+88803,2007,234030,Virginia Commonwealth University,Virginia,6,269,3931,40600
+88804,2007,234030,Virginia Commonwealth University,Virginia,8,287,3579,43900
+88805,2007,234076,University of Virginia-Main Campus,Virginia,10,144,1778,78900
+88806,2007,234076,University of Virginia-Main Campus,Virginia,6,83,1565,60800
+88807,2007,234076,University of Virginia-Main Campus,Virginia,8,113,1676,68000
+89028,2007,240444,University of Wisconsin-Madison,Wisconsin,10,345,4597,61800
+89029,2007,240444,University of Wisconsin-Madison,Wisconsin,6,209,4535,46700
+89030,2007,240444,University of Wisconsin-Madison,Wisconsin,8,300,4769,54100
+89031,2007,240453,University of Wisconsin-Milwaukee,Wisconsin,10,357,3965,47100
+89032,2007,240453,University of Wisconsin-Milwaukee,Wisconsin,6,254,4862,38000
+89033,2007,240453,University of Wisconsin-Milwaukee,Wisconsin,8,305,4668,42400
+89043,2007,243780,Purdue University-Main Campus,Indiana,10,580,6825,59200
+89044,2007,243780,Purdue University-Main Campus,Indiana,6,315,6913,49100
+89045,2007,243780,Purdue University-Main Campus,Indiana,8,452,7180,53000
+89620,2006,150136,Ball State University,Indiana,7,233,4295,37300
+89621,2006,150136,Ball State University,Indiana,9,361,4807,41100
+89698,2006,151111,Indiana University-Purdue University-Indianapolis,Indiana,7,523,5256,39900
+89699,2006,151111,Indiana University-Purdue University-Indianapolis,Indiana,9,639,5057,42600
+89726,2006,151351,Indiana University-Bloomington,Indiana,7,394,6871,44100
+89727,2006,151351,Indiana University-Bloomington,Indiana,9,453,5811,50800
+90413,2006,232186,George Mason University,Virginia,7,275,3104,54100
+90414,2006,232186,George Mason University,Virginia,9,296,3091,60400
+90465,2006,232982,Old Dominion University,Virginia,7,263,3185,43200
+90466,2006,232982,Old Dominion University,Virginia,9,277,3286,47200
+90526,2006,233921,Virginia Polytechnic Institute and State University,Virginia,7,168,4627,54200
+90527,2006,233921,Virginia Polytechnic Institute and State University,Virginia,9,277,4782,62400
+90530,2006,234030,Virginia Commonwealth University,Virginia,7,250,3386,41500
+90531,2006,234030,Virginia Commonwealth University,Virginia,9,326,3544,46600
+90532,2006,234076,University of Virginia-Main Campus,Virginia,7,98,1632,60700
+90533,2006,234076,University of Virginia-Main Campus,Virginia,9,117,1700,73300
+90685,2006,240444,University of Wisconsin-Madison,Wisconsin,7,267,4621,50000
+90686,2006,240444,University of Wisconsin-Madison,Wisconsin,9,296,4443,58100
+90687,2006,240453,University of Wisconsin-Milwaukee,Wisconsin,7,255,4400,40700
+90688,2006,240453,University of Wisconsin-Milwaukee,Wisconsin,9,317,3774,45400
+90695,2006,243780,Purdue University-Main Campus,Indiana,7,396,7067,49900
+90696,2006,243780,Purdue University-Main Campus,Indiana,9,502,6749,56600
+91066,2005,150136,Ball State University,Indiana,6,231,4157,35000
+91067,2005,150136,Ball State University,Indiana,8,338,4705,39100
+91144,2005,151111,Indiana University-Purdue University-Indianapolis,Indiana,6,450,5045,37800
+91145,2005,151111,Indiana University-Purdue University-Indianapolis,Indiana,8,610,4977,40700
+91172,2005,151351,Indiana University-Bloomington,Indiana,6,344,6653,39900
+91173,2005,151351,Indiana University-Bloomington,Indiana,8,406,5692,47100
+91861,2005,232186,George Mason University,Virginia,6,241,2981,49600
+91862,2005,232186,George Mason University,Virginia,8,244,3046,56600
+91917,2005,232982,Old Dominion University,Virginia,6,212,3006,40100
+91918,2005,232982,Old Dominion University,Virginia,8,274,3135,44900
+91978,2005,233921,Virginia Polytechnic Institute and State University,Virginia,6,163,4395,49200
+91979,2005,233921,Virginia Polytechnic Institute and State University,Virginia,8,212,4664,57400
+91982,2005,234030,Virginia Commonwealth University,Virginia,6,232,3256,37900
+91983,2005,234030,Virginia Commonwealth University,Virginia,8,280,3438,43300
+91984,2005,234076,University of Virginia-Main Campus,Virginia,6,90,1573,54300
+91985,2005,234076,University of Virginia-Main Campus,Virginia,8,114,1603,66100
+92137,2005,240444,University of Wisconsin-Madison,Wisconsin,6,209,4492,44400
+92138,2005,240444,University of Wisconsin-Madison,Wisconsin,8,237,4255,53700
+92139,2005,240453,University of Wisconsin-Milwaukee,Wisconsin,6,238,4032,37900
+92140,2005,240453,University of Wisconsin-Milwaukee,Wisconsin,8,258,3568,42400
+92147,2005,243780,Purdue University-Main Campus,Indiana,6,356,6845,46000
+92148,2005,243780,Purdue University-Main Campus,Indiana,8,467,6629,53700
+92495,2004,150136,BALL STATE UNIVERSITY,Indiana,7,310,4606,36900
+92535,2004,151111,INDIANA UNIVERSITY-PURDUE UNIVERSITY-INDIANAPOLIS,Indiana,7,546,4824,38800
+92549,2004,151351,INDIANA UNIVERSITY-BLOOMINGTON,Indiana,7,336,5588,43000
+92900,2004,232186,GEORGE MASON UNIVERSITY,Virginia,7,224,2935,52200
+92927,2004,232982,OLD DOMINION UNIVERSITY,Virginia,7,244,2968,42000
+92958,2004,233921,VIRGINIA POLYTECHNIC INSTITUTE AND STATE UNIV,Virginia,7,199,4510,53400
+92960,2004,234030,VIRGINIA COMMONWEALTH UNIVERSITY,Virginia,7,271,3268,40800
+92961,2004,234076,UNIVERSITY OF VIRGINIA-MAIN CAMPUS,Virginia,7,84,1586,60300
+93037,2004,240444,UNIVERSITY OF WISCONSIN-MADISON,Wisconsin,7,197,4097,49100
+93038,2004,240453,UNIVERSITY OF WISCONSIN-MILWAUKEE,Wisconsin,7,234,3331,40000
+93042,2004,243780,PURDUE UNIVERSITY-MAIN CAMPUS,Indiana,7,358,6498,50400
+93215,2003,150136,BALL STATE UNIVERSITY,Indiana,6,267,4513,34500
+93257,2003,151111,INDIANA UNIVERSITY-PURDUE UNIVERSITY-INDIANAPOLIS,Indiana,6,518,4551,36300
+93271,2003,151351,INDIANA UNIVERSITY-BLOOMINGTON,Indiana,6,302,5392,39300
+93628,2003,232186,GEORGE MASON UNIVERSITY,Virginia,6,195,2801,48000
+93656,2003,232982,OLD DOMINION UNIVERSITY,Virginia,6,210,2759,38900
+93688,2003,233921,VIRGINIA POLYTECHNIC INSTITUTE AND STATE UNIV,Virginia,6,167,4377,47900
+93690,2003,234030,VIRGINIA COMMONWEALTH UNIVERSITY,Virginia,6,240,3116,37900
+93691,2003,234076,UNIVERSITY OF VIRGINIA-MAIN CAMPUS,Virginia,6,70,1580,53400
+93767,2003,240444,UNIVERSITY OF WISCONSIN-MADISON,Wisconsin,6,191,3999,44600
+93768,2003,240453,UNIVERSITY OF WISCONSIN-MILWAUKEE,Wisconsin,6,205,3097,38200
+93772,2003,243780,PURDUE UNIVERSITY-MAIN CAMPUS,Indiana,6,321,6317,46700
