@@ -1,12 +1,12 @@
-does_good_payoff
+When does compensation predict performance?
 ==============================
-
-An investigation of the relationship between performance and compensation in three domains: Business, Sports, and Higher-Education.
 
 
 Project Overview:
 ------------
-Link to [Project Proposal Presentation](Link to [Urban Institute's data explorer](https://educationdata.urban.org/data-explorer/colleges/)
+An investigation of the relationship between performance and compensation in three domains: Business, Sports, and Higher-Education.
+
+Link to [Project Proposal Presentation](https://educationdata.urban.org/data-explorer/colleges/)
 
 
 #### Publicly Available Data:
