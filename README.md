@@ -3,6 +3,33 @@ does_good_payoff
 
 An investigation of the relationship between performance and compensation in three domains: Business, Sports, and Higher-Education.
 
+
+Project Overview:
+------------
+Link to [Project Proposal Presentation](Link to [Urban Institute's data explorer](https://educationdata.urban.org/data-explorer/colleges/)
+
+
+#### Publicly Available Data:
+
+Link to [Urban Institute's data explorer](https://educationdata.urban.org/data-explorer/colleges/) (super cool). 
+
+Link to [my document](https://github.com/dagny099/does_good_payoff/blob/master/docs/getting-started.rst) showing selection criteria and variables chosen.
+
+*Rounds of downloads* <br>
+Rd_1: TX, FL         ... Approximate results: 188k records from 838 institutions <br>
+Rd_2: OR, AZ, MI, OH ... Approximate results: 169k records from 752 institutions <br>
+Rd_3: NY, GA, MN     ... Approximate results: 170k records from 755 institutions <br>
+Rd_4: CA             ... Approximate results: 164k records from 729 institutions <br>
+Rd_5: VA, PA, IN, WI ... Approximate results: 178k records from 791 institutions <br>
+
+Rationale behind states chosen:
+- Question of interest is geared towards public funding and higher education outcomes
+- Wikipedia lists the Top 10 university campuses by enrollment, by year
+
+Manually summed size of aggregated csv files: **70MB**
+
+
+
 Project Organization
 ------------
 
