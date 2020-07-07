@@ -6,7 +6,7 @@ Project Overview:
 ------------
 An investigation of the relationship between performance and compensation in three domains: Business, Sports, and Higher-Education.
 
-Link to [Project Proposal Presentation](https://educationdata.urban.org/data-explorer/colleges/)
+Link to [Project Proposal Presentation](https://docs.google.com/presentation/d/1dIv9I93-ZDyljG-Iqil9szkqyVukK0v_kfAaxVQCIlk/edit?usp=sharing)
 
 
 #### Publicly Available Data:
