@@ -91,19 +91,31 @@ import dash_table
 import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
-import plotly.express as px
 from dash.dependencies import Input, Output
 
 # Prune as necessary:
 import chart_studio.plotly as py
 import plotly.graph_objects as go
+import plotly.express as px
 import plotly
-import cufflinks as cf
 
 top_markdown_text = '''
 **v1.2**
 This project models enrollment trends at public universities (2001-17).
-*TODO: INSERT PROJECT DESCRIPTION HERE.*
+
+- SET THE SCENE: 
+Here we are in the summer of 2020, with a country full of would-be college freshmen heading into a fall semester with a LOT of uncertainty.
+Imagine being a student (or their parents) deciding whether Tuition (and Fees!) will be "worth it" at this point in time. 
+
+- LET'S BACK UP A MOMENT:
+Remember way back at the beginning of the year, when journalism about  
+The context: Outrage over admissions cheating scandals. Grumpiness about universities becoming more selective over time. 
+
+- SET THE STORY STRAIGHT:  
+Pew research report from 2019 headline "Majority of US colleges admit most of their applicants."
+
+- TO HIGHLIGHT THE IMPORTANCE OF THIS QUESTION:
+**Public colleges and universities educate nearly 75% of all college students.**
 '''
 
 markdown_text_background_1="""
