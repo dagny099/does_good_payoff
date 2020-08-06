@@ -148,7 +148,7 @@ app.layout = dbc.Container(
             [
                 dbc.Tab(label="Cumulative Admissions", tab_id="CumulativeAdmissions"),
                 dbc.Tab(label="Enrollment over Time", tab_id="RateAdmissions"),
-                dbc.Tab(label="PlotlyExpress", tab_id="PlotlyExpress"),
+                dbc.Tab(label="Model Enrollment", tab_id="PlotlyExpress"),
             ],
             id="tabs",
             active_tab="CumulativeAdmissions",
@@ -232,11 +232,12 @@ def render_tab_content(active_tab, selected):
                     line = dict(color = seriez[col]['color']), opacity = 0.8))
         # Raw Data for table:
         df_tab = df_fig.xs(key='Sum', axis=1, level=1)  
+        df_tab = tbl_early_late(df_tab).rename_axis('').reset_index()
         # Set options common to all traces with fig.update_traces
         fig.update_traces(mode='lines+markers', marker_line_width=2, marker_size=10)
         fig.update_layout(title=graph_title, xaxis={'title': xlab[0]}, yaxis={'title': ylabel},
                   yaxis_zeroline=True, xaxis_zeroline=True)
-
+        
     elif active_tab == "RateAdmissions":
         which_columns = ['admission_rate','enrollement_rate']
         graph_title = 'Admission and Enrollment Rates over time'+": "+xlab[0]
@@ -257,14 +258,14 @@ def render_tab_content(active_tab, selected):
                 opacity = 0.8))
         # Raw Data for table:
         df_tab = df_fig.xs(key='Avg', axis=1, level=1)        
+        df_tab = tbl_early_late(df_tab).rename_axis('').reset_index()
         # Set options common to all traces with fig.update_traces
         fig.update_traces(mode='lines+markers', marker_line_width=2, marker_size=10)
         fig.update_layout(title=graph_title, xaxis={'title': xlab[0]}, yaxis={'title': ylabel},
                   yaxis_zeroline=True, xaxis_zeroline=True)
-    
     elif active_tab == "PlotlyExpress":
         which_columns = ['admission_rate','enrollement_rate']
-        graph_title = 'ALL Admission and Enrollment Rates over time'
+        graph_title = 'Predict 2017 Enrollment using 2001-16'
         ylabel = 'Rate'
         markdown_comments = """Insert comments F, G, H"""
         # Data for figure:
@@ -272,11 +273,30 @@ def render_tab_content(active_tab, selected):
             df_fig = df.groupby(['year'])[which_columns].aggregate([('Avg',np.mean), ('stdev',np.std), ('Nschools','count'), ('SEM', sem_btwn)])
         else:
             df_fig = df[df.state_name==selected].groupby(['year'])[which_columns].aggregate([('Avg',np.mean), ('stdev',np.std), ('Nschools','count'), ('SEM', sem_btwn)])
-        fig = px.scatter(x=df_fig.index, y=df_fig[col]['Avg'], color='state_name', trendline="ols")
+        fig = px.scatter(df_fig, x=df_fig.index, y=df_fig['admission_rate',]['Avg'], trendline="ols")
+        fig.update_layout(title= dict(text=graph_title)) # , font=dict(size=16)
+        fig.update_traces(marker=dict(color=seriez['admission_rate']['color']), line=dict(color=seriez['admission_rate']['color'], width=4, dash='dot'))
+        res_tmp = px.get_trendline_results(fig)
+        res_tmp = res_tmp.px_fit_results.iloc[0].summary().as_html()
+        trend_AR = pd.read_html(res_tmp, header=0, index_col=0)[0]
+        trend_AR.drop(['Date:','Time:'], axis=0, inplace=True)
+        trend_AR.rename(columns={'y': 'admission_rate'},inplace=True)
+        fig2 = px.scatter(df_fig, x=df_fig.index, y=df_fig['enrollement_rate']['Avg'], trendline="ols")
+        fig2.update_traces(marker=dict(color=seriez['enrollement_rate']['color']), line=dict(color=seriez['enrollement_rate']['color'], width=4, dash='dot'))
+        res_tmp = px.get_trendline_results(fig2)
+        res_tmp = res_tmp.px_fit_results.iloc[0].summary().as_html()
+        trend_ER = pd.read_html(res_tmp, header=0, index_col=0)[0]
+        trend_ER.drop(['Date:','Time:'], axis=0, inplace=True)
+        trend_ER.rename(columns={'y': 'enrollment_rate'},inplace=True)
+        fig.add_trace(fig2.data[0])
+        fig.add_trace(fig2.data[1])
+        fig.update_traces(marker_line_width=2, marker_size=10)
+        fig.update_layout(title=graph_title,yaxis={'title': ylabel},xaxis={'title': xlab[0]}, 
+                  yaxis_zeroline=True, xaxis_zeroline=True)
+        df_tab = pd.concat([trend_AR, trend_ER], axis=1)
 
     # fig.show()
     
-    df_tab = tbl_early_late(df_tab).rename_axis('').reset_index()
     return html.Div([
         dcc.Graph(figure = fig),
         dash_table.DataTable(
@@ -287,7 +307,7 @@ def render_tab_content(active_tab, selected):
             style_table={
                 'maxWidth': '400px'},
             style_header={ 'border': '2px solid grey', 'fontWeight': 'bold', 'backgroundColor':'rgb(230, 230, 230)','textAlign': 'center' },
-            style_cell={ 'border': '1px solid grey' , 'textAlign': 'left'},
+            style_cell={ 'border': '1px solid grey' , 'textAlign': 'left', 'font_family': 'Sans-serif', 'font_size': '14px'},
             style_as_list_view=True,
             # style_data_conditional=[{'if': {'column_id': 'DIFF','filter_query': '{DIFF} lt 0'},
             #     'backgroundColor': '#99423d','color': 'white',}],
