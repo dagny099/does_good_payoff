@@ -32,12 +32,32 @@ def tbl_early_late(df):
     return round(pd.concat([tbl, 
             pd.DataFrame(df[0:2].apply(np.mean) - df[-2:].apply(np.mean), columns=['DIFF'])],axis=1),3)
 
+
+# Filter data for a balanced dataset w.r.t. measure-of-interest
+def get_school_data(df, which_columns=['number_enrolled_total'], earliestYr=0, nYrs=0):
+    # Use this to find the most common number of years for which data exists:
+    if nYrs==0:
+        nYrs = df.groupby(['unitid'])[which_columns[0]].count().value_counts().index[0]
+
+    # Filter years, if desired
+    df = df[df.year.dt.year>=earliestYr]
+
+    # Make a temp df with number of years w/ data available for key measure
+    tmpDf = df.groupby('unitid')[which_columns].count()
+
+    # Make a list of schools w/ data in all years, only include those:
+    unitids = tmpDf[tmpDf[which_columns[0]]==nYrs].index.to_list()
+    filt = df.apply(lambda row: row['unitid'] in unitids, axis=1)
+
+    # print(f"These were the input parameters: {which_columns[0]}, {earliestYr}")
+    # print(f"Returning a data frame w: {df[filt].unitid.nunique()} schools data in, from {df[filt].year.min().year} thru {df[filt].year.max().year} (that makes {nYrs} yrs of data for {which_columns[0]})")
+    
+    # Return a dataframe with balanced data for measure of interest
+    return df[filt]
+
 # --------------------------------
 # Data Prune:
 # --------------------------------
-# Drop years earlier than 2002 (availability of key measures)
-df = df[df.year>=2001];
-
 # Set 'year' as datetime 
 df['year'] = df['year'].apply(pd.to_datetime, format='%Y')
 
@@ -52,32 +72,18 @@ dropcols = [c for c in df.columns if c not in keepcols]
 
 df.drop(dropcols,axis=1,inplace=True)
 
-# --------------------------------
-# GOAL: Want a Balanced dataset w XYZ schools over 17 yrs 
-# --------------------------------
+# DATA FOR ENROLLMENT SECTION
+df_enroll  = get_school_data(df, ['enrollement_rate'], 2001)
+state_options_enrollment = make_options(df_enroll)
 
-# ENROLLMENT SECTION
-nYrs = 17
-which_columns = ['enrollement_rate']
-tmpDf = df.groupby('unitid')[which_columns].count()
-# Identify schools with data in all years, only include those:
-unitids = tmpDf[tmpDf[which_columns[0]]==nYrs].index.to_list()
-filt = df.apply(lambda row: row['unitid'] in unitids, axis=1)
-# Make a DF & list of options for the dropdown menu - ENROLLMENT SECTION
-df = df[filt]  
-state_options_enrollment = make_options(df)
-
-# FINANCE SECTION
-nYrs= 17
-which_columns = ['rev_total_current','exp_total_current','rev_tuition_fees_gross','rev_tuition_fees_net','exp_instruc_total']
-tmpDf = df.groupby(['unitid'])[which_columns].count()
-# Identify schools with data in all years, only include those:
-unitids = tmpDf[tmpDf[which_columns[0]]==nYrs].index.to_list()
-filt = df.apply(lambda row: row['unitid'] in unitids, axis=1)
-dfFin1 = df[filt]
+# DATA FOR FINANCE SECTION
+# which_columns = ['rev_total_current','exp_total_current','rev_tuition_fees_gross','rev_tuition_fees_net','exp_instruc_total']
+dfFin1 = get_school_data(df, ['rev_total_current'])
 state_options_finance = make_options(dfFin1)
 
-# DEFINE COLORS & LABELS FOR CONSISTENTLY GRAPHING SERIES
+# --------------------------------
+# Set figure aesthetics and labels:
+# --------------------------------
 seriez = {'number_applied': {'color': '#F44DDB', 'label': "Number of student applications"},
             'number_admitted': {'color': '#CF1214', 'label': "Number of students admitted"},
             'number_enrolled_total': {'color': '#0E3DEC', 'label': "Number enrolled"},
@@ -85,6 +91,70 @@ seriez = {'number_applied': {'color': '#F44DDB', 'label': "Number of student app
             'enrollement_rate': {'color': '#0E3DEC', 'label': "Enrollment rate (# admissions/# enrolled"},
         }
                             
+# --------------------------------
+# Move this to a text file and load variables
+# --------------------------------
+top_markdown_text = '''
+**v1.2**
+This project models enrollment trends at public universities (2001-17) with classical time series forecasting as well as machine learning methods.
+
+SET THE SCENE:  
+Here we are in the summer of 2020, with a country full of would-be college freshmen heading into a fall semester with a LOT of uncertainty.
+Imagine being a student (or their parents) deciding whether Tuition (and Fees!) will be "worth it" at this point in time. 
+
+LET'S BACK UP A MOMENT:  
+Remember way back at the beginning of the year, when college-related journalism was about the outrage over admissions cheating scandals or grumpiness about universities becoming more selective over time? 
+
+SET THE STORY STRAIGHT ABOUT SELECTIVITY OVER TIME:  
+Pew research (2019) reports that ["Majority of US colleges admit most of their applicants."](https://www.pewresearch.org/fact-tank/2019/04/09/a-majority-of-u-s-colleges-admit-most-students-who-apply/#:~:text=But%20for%20all%20the%20attention,Center%20analysis%20of%20U.S.%20Education)
+
+TO HIGHLIGHT THE IMPORTANCE OF THIS QUESTION:  
+**Public colleges and universities educate nearly 75% of all college students.**
+'''
+
+markdown_text_background_1="""
+
+### 1st:  Visualize Admissions time series: 
+**The goal is to model the blue line (number of students enrolled) as a time series.**
+"""
+markdown_text_background_2= """
+
+
+### 2nd:  Visualize Finance time series: 
+**Features of the model will include institution features, such as proportion of expenses spent on instruction. Below is a view of the raw data. **
+"""
+
+markdown_approach="""
+# Why have enrollment rates at public universities been decreasing over the last 2 decades?
+
+## PLAN OF ATTACK: 
+Collect panel data on university admissions, enrollment, finances, and graduation stats over time.
+
+### 1) Use panel data on a subset of the universities to develop a model
+- **Time Series of Enrollment = (Base Level) + (Trend) + (Seasonality) + (Error)**
+- Use a Fixed effects model to look at time characteristics of predictor variables on time series of dependent var
+- Cluster by state (OLS w NW SE's adjustment for heteroscedasticity and autocorrelation)
+- Random effects model(?) to look at cross sectional variation, independent of time
+- HOW TO TEST: For each model, predict enrollment in 2017 based on training on data from 2001-2016
+
+If model-ability of this variable still seems viable then...
+
+### 2) Collect a larger dataset
+Using same criteria as before:
+- Public university
+- Has enrollment data from 2001 or 2001, AND 2017, AND at least 5 other time points
+- Incoming enrollment class >999
+
+### 3) With more data, expand the models to compare:
+--> Classical Time Series forecasting methods, like ARIMA and Holt Winter's Exponential Smoothing
+--> Machine Learning methods for Time Series forecasting, perhaps something Bayesian and XGBoost
+    
+### 4) Publish app with results 
+"""
+
+# --------------------------------
+# Import dash and visualization modules:
+# --------------------------------
 
 import dash
 import dash_table
@@ -97,39 +167,12 @@ from dash.dependencies import Input, Output
 import chart_studio.plotly as py
 import plotly.graph_objects as go
 import plotly.express as px
+import cufflinks as cf
 import plotly
 
-top_markdown_text = '''
-**v1.2**
-This project models enrollment trends at public universities (2001-17).
-
-- SET THE SCENE: 
-Here we are in the summer of 2020, with a country full of would-be college freshmen heading into a fall semester with a LOT of uncertainty.
-Imagine being a student (or their parents) deciding whether Tuition (and Fees!) will be "worth it" at this point in time. 
-
-- LET'S BACK UP A MOMENT:
-Remember way back at the beginning of the year, when journalism about  
-The context: Outrage over admissions cheating scandals. Grumpiness about universities becoming more selective over time. 
-
-- SET THE STORY STRAIGHT:  
-Pew research report from 2019 headline "Majority of US colleges admit most of their applicants."
-
-- TO HIGHLIGHT THE IMPORTANCE OF THIS QUESTION:
-**Public colleges and universities educate nearly 75% of all college students.**
-'''
-
-markdown_text_background_1="""
-
-### Background 1: 
-**What temporal patterns do you notice in the data below?**
-"""
-markdown_text_background_2= """
-### Background 2: 
-**And, again, what temporal patterns do you notice in the data below?**
-"""
-
-last_updated_text = "Insert project approach here"
-
+# --------------------------------
+# DASH APP!
+# --------------------------------
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbc.themes.BOOTSTRAP]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets, suppress_callback_exceptions=True)
@@ -182,11 +225,20 @@ app.layout = dbc.Container(
         html.Hr(),
 
         # PROJECT PROPOSAL & TOC for the present analysis:  
-        dcc.Markdown(children="""### Project Proposal Goes here!"""),
+        dcc.Markdown(children=markdown_approach),
         html.Hr(),
 
         # Analysis Part 1:
-        dcc.Markdown(children="""#### Analysis Part 1: Compare Linear Models"""),
+        dcc.Markdown(children="""
+        #### Summarize Features: Raw and Transformed
+        - 
+        """),
+        html.Hr(),
+
+        # Analysis Part 1:
+        dcc.Markdown(children="""
+        #### Analysis Part 1: Compare Linear Models
+        """),
         # dbc.Tabs(
         #     [
         #         dbc.Tab(label="Graph1", tab_id="model_res_1"),
@@ -199,7 +251,12 @@ app.layout = dbc.Container(
         html.Hr(),
 
         # Analysis Part 2:
-        dcc.Markdown(children="""#### Analysis Part 2: Predictive Forecasting"""),
+        dcc.Markdown(children="""
+            #### Analysis Part 2: Other Classical Time Series Forecasting Methods
+            - ARIMA: Autoregressive Integrated Moving Average
+            ---> Use 60% of data to find parameters of the model AR(p), I(d), and MA(q)
+            - SARIMAX: Seasona
+            """),
         # dbc.Tabs(
         #     [
         #         dbc.Tab(label="Graph2", tab_id="model_res_2"),
@@ -211,17 +268,21 @@ app.layout = dbc.Container(
         # html.Div(id="tab-content-4"),
         html.Hr(),
 
+        # Analysis Part 3:
+        dcc.Markdown(children="""#### Analysis Part 3: Other Classical Time Series Forecasting Methods"""),
+
     ]
 )
 
 # ----------------------
-# Background 1 Callback
+# SECTION 1 Callback
 # ----------------------
 @app.callback(
     Output("tab-content", "children"),
     [Input("tabs", "active_tab"), Input("value-selected", "value")],
 )
 def render_tab_content(active_tab, selected):
+    df = df_enroll
     # Set xlabel based on selection (useful for debuggins)
     xlab=[opt['label'] for opt in state_options_enrollment if opt['value']==selected]
     
@@ -230,7 +291,7 @@ def render_tab_content(active_tab, selected):
         which_columns = ['number_applied','number_admitted','number_enrolled_total']
         graph_title = 'Enrollment in College Fails to Keep Pace with Admissions'+": "+xlab[0]
         ylabel = 'Total Number of Students'        
-        markdown_comments = """Insert comments A, B, C"""
+        markdown_comments = """METHOD: Use each school's own data to model enrollment using data from 2001-16 and evaluate error in predicting 2017 enrollment."""
         # Data for figure:
         if len(selected)==0:
             df_fig = df.groupby(['year'])[which_columns].aggregate([('Sum','sum'), ('Nschools','count')])
@@ -254,7 +315,7 @@ def render_tab_content(active_tab, selected):
         which_columns = ['admission_rate','enrollement_rate']
         graph_title = 'Admission and Enrollment Rates over time'+": "+xlab[0]
         ylabel = 'Rate'
-        markdown_comments = """Insert comments D, E"""
+        markdown_comments = """This tab will likely be eliminated in favor of the version with trendlines."""
         # Data for figure:
         if len(selected)==0:
             df_fig = df.groupby(['year'])[which_columns].aggregate([('Avg',np.mean), ('stdev',np.std), ('Nschools','count'), ('SEM', sem_btwn)])
@@ -279,7 +340,10 @@ def render_tab_content(active_tab, selected):
         which_columns = ['admission_rate','enrollement_rate']
         graph_title = 'Predict 2017 Enrollment using 2001-16'
         ylabel = 'Rate'
-        markdown_comments = """Insert comments F, G, H"""
+        markdown_comments = """NEXT STEPS FOR THIS GRAPH:  
+        (1) Disconnect the line between '16-17. 
+        (2) Add a checkbox to enable predictions using different features. 
+        (3) Dynamically plot the model predictions for 2017 based on which feature(s) or model chosen."""
         # Data for figure:
         if len(selected)==0:
             df_fig = df.groupby(['year'])[which_columns].aggregate([('Avg',np.mean), ('stdev',np.std), ('Nschools','count'), ('SEM', sem_btwn)])
@@ -299,7 +363,7 @@ def render_tab_content(active_tab, selected):
         res_tmp = res_tmp.px_fit_results.iloc[0].summary().as_html()
         trend_ER = pd.read_html(res_tmp, header=0, index_col=0)[0]
         trend_ER.drop(['Date:','Time:'], axis=0, inplace=True)
-        trend_ER.rename(columns={'y': 'enrollment_rate'},inplace=True)
+        trend_ER.rename(columns={'y': 'enrollment_rate', 'R-squared:':'R-squared'},inplace=True)
         fig.add_trace(fig2.data[0])
         fig.add_trace(fig2.data[1])
         fig.update_traces(marker_line_width=2, marker_size=10)
@@ -329,7 +393,7 @@ def render_tab_content(active_tab, selected):
         ])
 
 # ----------------------
-# Background 2 Callback
+# Section 2 Callback
 # ----------------------
 @app.callback(
     Output("tab-content-2", "children"),
@@ -344,7 +408,7 @@ def render_tab2_content(active_tab, selected):
         which_columns = ['rev_total_current','exp_total_current','rev_tuition_fees_gross','rev_tuition_fees_net','exp_instruc_total']
         graph_title = 'Net Revenue and Expenses over Time'+": "+xlab[0]
         ylabel = '$$$'        
-        markdown_fin = """Insert comments 1, 2, 3"""
+        markdown_fin = """Trend towards more profitable institutions?"""
         if len(selected)==0:
             tmp = dfFin1.groupby(['year'])[which_columns].sum()
         else:
@@ -353,7 +417,7 @@ def render_tab2_content(active_tab, selected):
         which_columns = ['rev_tuition_fees_gross','rev_tuition_fees_net']
         graph_title = 'Deductions in Revenue from Tuition & Fees'+": "+xlab[0]
         ylabel = '$$$'
-        markdown_fin = """Insert comments 4, 5"""
+        markdown_fin = """I suspect this trend of growing deductions in tuition & fees stems from **INCREASE in financial aid packages**. Research TODO."""
         if len(selected)==0:
             tmp = dfFin1.groupby(['year'])[which_columns].apply(np.mean)
         else:
