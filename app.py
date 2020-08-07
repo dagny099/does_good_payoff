@@ -8,9 +8,9 @@ df = pd.read_csv(path2file, na_values=np.nan,#parse_dates=['year'],
                    dtype={'unitid':'category', 'inst_name': 'category', 'state_name': 'category',
                          'enrollement_rate': 'float64', 'female_pct': 'float64', 'married_pct': 'float64'})
 
-# --------------------------------
-# HELPER FUNCTIONS
-# --------------------------------
+    # --------------------------------
+    # HELPER FUNCTIONS
+    # --------------------------------
 
 # Prepare list of dicts for STATE drop-down menu
 def make_options(df):
@@ -110,6 +110,22 @@ Pew research (2019) reports that ["Majority of US colleges admit most of their a
 
 TO HIGHLIGHT THE IMPORTANCE OF THIS QUESTION:  
 **Public colleges and universities educate nearly 75% of all college students.**
+
+PROPOSED METHOD:  
+-Collect panel data on university admissions, enrollment, finances, and graduation stats over time.  
+-Goal is to model the number of students enrolling at a specific public university (like a "within subjects" model).  
+-Train models on a school's data from 2001-16, evaluate performance on predicting 2017 enrollment.  
+
+COMPARE PERFORMANCE:  
+-> **Classical Time Series forecasting methods**, like ARIMA and Holt Winter's Exponential Smoothing  
+-> **Machine Learning methods** for Time Series forecasting, perhaps something Bayesian and XGBoost  
+
+BUILD A VISUAL TIME SERIES TEACHING TOOL!  
+-Use this dashboard to visualize the accuracy and uncertainty of different Models after they're trained  
+-The actual 2017 numbers will stay visualized  
+-User will see a list of checkboxes with choices of how to forecast (e.g. OLS, Fixed effects, Random effects, ML-based model)  
+-Graph will dynamically show the forecasted predictions and uncertainty  
+
 '''
 
 markdown_text_background_1="""
