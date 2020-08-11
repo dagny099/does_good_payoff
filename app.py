@@ -72,26 +72,6 @@ def augmented_dicky_fuller_statistics(time_series):
 #         print('\t%s: %.3f' % (key, value))
     return result
 
-def make_item(i):
-    # we use this function to make the example items to avoid code duplication
-    return dbc.Card(
-        [
-            dbc.CardHeader(
-                html.H2(
-                    dbc.Button(
-                        f"Collapsible group #{i}",
-                        color="link",
-                        id=f"group-{i}-toggle",
-                    )
-                )
-            ),
-            dbc.Collapse(
-                dbc.CardBody(f"This is the content of group {i}..."),
-                id=f"collapse-{i}",
-            ),
-        ]
-    )
-
 
 # --------------------------------
 # Prune Features, axis=1: (Drop some columns)
@@ -400,17 +380,23 @@ app.layout = dbc.Container(
 
         # SUMMARIZE FEATURES USED FOR PREDICTION:
         html.Div(style={"padding-top": 10}),
-        dcc.Markdown(children="""## Summarize Features: Raw and Transformed"""),
+        dcc.Markdown(children="""## Problem Definition"""),
         dbc.Card(
             [
                 dbc.CardHeader(
                     dbc.Tabs(
                         [
-                            dbc.Tab(label="List of features/predictors", tab_id="FeatList"),
-                            dbc.Tab(label="Summary statistics", tab_id="SumStats"),
+                            # dbc.Tab(label="What to Predict", tab_id="What2Predict"),
+                            dbc.Tab(label="Methods Overview", tab_id="Overview",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="List of variables", tab_id="FeatList",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Summary statistics", tab_id="SumStats",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Correlations", tab_id="Correl",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Forecastability", tab_id="Entropy",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Check Stationarity", tab_id="CheckStat",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Granger Causality", tab_id="Granger",label_style={"font-size": "12px"}),
                         ],
                         id="tabs-data", card=True,
-                        active_tab="FeatList",
+                        active_tab="Overview",
                         )
                     ),
                 dbc.CardBody(html.Div(id='tab-content-data')),
@@ -419,46 +405,49 @@ app.layout = dbc.Container(
         html.Hr(),
 
         # ANALYSIS SECION 1:
-        # html.Div(style={"padding-top": 10}),
-        # dcc.Markdown(children="""## Analysis Part 1: Compare Linear Modelsn_text_background_2"""),
-        # dbc.Card(
-        #     [
-        #         dbc.CardHeader(
-        #             dbc.Tabs(
-        #                 [
-        #                     dbc.Tab(label="VisibleLabelHere", tab_id="tab_1",label_style={"font-size": "12px"}),
-        #                     dbc.Tab(label="VisibleLabelHere", tab_id="tab_1",label_style={"font-size": "12px"}),
-        #                 ],
-        #                 id="tabs-analysis", card=True,
-        #                 active_tab="tab_1",
-        #                 )
-        #             ),
-        #         dbc.CardBody(html.Div(id='tab-content-models-1')),
-        #     ]
-        # ),
-        # html.Hr(),
-        # 
-        # # ANALYSIS SECION 2:
-        # html.Div(style={"padding-top": 10}),
-        # dcc.Markdown(children="""
-        #     ## Analysis Part 2: Other Classical Time Series Forecasting Methods
-        #     - ARIMA: Autoregressive Integrated Moving Average
-        #     ---> Use 60% of data to find parameters of the model AR(p), I(d), and MA(q)
-        #     - SARIMAX: Seasona
-        #     """),
-        # # dbc.Tabs(
-        # #     [
-        # #         dbc.Tab(label="Graph2", tab_id="model_res_2"),
-        # #         dbc.Tab(label="MoreTable Results", tab_id="model_tab_2"),
-        # #     ],
-        # #     id="tabs-4",
-        # #     active_tab="model_res_2",
-        # # ),
-        # # html.Div(id="tab-content-4"),
-        # html.Hr(),
-        # 
-        # # Analysis Part 3:
-        # dcc.Markdown(children="""#### Analysis Part 3: Other Classical Time Series Forecasting Methods"""),
+        html.Div(style={"padding-top": 10}),
+        dcc.Markdown(children="""## Choosing and Fitting Models"""),
+        dbc.Card(
+            [
+                dbc.CardHeader(
+                    dbc.Tabs(
+                        [
+                            dbc.Tab(label="Models Overview", tab_id="ModelsOver",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Linear Regression", tab_id="LR",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Panel Data Models", tab_id="PD",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Forecasting Models", tab_id="Forecast",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Machine Learning", tab_id="ML",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Dealing with Misisng Data", tab_id="Missing",label_style={"font-size": "12px"}),
+                        ],
+                        id="tabs-analysis", card=True,
+                        active_tab="ModelsOver",
+                        )
+                    ),
+                dbc.CardBody(html.Div(id='tab-content-models-1')),
+            ]
+        ),
+        html.Hr(),
+        
+        # ANALYSIS SECION 2:
+        html.Div(style={"padding-top": 10}),
+        dcc.Markdown(children="""## Evaluating Model Performance """),
+        dbc.Card(
+            [
+                dbc.CardHeader(
+                    dbc.Tabs(
+                        [        
+                            dbc.Tab(label="Overall", tab_id="ModelsEval",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Detail-1", tab_id="Detail-1",label_style={"font-size": "12px"}),
+                            dbc.Tab(label="Detail-2", tab_id="Detail-2",label_style={"font-size": "12px"}),
+                        ],
+                        id="Detail-1", card=True,
+                        active_tab="ModelsEval",
+                        )
+                    ),
+                dbc.CardBody(html.Div(id='tab-content-models-2')),
+            ]
+        ),
+        html.Hr(),
 
     ]
 )
@@ -633,7 +622,7 @@ def render_tab_content(active_tab, selected):
             style_table={
                 'maxWidth': '400px'},
             style_header={ 'border': '2px solid grey', 'fontWeight': 'bold', 'backgroundColor':'rgb(230, 230, 230)','textAlign': 'center' },
-            style_cell={ 'border': '1px solid grey' , 'textAlign': 'left', 'font_family': 'Sans-serif', 'font_size': '14px'},
+            style_cell={ 'border': '1px solid grey' , 'textAlign': 'left', 'font_family': 'Sans-serif', 'font_size': '11px'},
             style_as_list_view=True,
             # style_data_conditional=[{'if': {'column_id': 'DIFF','filter_query': '{DIFF} lt 0'},
             #     'backgroundColor': '#99423d','color': 'white',}],
@@ -661,29 +650,179 @@ def render_tab_content(active_tab, selected):
 )
 def update_table(active_tab):
     # get df_tab
-    if active_tab=="FeatList":
+    if active_tab=="Overview":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### What to forecast and how?
+            **The goal is to give each school a model, trained on data from prior years, that predicts the number of students who will enroll in the fall of 2017.**
+
+            HOW? -> Start off simple (naive method, linear regression), then try classical time series methods (ARIMA, Exp Smoothing), and finally get fancy (Neural Network).
+            
+            MORE HOW -> *Use training data (2001-2016) to estimate parameters of the mdoel for a given school.*  
+            - When evaluating 2017 enrollment, use all preceding data.  Since the model wasn't re-estimated, the "residuals" are the one-step forecast errors. [Ref](https://otexts.com/fpp3/accuracy.html)
+            - For short time-series, such as these, the AICc is useful as a proxy for one-step forecast out-of-sample MSE. [Ref](https://otexts.com/fpp2/long-short-ts.html) Choose a model with minimum AICc (need to verify assumptions)  
+            
+            FRAMING -> Enrollement as a time series.  
+            - A time series is considered a variable that changes over time :)
+            - The graphs above illustrate that this is the case in our enrollment data, as well as the financials.
+            - Furthermore, all observations are equally and evenly spaced (once per year). 
+            - Admittedly the availability of data makes for a relatively short time series, which will be a critical consideration for choosing a model.
+
+            MORE FRAMING -> A time series can be an additive or multiplicative combination of:  
+            ..... Base Level & Trend & Seasonality &  Error  
+            Note: Given the nature of the observations and variable of interest, this data doesn't have a seasonality component. **(Not quite enough samples to run sm.tsa.seasonal_decompose)**
+            """),
+        ])
+    elif active_tab=="Entropy":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### How forecastable is our data?  
+            Based on the visualizations above, we see some clear trends that seem promising for making predictions. 
+            However, a critical part of time series forecasting is understanding whether the data is "forecastable." 
+            - Approximate Entropy (but our time series so far are too short for this)
+            - Sample Entropy
+            [Show results of both here]
+            """),
+        ])
+    elif active_tab=="Correl":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### How strong are the relationships between the varibles?  
+            [Placeholder for correlelogram.]
+            """),
+        ])
+    elif active_tab=="Granger":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### Is there a causal relationship between the variables?  
+            [Interactive Granger Causality test.]
+            **Note that observations of the variables of interest should be stationary.**
+            """),
+        ])
+    elif active_tab=="FeatList":
         df_tab = pd.DataFrame(seriez.keys(),columns=['Features'])
         # print('')
     elif active_tab=="SumStats":
         df_tab=summary_transformed
-    
-    return html.Div([
-        # dbc.Table.from_dataframe(df_tab, striped=True, bordered=True, hover=True),
-        dash_table.DataTable(
-            id='table',
-            style_data={
-                'whiteSpace': 'normal',
-                'height': 'auto'},
-            style_table={
-                'maxWidth': '400px'},
-            style_header={ 'border': '2px solid grey', 'fontWeight': 'bold', 'backgroundColor':'rgb(230, 230, 230)','textAlign': 'center' },
-            style_cell={ 'border': '1px solid grey' , 'textAlign': 'left', 'font_family': 'Sans-serif', 'font_size': '11px'},
-            style_as_list_view=True,
-            # style_data_conditional=[{'if': {'column_id': 'DIFF','filter_query': '{DIFF} lt 0'},
-            #     'backgroundColor': '#99423d','color': 'white',}],
-            columns=[{"name": i, "id": i} for i in df_tab.columns],
-            data=df_tab.to_dict("rows")),        
-        dcc.Markdown(children="""Also including the breakdowns above as a proportion of the year's total revenue and expenses."""),
+        return html.Div([
+            # dbc.Table.from_dataframe(df_tab, striped=True, bordered=True, hover=True),
+            dash_table.DataTable(
+                id='table',
+                style_data={
+                    'whiteSpace': 'normal',
+                    'height': 'auto'},
+                style_table={
+                    'maxWidth': '400px'},
+                style_header={ 'border': '2px solid grey', 'fontWeight': 'bold', 'backgroundColor':'rgb(230, 230, 230)','textAlign': 'center' },
+                style_cell={ 'border': '1px solid grey' , 'textAlign': 'left', 'font_family': 'Sans-serif', 'font_size': '11px'},
+                style_as_list_view=True,
+                # style_data_conditional=[{'if': {'column_id': 'DIFF','filter_query': '{DIFF} lt 0'},
+                #     'backgroundColor': '#99423d','color': 'white',}],
+                columns=[{"name": i, "id": i} for i in df_tab.columns],
+                data=df_tab.to_dict("rows")),        
+            dcc.Markdown(children="""Also including the breakdowns above as a proportion of the year's total revenue and expenses."""),
+            ])
+
+@app.callback(
+    Output("tab-content-models-1", "children"),
+    [Input("tabs-analysis", "active_tab")],
+)
+def update_table(active_tab):
+    # get df_tab
+    if active_tab=="ModelsOver":
+        return html.Div([
+            dcc.Markdown(children=
+            """### Overview of Models to Evaluate:
+            - Linear Regression models
+            - Panel Data models, unbiased covariance: OLS, Random effects, Fixed effects (entity and time)
+            - Panel Data models, clustered covariance: Robust CoV
+            - Time Series forecasting models
+            - Machine Learning models: a Neural Network trained with different nodes per layer
+            """),
+        ])
+    elif active_tab=="LR":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### Linear Regression Models
+            - Start simple: Show an interactive display where the user chooses a variable from a drop-down list.
+            - Display a graph showing how well the selected variable predicts our variable-of-interest (enrolllemnt).
+            - Increase in complexity: Multiple linear regression.
+            - Brainstorm an interactive display for MLR.
+            """),
+        ])
+    elif active_tab=="PD":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### Panel Data Models
+            - Use a Fixed effects model to look at time characteristics of predictor variables on time series of dependent var
+            - Cluster by state (OLS w NW SE's adjustment for heteroscedasticity and autocorrelation)
+            - Random effects model(?) to look at cross sectional variation, independent of time
+            - [Link to my spreadsheet](https://drive.google.com/file/d/1sZhR7P8A4uyTR4LVK6U_UsHVIR9dca9_/view?usp=sharing) where I've done a preliminary version of this but not sure if I did correctly. (probably not)
+            """),
+        ])
+    elif active_tab=="Forecast":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### Classical Time Series Models
+            - ARIMA: Autoregressive Integrated Moving Average
+            ---> However, I'm not certain this data has enough samples to be able to find parameters of the model AR(p), I(d), and MA(q)
+            - Exponential Smoothing
+            ---> This seems to be a good approach for a time series with trend and without seasonality, but need more info about assumptions of this model.
+            """),
+        ])
+    elif active_tab=="ML":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### Machine Learning Models
+            - I'd like to train a several Neural Network models and have an interactive display that shows how changes in the parameters impact model performance.
+            """),
+        ])
+    elif active_tab=="Missing":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### Dealing with Missing Data
+            - How does this choice impact our results?
+            """),
+        ])
+
+@app.callback(
+    Output("tab-content-models-2", "children"),
+    [Input("tabs-eval", "active_tab")],
+)
+def update_table(active_tab):
+    # get df_tab
+    if active_tab=="ModelsEval":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### Performance on One-Step Forecast
+            """),
+            ])
+    elif active_tab=="Detail-1":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### Details - Placeholder
+            - Is there a clear "winner" in this task?
+            - Are some schools more accurately forecasted than others?
+            """)
+        ])
+    elif active_tab=="Detail-2":
+        return html.Div([
+            dcc.Markdown(children=
+            """
+            ### Details - Tradeoffs
+            - Are there bias/variance tradeoffs to consider?
+            """)
         ])
 
 @app.callback(
