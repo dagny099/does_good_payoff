@@ -1,0 +1,34 @@
+EXACT STEPS TAKEN TO ACQUIRE DATA:
+
+1. Download csv files from Urban Institute
+2. For Institution Data:
+-- Create an excel file w/ dataDict sheet and EducationDataPortal data
+
+-- Add 4 columns: atLeast1K_enroll	metCriteria	admission_rate	enrollement_rate
+-- For that first column, create a boolean based on whether "number_enrolled_total" >999
+-- Calculate admission rate & enrollment rate
+-- C&P values, Find&Replace "DIV/0"
+
+-- Create a pivot table with all data in a new sheet (label "criteria")
+-- Filters:  
+"inst_category" (check 'Degree-granting, primarily baccalaureate or above' OR 'blank')
+"atLeast1K_enroll" = 1
+-- Rows: unitids
+-- Columns: years
+-- Values: data of interest, Count of number_enrolled_total
+-- Sort by the Grand Total (sum of number of years that univ has data for that measure)
+
+- Use the pivot table to make another little table with these columns to ID which schools meet criteria:
+Has 2001	
+Has 2002	
+Has 2017	
+Has at least 6others (btwn 2003-16)
+NCriteriaMet
+
+-Ok, the criteria "atLeast1K_enroll" didn't work well -- i think i used the wrong column
+-instead, remove schools with a yearly average of num_enrolled_total < 500 
+
+- Delete the rows from universities not in the list to make the file smaller
+
+- Also Find&Replace this in the dataset:
+"Suppressed data"
