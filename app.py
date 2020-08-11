@@ -683,7 +683,7 @@ def update_table(active_tab):
             However, a critical part of time series forecasting is understanding whether the data is "forecastable." 
             - Approximate Entropy (but our time series so far are too short for this)
             - Sample Entropy
-            [Show results of both here]
+            - [Started in google sheets](https://docs.google.com/spreadsheets/d/1wG1-I7n9jcD5_IPUuiyeqKn7tf-jKsfLnbpOAtVm1kw/edit?usp=sharing) 
             """),
         ])
     elif active_tab=="Correl":
@@ -753,6 +753,7 @@ def update_table(active_tab):
             - Display a graph showing how well the selected variable predicts our variable-of-interest (enrolllemnt).
             - Increase in complexity: Multiple linear regression.
             - Brainstorm an interactive display for MLR.
+	    - [Started in google sheets](https://docs.google.com/spreadsheets/d/1ur41o4QklQUdW7mcIDF7Tfe5AGFB_wLUbxI5c1H0MGs/edit?usp=sharing) to compare error: Estimate # enrolled by (1) # Appllied in prev yrs, and (2) # Admitted in prev yrs. Both lead to good predictions when compared with real 2017 data. 
             """),
         ])
     elif active_tab=="PD":
