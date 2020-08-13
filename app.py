@@ -5,8 +5,9 @@ import numpy as np
 pd.options.display.float_format = '{:.3f}'.format
 
 # Import saved csv to dataframe:
-path2file="./data/interim/analyzeMe_n175.csv"
-df = pd.read_csv(path2file, na_values=np.nan, parse_dates=['year'], 
+path2file="./data/interim/n501-analyzeMe.csv"
+#path2file="./data/interim/analyzeMe_n175.csv"
+df = pd.read_csv(path2file, na_values=np.nan, parse_dates=['year'], low_memory=False,
                    dtype={'unitid':'category', 'inst_name': 'category', 'state_name': 'category',
                          'enrollement_rate': 'float64', 'female_pct': 'float64', 'married_pct': 'float64'})
 
@@ -122,53 +123,53 @@ dfRev = pd.melt(dfFin1, id_vars =['year','unitid','inst_name','state_name'], val
 # -----------------------------
 # MAKE SUMMARY STATS DATA TABLE (summary_transformed)
 # -----------------------------
-# STEP 1 DEFINE A MULTILEVEL INDEX
-keepcols = keepcols[:-4]
-index=[]
-for k in keepcols:
-    index.append((k, 'Raw'))
-    index.append((k, 'Log'))
-    index.append((k, 'Log-Diff'))
-    index.append((k, 'Diff'))
-
-# STEP 2: CREATE ALL THE SERIES I NEED TO SUMMARIZE:
-mean, cnt, varz, adf_stat, adf_pval = [], [], [], [], []
-for t in index:
-    if t[1]=='Raw':
-        ser=df[t[0]]
-        ts=df[[t[0],'year']].groupby('year').agg(np.mean)
-    elif t[1]=='Log':
-        ser=np.log(df[t[0]])
-        df['tmp']=np.log(df[t[0]])
-        ts=df[['tmp','year']].groupby('year').agg(np.mean)
-    elif t[1]=='Log-Diff':
-        ser=np.log(df[t[0]]).diff(1)
-        df['tmp']=np.log(df[t[0]]).diff(1)
-        ts=df[['tmp','year']].groupby('year').agg(np.mean)
-    elif t[1]=='Diff':
-        ser=df[t[0]].diff(1)
-        df['tmp']=df[t[0]].diff(1)
-        ts=df[['tmp','year']].groupby('year').agg(np.mean)
-    # mean, cnt, and varz are collapsed across all years, unitids for that feature:
-    mean.append(np.mean(ser))
-    cnt.append(len(ser.dropna()))
-    varz.append(np.var(ser))   
-    # adf test looks at stationarity of feature over time, store results:
-    res=augmented_dicky_fuller_statistics(ts.dropna())
-    adf_stat.append(res[0])
-    adf_pval.append(res[1])
-    df.drop('tmp',axis=1,inplace=True,errors='ignore')
-
-# STEP 3: PUT IT ALL TOGETHER, 
-index = pd.MultiIndex.from_tuples(index)
-
-tmp1 = pd.DataFrame(mean, index=index, columns=['mean']).reindex(index)
-tmp2 = pd.DataFrame(cnt, index=index, columns=['count']).reindex(index)
-tmp3 = pd.DataFrame(varz, index=index, columns=['variance']).reindex(index)
-tmp4 = pd.DataFrame(adf_stat, index=index, columns=['ADF_stat']).reindex(index)
-tmp5 = pd.DataFrame(adf_pval, index=index, columns=['ADF_pval']).reindex(index)
-
-summary_transformed = pd.concat([tmp2, tmp1, tmp3, tmp4, tmp5], axis=1)
+# # STEP 1 DEFINE A MULTILEVEL INDEX
+# keepcols = keepcols[:-4]
+# index=[]
+# for k in keepcols:
+#     index.append((k, 'Raw'))
+#     index.append((k, 'Log'))
+#     index.append((k, 'Log-Diff'))
+#     index.append((k, 'Diff'))
+# 
+# # STEP 2: CREATE ALL THE SERIES I NEED TO SUMMARIZE:
+# mean, cnt, varz, adf_stat, adf_pval = [], [], [], [], []
+# for t in index:
+#     if t[1]=='Raw':
+#         ser=df[t[0]]
+#         ts=df[[t[0],'year']].groupby('year').agg(np.mean)
+#     elif t[1]=='Log':
+#         ser=np.log(df[t[0]])
+#         df['tmp']=np.log(df[t[0]])
+#         ts=df[['tmp','year']].groupby('year').agg(np.mean)
+#     elif t[1]=='Log-Diff':
+#         ser=np.log(df[t[0]]).diff(1)
+#         df['tmp']=np.log(df[t[0]]).diff(1)
+#         ts=df[['tmp','year']].groupby('year').agg(np.mean)
+#     elif t[1]=='Diff':
+#         ser=df[t[0]].diff(1)
+#         df['tmp']=df[t[0]].diff(1)
+#         ts=df[['tmp','year']].groupby('year').agg(np.mean)
+#     # mean, cnt, and varz are collapsed across all years, unitids for that feature:
+#     mean.append(np.mean(ser))
+#     cnt.append(len(ser.dropna()))
+#     varz.append(np.var(ser))   
+#     # adf test looks at stationarity of feature over time, store results:
+#     res=augmented_dicky_fuller_statistics(ts.dropna())
+#     adf_stat.append(res[0])
+#     adf_pval.append(res[1])
+#     df.drop('tmp',axis=1,inplace=True,errors='ignore')
+# 
+# # STEP 3: PUT IT ALL TOGETHER, 
+# index = pd.MultiIndex.from_tuples(index)
+# 
+# tmp1 = pd.DataFrame(mean, index=index, columns=['mean']).reindex(index)
+# tmp2 = pd.DataFrame(cnt, index=index, columns=['count']).reindex(index)
+# tmp3 = pd.DataFrame(varz, index=index, columns=['variance']).reindex(index)
+# tmp4 = pd.DataFrame(adf_stat, index=index, columns=['ADF_stat']).reindex(index)
+# tmp5 = pd.DataFrame(adf_pval, index=index, columns=['ADF_pval']).reindex(index)
+# 
+# summary_transformed = pd.concat([tmp2, tmp1, tmp3, tmp4, tmp5], axis=1)
 # --------------------------------
 
 # --------------------------------
@@ -707,7 +708,8 @@ def update_table(active_tab):
         df_tab = pd.DataFrame(seriez.keys(),columns=['Features'])
         # print('')
     elif active_tab=="SumStats":
-        df_tab=summary_transformed
+        df_tab=pd.DataFrame(seriez.keys(),columns=['Features'])
+        # df_tab=summary_transformed
         return html.Div([
             # dbc.Table.from_dataframe(df_tab, striped=True, bordered=True, hover=True),
             dash_table.DataTable(
@@ -736,7 +738,7 @@ def update_table(active_tab):
     if active_tab=="ModelsOver":
         return html.Div([
             dcc.Markdown(children=
-            """### Overview of Models to Evaluate:
+            """### Overview of Models to Evaluate:  
             - Linear Regression models
             - Panel Data models, unbiased covariance: OLS, Random effects, Fixed effects (entity and time)
             - Panel Data models, clustered covariance: Robust CoV
@@ -747,13 +749,12 @@ def update_table(active_tab):
     elif active_tab=="LR":
         return html.Div([
             dcc.Markdown(children=
-            """
-            ### Linear Regression Models
-            - Start simple: Show an interactive display where the user chooses a variable from a drop-down list.
-            - Display a graph showing how well the selected variable predicts our variable-of-interest (enrolllemnt).
-            - Increase in complexity: Multiple linear regression.
-            - Brainstorm an interactive display for MLR.
-	    - [Started in google sheets](https://docs.google.com/spreadsheets/d/1ur41o4QklQUdW7mcIDF7Tfe5AGFB_wLUbxI5c1H0MGs/edit?usp=sharing) to compare error: Estimate # enrolled by (1) # Appllied in prev yrs, and (2) # Admitted in prev yrs. Both lead to good predictions when compared with real 2017 data. 
+            """### Linear Regression Models  
+            - Start simple: Show an interactive display where the user chooses a variable from a drop-down list.  
+            - Display a graph showing how well the selected variable predicts our variable-of-interest (enrolllemnt).  
+            - Increase in complexity: Multiple linear regression.  
+            - Brainstorm an interactive display for MLR.  
+	    - [Started in google sheets](https://docs.google.com/spreadsheets/d/1ur41o4QklQUdW7mcIDF7Tfe5AGFB_wLUbxI5c1H0MGs/edit?usp=sharing) to compare error: Estimate # enrolled by (1) # Appllied in prev yrs, and (2) # Admitted in prev yrs. Both lead to good predictions when compared with real 2017 data.  
             """),
         ])
     elif active_tab=="PD":
